@@ -1,0 +1,6 @@
+.Header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr auto auto;
+  gap: 1rem;
+}
