@@ -1,0 +1,16 @@
+.Header {
+  width: 100%;
+  height: 70px;
+  display: grid;
+  grid-template-columns: 2fr auto auto;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-1);
+}
+
+.divNavs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
