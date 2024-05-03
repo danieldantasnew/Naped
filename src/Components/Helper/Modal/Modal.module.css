@@ -1,0 +1,9 @@
+.Modal {
+  position: fixed;
+  background-color: #28283033;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 299;
+}
