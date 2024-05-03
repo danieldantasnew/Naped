@@ -9,6 +9,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<div>teste</div>}></Route>
+          <Route path="*" element={<div>non se</div>}></Route>
         </Routes>
       </main>
     </BrowserRouter>

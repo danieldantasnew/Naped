@@ -7,8 +7,8 @@ const Header = () => {
   return (
     <header className={styles.Header}>
       <Logo/>
-      <OptionsMenu />
-      <Account/>
+      <OptionsMenu/>
+      <Account onClick={(e)=> e.preventDefault()}/>
     </header>
   )
 }

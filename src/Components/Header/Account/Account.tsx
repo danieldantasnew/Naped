@@ -1,6 +1,10 @@
-const Account = () => {
+import styles from './Account.module.css';
+
+type AccountType = React.ComponentProps<'button'>;
+
+const Account = ({...props }: AccountType) => {
   return (
-    <button>Minha conta</button>
+    <button className={styles.Account} {...props}>Minha conta</button>
   )
 }
 
