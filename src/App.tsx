@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
-import Home from "./Pages/Home";
+import Home from "./Pages/Home/Home";
 import {DataContext} from "./Context/DataContext";
 
 function App() {

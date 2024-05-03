@@ -1,5 +1,5 @@
-import Section_1 from '../Components/Sections/Section_1/Section_1';
-import { useDataContext } from '../Context/DataContext';
+import Section_1 from '../../Components/Sections/Section_1/Section_1';
+import { useDataContext } from '../../Context/DataContext';
 
 const Home = () => {
 
@@ -8,7 +8,7 @@ const Home = () => {
   if (!data) return null;
 
   return (
-    <section>
+    <section className='animationLeft'>
       <Section_1 data={data} />
     </section>
   )
