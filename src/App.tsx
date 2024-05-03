@@ -2,18 +2,21 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
+import Home from "./Pages/Home";
 
 function App() {
   return (
     <BrowserRouter>
-      <main>
+      <section className="contentBody">
         <Header />
-        <Routes>
-          <Route path="/" element={<div>teste</div>}></Route>
-          <Route path="*" element={<div>non se</div>}></Route>
-        </Routes>
+        <main>
+          <Routes>
+            <Route path="/" element={<Home/>}></Route>
+            <Route path="*" element={<div>non se</div>}></Route>
+          </Routes>
+        </main>
         <Footer/>
-      </main>
+      </section>
     </BrowserRouter>
   );
 }
