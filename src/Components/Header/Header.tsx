@@ -1,5 +1,5 @@
 import Logo from '../../assets/Logo';
-import OptionsMenu from './OptionsMenu/OptionsMenu';
+import OptionsMenu from './NavMenu/NavMenu';
 import Account from './Account/Account';
 import styles from './Header.module.css';
 

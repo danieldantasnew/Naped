@@ -1,0 +1,41 @@
+.NavMenu {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.NavMenu li a {
+  font-size: .95rem;
+  text-decoration: none;
+  color: var(--dark-30);
+  position: relative;
+}
+
+.NavMenu li:hover a {
+  color: var(--dark-40);
+  transition: .3s;
+  cursor: pointer;
+}
+
+.active {
+  position: relative;
+  color: var(--dark-40) !important;
+}
+
+.NavMenu li:hover a::after, .active::after {
+  width: 0;
+  height: 2px;
+  content: '';
+  display: inline-block;
+  background-color: var(--brand-color);
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  animation: animationLink .3s forwards;
+}
+
+@keyframes animationLink {
+  to {
+    width: 100%;
+  }
+}
