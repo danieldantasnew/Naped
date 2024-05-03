@@ -3,7 +3,7 @@ import useFetch from '../Hooks/useFetch';
 
 type Category = "animes" | "movies" | "games" | "series";
 
-interface Naped {
+export interface Naped {
   id: number;
   title: string;
   info: string;
