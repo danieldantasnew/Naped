@@ -1,0 +1,50 @@
+.MobileMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  background-color: var(--dark-20);
+  padding: 0 1.2rem;
+  width: 0;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  animation: animationMenu .3s forwards;
+  opacity: 0;
+  z-index: 300;
+}
+
+@keyframes animationMenu {
+  to {
+    width: 60vw;
+    opacity: 1;
+  }
+}
+
+.MobileMenu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.btnMenu {
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+}
+
+.btnMenu img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.btnCloseMenu {
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  top: 24px;
+  right: 18px;
+}
