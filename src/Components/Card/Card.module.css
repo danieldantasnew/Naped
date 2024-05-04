@@ -59,19 +59,6 @@
 }
 
 @media (max-width: 767px) {
-  .content_1 h1 {
-    max-width: 100%;
-  }
-
-  .content_1 p {
-    max-width: 100%;
-  }
-
-  .content_2 {
-    display: flex;
-    flex-direction: column;
-  }
-
   .imageContent h2 {
     top: 1rem;
     left: .5rem;
@@ -87,7 +74,6 @@
 }
 
 @media (max-width: 1200px) {
-
   .imageContent:nth-child(2) p,
   .imageContent:nth-child(3) p {
     font-size: 1.24vw;

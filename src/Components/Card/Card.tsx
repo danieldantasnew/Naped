@@ -11,15 +11,14 @@ const styleModal: React.CSSProperties = {
 }
 
 type typeCard = {
-  id: number;
   title: string;
   images: string[];
   info?: string;
 }
 
-const Card = ({id, title, images, info}: typeCard) => {
+const Card = ({title, images, info}: typeCard) => {
   return (
-    <div className={styles.imageContent} key={id}>
+    <div className={styles.imageContent}>
       <Modal stylesFrom={styleModal} />
       <img src={images[0]} alt={`Foto de ${title}`} />
       <h2>{title}</h2>
