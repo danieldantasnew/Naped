@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Section_1.module.css';
-import { Naped } from '../../../Context/DataContext';
+import { Naped } from '../../../Store/Context/DataContext';
 
 
 const Section_1 = ({ data }: { data: Naped[] }) => {

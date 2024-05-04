@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import Home from "./Pages/Home/Home";
-import {DataContext} from "./Context/DataContext";
+import {DataContext} from "./Store/Context/DataContext";
 
 function App() {
   return (

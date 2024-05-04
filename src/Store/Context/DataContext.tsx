@@ -1,18 +1,8 @@
 import React from 'react';
-import useFetch from '../Hooks/useFetch';
+import useFetch from '../../Hooks/useFetch';
+import { Naped } from '../../Types/types';
 
-type Category = "animes" | "movies" | "games" | "series";
 
-export interface Naped {
-  id: number;
-  title: string;
-  info: string;
-  moreInfo: string;
-  date: string;
-  clicks: number;
-  images: string[];
-  category: Category;
-}
 
 interface InterfaceContext {
   data: Naped[] | null;

@@ -1,5 +1,5 @@
 import Section_1 from '../../Components/Sections/Section_1/Section_1';
-import { useDataContext } from '../../Context/DataContext';
+import { useDataContext } from '../../Store/Context/DataContext';
 
 const Home = () => {
 
