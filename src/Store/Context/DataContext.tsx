@@ -2,8 +2,6 @@ import React from 'react';
 import useFetch from '../../Hooks/useFetch';
 import { Naped } from '../../Types/types';
 
-
-
 interface InterfaceContext {
   data: Naped[] | null;
   loading: boolean;
