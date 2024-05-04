@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Section_1.module.css';
-import { Naped } from '../../../Store/Context/DataContext';
-
+import { Naped } from '../../../Types/types';
+import Card from '../../Card/Card';
 
 const Section_1 = ({ data }: { data: Naped[] }) => {
   const [newData, setNewData] = React.useState<Naped[] | null>(null);
@@ -22,11 +22,7 @@ const Section_1 = ({ data }: { data: Naped[] }) => {
       </div>
       <div className={styles.content_2}>
         {newData.map((item) => 
-          <div className={styles.imageContent} key={item.id}>
-            <img src={item.images[0]} alt={`Foto de ${item.title}`} />
-            <h2>{item.title}</h2>
-            <p>{item.info}</p>
-          </div>
+          <Card id={item.id} title={item.title} images={item.images} info={item.info} />
         )}
       </div>
     </div>
