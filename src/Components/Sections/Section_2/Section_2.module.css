@@ -20,6 +20,10 @@
   gap: .5rem;
 }
 
+.container_2 div {
+  flex: 1;
+}
+
 .configForCardComponent img {
   height: 100%;
   object-fit: cover;

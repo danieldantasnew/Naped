@@ -12,8 +12,9 @@ const highNotice = (data: Naped[]) => {
 }
 
 const Home = () => {
-  const { data } = useDataContext();
+  const { data, loading } = useDataContext();
 
+  if(loading) return <div>Carregando...</div>
   if (!data) return null;
   return (
     <section className={`${styles.Home} animationLeft`}>
