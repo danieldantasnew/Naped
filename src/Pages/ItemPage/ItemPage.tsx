@@ -10,19 +10,12 @@ const ItemPage = () => {
   React.useEffect(() => {
     if (fetchData.data) {
       fetch(`http://localhost:3000/naped/${id}`, {
-        method: "PUT",
+        method: "PATCH",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          id,
-          title: fetchData.data.title,
-          category: fetchData.data.category,
           clicks: fetchData.data.clicks + 1,
-          date: fetchData.data.date,
-          images: fetchData.data.images,
-          info: fetchData.data.info,
-          moreInfo: fetchData.data.moreInfo
         }),
       });
     }
