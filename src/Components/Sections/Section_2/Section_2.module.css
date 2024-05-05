@@ -1,0 +1,50 @@
+.Section_2 {
+  display: grid;
+  grid-template-columns: 2.05fr 1fr;
+  max-height: 740px;
+  gap: 1rem;
+  overflow: hidden;
+}
+
+.container_1 {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.container_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: .5rem;
+}
+
+.configForCardComponent img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.configForCardComponent h2 {
+  top: 1rem;
+  left: 0.5rem;
+  font-size: 0.6rem;
+  padding: 0.6rem;
+}
+
+.configForCardComponent p {
+  font-size: 0.8rem !important;
+  left: 0.5rem;
+  bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+  .Section_2 {
+    max-height: initial;
+    grid-template-columns: 1fr;
+  }
+
+  .container_1 {
+    overflow: hidden;
+  }
+}
