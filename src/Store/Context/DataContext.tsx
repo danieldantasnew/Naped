@@ -18,7 +18,7 @@ export const useDataContext = () => {
 }
 
 export const DataContext = ({ children }: React.PropsWithChildren) => {
-  const requestData = useFetch<Naped[]>('../api/data.json');
+  const requestData = useFetch<Naped[]>('http://localhost:3000/naped');
 
   return (
     <Context.Provider value={{...requestData}}>
