@@ -30,6 +30,18 @@
   gap: 1rem;
 }
 
+.imageContent:first-child {
+  grid-area: first;
+}
+
+.imageContent:nth-child(2) {
+  grid-area: second;
+}
+
+.imageContent:nth-child(3) {
+  grid-area: third;
+}
+
 @media (max-width: 767px) {
   .content_1 h1 {
     max-width: 100%;

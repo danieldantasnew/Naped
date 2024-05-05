@@ -22,7 +22,7 @@ const Section_1 = ({ data }: { data: Naped[] }) => {
       </div>
       <div className={styles.content_2}>
         {newData.map((item) => 
-          <Card id={item.id} key={item.id} title={item.title} images={item.images} info={item.info} />
+          <Card id={item.id} key={item.id} title={item.title} images={item.images} info={item.info} classStyle={styles.imageContent} />
         )}
       </div>
     </section>
