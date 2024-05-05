@@ -8,8 +8,8 @@ const styleModal: React.CSSProperties = {
   height: "100%",
   width: "100%",
   zIndex: "1",
-  backgroundColor: "#28283061"
-}
+  backgroundColor: "#28283061",
+};
 
 type typeCard = {
   id: number;
@@ -17,7 +17,7 @@ type typeCard = {
   images: string[];
   info?: string;
   classStyle?: CSSModuleClasses[string];
-}
+};
 
 const Card = ({ id, title, images, info, classStyle }: typeCard) => {
   const navigate = useNavigate();
@@ -27,11 +27,16 @@ const Card = ({ id, title, images, info, classStyle }: typeCard) => {
   }
 
   return (
-    <div className={`${styles.imageContent} ${classStyle}`} onClick={()=> openPage(id)}>
-      <Modal stylesFrom={styleModal} />
-      <img src={images[0]} alt={`Foto de ${title}`} />
-      <h2>{title}</h2>
-      { info ? <p>{info}</p> : ''}
+    <div
+      className={`
+        ${styles.imageContent} 
+        ${classStyle} 
+        `}
+      onClick={() => openPage(id)}>
+        <Modal stylesFrom={styleModal} />
+        <img src={images[0]} alt={`Foto de ${title}`} />
+        <h2>{title}</h2>
+        {info ? <p>{info}</p> : ""}
     </div>
   );
 };

@@ -4,7 +4,7 @@
 
 .imageContent:hover {
   transform: scale(1.02);
-  transition: .2s;
+  transition: 0.2s;
   cursor: pointer;
 }
 
@@ -23,9 +23,9 @@
 .imageContent:nth-child(2) h2,
 .imageContent:nth-child(3) h2 {
   top: 1rem;
-  left: .5rem;
-  font-size: .6rem;
-  padding: .6rem;
+  left: 0.5rem;
+  font-size: 0.6rem;
+  padding: 0.6rem;
 }
 
 .imageContent p {
@@ -35,28 +35,28 @@
   font-size: 1.2rem;
   color: var(--dark-40);
   font-family: var(--font-1);
-  padding-right: .5rem;
+  padding-right: 0.5rem;
   z-index: 2;
 }
 
 .imageContent:nth-child(2) p,
 .imageContent:nth-child(3) p {
-  font-size: .9rem;
-  left: .5rem;
+  font-size: 0.9rem;
+  left: 0.5rem;
   bottom: 1rem;
 }
 
 @media (max-width: 767px) {
   .imageContent h2 {
     top: 1rem;
-    left: .5rem;
-    font-size: .6rem;
-    padding: .6rem;
+    left: 0.5rem;
+    font-size: 0.6rem;
+    padding: 0.6rem;
   }
 
   .imageContent p {
-    font-size: .8rem !important;
-    left: .5rem;
+    font-size: 0.8rem !important;
+    left: 0.5rem;
     bottom: 1rem;
   }
 }
