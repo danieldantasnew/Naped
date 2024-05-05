@@ -16,9 +16,10 @@ type typeCard = {
   title: string;
   images: string[];
   info?: string;
+  classStyle?: CSSModuleClasses[string];
 }
 
-const Card = ({ id, title, images, info }: typeCard) => {
+const Card = ({ id, title, images, info, classStyle }: typeCard) => {
   const navigate = useNavigate();
 
   function openPage(id: number) {
@@ -26,7 +27,7 @@ const Card = ({ id, title, images, info }: typeCard) => {
   }
 
   return (
-    <div className={styles.imageContent} onClick={()=> openPage(id)}>
+    <div className={`${styles.imageContent} ${classStyle}`} onClick={()=> openPage(id)}>
       <Modal stylesFrom={styleModal} />
       <img src={images[0]} alt={`Foto de ${title}`} />
       <h2>{title}</h2>

@@ -8,18 +8,6 @@
   cursor: pointer;
 }
 
-.imageContent:first-child {
-  grid-area: first;
-}
-
-.imageContent:nth-child(2) {
-  grid-area: second;
-}
-
-.imageContent:nth-child(3) {
-  grid-area: third;
-}
-
 .imageContent h2 {
   position: absolute;
   top: 1.2rem;
