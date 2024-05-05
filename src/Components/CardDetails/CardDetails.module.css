@@ -1,6 +1,6 @@
 .CardDetails{
   display: grid;
-  grid-template-columns: 0.8fr 2fr;
+  grid-template-columns: 1fr 2fr;
   gap: 1rem;
   justify-content: center;
   align-items: center;
@@ -38,9 +38,12 @@
 
 .configForCardComponent h2 {
   top: 1rem;
-  left: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
   font-size: 0.6rem;
   padding: 0.6rem;
+  width: 80%;
+  text-align: center;
 }
 
 .configForCardComponent p {
