@@ -3,12 +3,18 @@ import styles from './Section_1.module.css';
 import { Naped } from '../../../Types/types';
 import Card from '../../Card/Card';
 
+const highNotice = (data: Naped[]) => {
+  return data.sort((itemA, itemB) => {
+    return itemB.clicks - itemA.clicks;
+  });
+}
+
 const Section_1 = ({ data }: { data: Naped[] }) => {
   const [newData, setNewData] = React.useState<Naped[] | null>(null);
   
   React.useEffect(() => {
     if (data) {
-      setNewData(data.slice(0,3));
+      setNewData(highNotice(data).slice(0,3));
     }
   }, [data]); 
 
