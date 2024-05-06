@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import Card from "../Card/Card";
 import Button from "../Form/Button/Button";
 import styles from "./CardDetails.module.css";
@@ -11,7 +12,14 @@ type typeCardDetails = {
   images: string[];
 }
 
-const CardDetails = ({id, images, title, info, moreInfo, date}: typeCardDetails) => {
+const CardDetails = ({ id, images, title, info, moreInfo, date }: typeCardDetails) => {
+  
+  const navigate = useNavigate();
+
+  function navigateTo(src: number) {
+    navigate(`/naped/${src}`);
+  }
+
   return (
     <div className={styles.CardDetails}>
       <Card
@@ -24,7 +32,7 @@ const CardDetails = ({id, images, title, info, moreInfo, date}: typeCardDetails)
         <h2>{info}</h2>
         <p>{moreInfo}</p>
         <p>{date}</p>
-        <Button label="Ler notícia" onClick={(e)=> e.preventDefault()}/>
+        <Button label="Ler notícia" onClick={(e)=> navigateTo(id)}/>
       </div>
     </div>
   );
