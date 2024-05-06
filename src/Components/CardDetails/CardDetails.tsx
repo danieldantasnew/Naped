@@ -2,6 +2,8 @@ import { useNavigate } from "react-router-dom";
 import Card from "../Card/Card";
 import Button from "../Form/Button/Button";
 import styles from "./CardDetails.module.css";
+import useStringToDate from "../../Hooks/useStringToDate";
+import FormatDate from "../../Functions/NormalizeDate/FormatDate";
 
 type typeCardDetails = {
   id: number;
@@ -21,6 +23,8 @@ const CardDetails = ({ id, images, title, info, moreInfo, date }: typeCardDetail
     navigate(`/naped/${src}`);
   }
 
+  const newDate = useStringToDate(date);
+
   return (
     <div className={styles.CardDetails}>
       <Card
@@ -32,7 +36,7 @@ const CardDetails = ({ id, images, title, info, moreInfo, date }: typeCardDetail
       <div className={styles.contentOfCard}>
         <h2>{info}</h2>
         <p>{moreInfo}</p>
-        <p>{date}</p>
+        <p style={{color: "var(--dark-40)"}}>{newDate ? FormatDate(newDate): ''}</p>
         <Button label="Ler notícia" onClick={(e)=> navigateTo(e, id)}/>
       </div>
     </div>
