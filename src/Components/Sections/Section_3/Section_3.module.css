@@ -1,0 +1,35 @@
+.Section_3 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.Section_3 > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.configCard h2 {
+  font-size: 0.8rem !important;
+  padding: .6rem;
+  left: .8rem;
+}
+
+.configCard p {
+  font-size: 0.8rem !important;
+  left: .8rem;
+}
+
+
+@media (max-width: 980px) {
+  .Section_3 > div {
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+  .Section_3>div {
+    grid-template-columns: 1fr;
+  }
+}
