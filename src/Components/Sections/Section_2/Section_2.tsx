@@ -3,6 +3,7 @@ import { Naped } from "../../../Types/types";
 import Card from "../../Card/Card";
 import styles from "./Section_2.module.css";
 import CardDetails from "../../CardDetails/CardDetails";
+import H2 from "../../Helper/H2/H2";
 
 const Section_2 = ({ data }: { data: Naped[] }) => {
   const [newData, setNewData] = React.useState<Naped[] | null>(null);
@@ -28,7 +29,7 @@ const Section_2 = ({ data }: { data: Naped[] }) => {
         ))}
       </div>
       <div className={styles.container_2}>
-        <h2>Leia também</h2>
+        <H2 label="Leia também"/>
         {data.slice(-3).map((item) =>
           <Card
             key={item.id}

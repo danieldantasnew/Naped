@@ -11,13 +11,23 @@
   gap: 1rem;
   flex-direction: column;
   overflow-y: auto;
+  position: relative;
+}
+
+.container_1::-webkit-scrollbar {
+  background-color: var(--dark-20);
+  width: 8px;
+}
+
+.container_1::-webkit-scrollbar-thumb {
+  background-color: var(--brand-color);
 }
 
 .container_2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: .5rem;
+  gap: 1.2rem;
 }
 
 .container_2 div {
@@ -46,9 +56,10 @@
   .Section_2 {
     max-height: initial;
     grid-template-columns: 1fr;
+    gap: 2rem;
   }
 
   .container_1 {
-    overflow: hidden;
+    max-height: 480px;
   }
 }

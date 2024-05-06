@@ -1,4 +1,5 @@
 import Card from "../Card/Card";
+import Button from "../Form/Button/Button";
 import styles from "./CardDetails.module.css";
 
 type typeCardDetails = {
@@ -23,6 +24,7 @@ const CardDetails = ({id, images, title, info, moreInfo, date}: typeCardDetails)
         <h2>{info}</h2>
         <p>{moreInfo}</p>
         <p>{date}</p>
+        <Button label="Ler notícia" onClick={(e)=> e.preventDefault()}/>
       </div>
     </div>
   );
