@@ -8,7 +8,7 @@
 
 .container_1 {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   flex-direction: column;
   overflow-y: auto;
   position: relative;
