@@ -16,7 +16,8 @@ const CardDetails = ({ id, images, title, info, moreInfo, date }: typeCardDetail
   
   const navigate = useNavigate();
 
-  function navigateTo(src: number) {
+  function navigateTo(e: React.MouseEvent<HTMLButtonElement, MouseEvent>, src: number) {
+    e.preventDefault();
     navigate(`/naped/${src}`);
   }
 
@@ -32,7 +33,7 @@ const CardDetails = ({ id, images, title, info, moreInfo, date }: typeCardDetail
         <h2>{info}</h2>
         <p>{moreInfo}</p>
         <p>{date}</p>
-        <Button label="Ler notícia" onClick={(e)=> navigateTo(id)}/>
+        <Button label="Ler notícia" onClick={(e)=> navigateTo(e, id)}/>
       </div>
     </div>
   );
