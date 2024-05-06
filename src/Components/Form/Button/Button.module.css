@@ -1,0 +1,23 @@
+.Button {
+  padding: .3rem;
+  background-color: var(--brand-color);
+  color: var(--dark-40);
+  font-weight: 600;
+  max-width: 120px;
+  border-radius: 4px;
+  border: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.Button:hover {
+  background-color: #8f6ce2;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.Button svg {
+  margin-top: 2px;
+}

@@ -1,0 +1,17 @@
+.H2 {
+  font-family: var(--font-1);
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--dark-40);
+  line-height: 16px;
+  display: inline;
+  width: fit-content;
+}
+
+.H2::after {
+  width: 100%;
+  height: 2px;
+  background-color: var(--brand-color);
+  content: '';
+  display: inline-block;
+}
