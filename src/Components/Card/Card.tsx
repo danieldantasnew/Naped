@@ -24,7 +24,7 @@ const Card = ({ id, title, images, info, classStyle, activeFunction = true }: ty
   const navigate = useNavigate();
 
   function openPage(id: number) {
-    navigate(`naped/${id}`);
+    navigate(`/item/${id}`);
   }
 
   return (

@@ -20,7 +20,7 @@ const CardDetails = ({ id, images, title, info, moreInfo, date }: typeCardDetail
 
   function navigateTo(e: React.MouseEvent<HTMLButtonElement, MouseEvent>, src: number) {
     e.preventDefault();
-    navigate(`/naped/${src}`);
+    navigate(`/item/${src}`);
   }
 
   const newDate = StringToDate(date);
