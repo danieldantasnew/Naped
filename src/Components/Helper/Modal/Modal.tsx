@@ -2,15 +2,14 @@ import React from 'react';
 import styles from './Modal.module.css';
 
 type ModalType = {
-  func?: React.Dispatch<React.SetStateAction<boolean>>,
-  stylesFrom?: React.CSSProperties
+  func?: React.Dispatch<React.SetStateAction<boolean>>;
+  stylesFrom?: CSSModuleClasses[string];
 }
 
 const Modal = ({func, stylesFrom}: ModalType) => {
   return (
     <div
-      style={stylesFrom || {}}
-      className={styles.Modal}
+      className={`${styles.Modal} ${stylesFrom}`}
       onClick={func? ()=> func((state)=> !state) : undefined}
     > 
     </div>
