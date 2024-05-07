@@ -27,6 +27,7 @@
 
 .configForCardComponent:hover {
   transform: scale(1);
+  cursor: default;
 }
 
 .configForCardComponent img {
