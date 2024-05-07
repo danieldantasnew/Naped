@@ -9,4 +9,4 @@ const Flex = ({children}: React.PropsWithChildren) => {
   )
 }
 
-export default Flex
+export default Flex;
