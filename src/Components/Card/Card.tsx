@@ -15,11 +15,12 @@ type typeCard = {
   id: number;
   title: string;
   images: string[];
+  activeFunction?: boolean;
   info?: string;
   classStyle?: CSSModuleClasses[string];
 };
 
-const Card = ({ id, title, images, info, classStyle }: typeCard) => {
+const Card = ({ id, title, images, info, classStyle, activeFunction = true }: typeCard) => {
   const navigate = useNavigate();
 
   function openPage(id: number) {
@@ -32,7 +33,7 @@ const Card = ({ id, title, images, info, classStyle }: typeCard) => {
         ${styles.imageContent} 
         ${classStyle} 
         `}
-      onClick={() => openPage(id)}>
+      onClick={activeFunction ? () => openPage(id): ()=> ''}>
         <Modal stylesFrom={styleModal} />
         <img src={images[0]} alt={`Foto de ${title}`} />
         <h2>{title}</h2>
