@@ -2,8 +2,8 @@ import { useNavigate } from "react-router-dom";
 import Card from "../Card/Card";
 import Button from "../Form/Button/Button";
 import styles from "./CardDetails.module.css";
-import FormatDate from "../../Functions/NormalizeDate/FormatDate";
 import StringToDate from "../../Functions/StringToDate/StringToDate";
+import FormatDate from "../../Functions/NormalizeDate/formatDate";
 
 type typeCardDetails = {
   id: number;
