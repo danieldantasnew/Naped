@@ -11,8 +11,9 @@ const useAutoSlideTransition = (start: number, end: number) => {
     };
     timeOut();
   }, [slide, setSlide, start, end]);
-
+  
   React.useEffect(() => {
+    if (timeOutRef.current !== null) clearInterval(timeOutRef.current);
     timeOutRef.current = setInterval(transitionCallback, 8000);
 
     return () => {
