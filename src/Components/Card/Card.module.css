@@ -67,3 +67,24 @@
     font-size: 1.24vw;
   }
 }
+
+.configModal {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-color: #28283061;
+}
+
+.noLargeFirstCard h2 {
+  top: 1rem;
+  left: 0.5rem;
+  font-size: 0.6rem;
+  padding: 0.6rem;
+}
+
+.noLargeFirstCard p {
+  font-size: 0.9rem;
+  left: 0.5rem;
+  bottom: 1rem;
+}
