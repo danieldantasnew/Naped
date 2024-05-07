@@ -3,7 +3,8 @@ import Loading from '../../Components/Helper/Loading/Loading';
 import Cover from '../../Components/Cover/Cover';
 import useCategoryData from '../../Hooks/useCategoryData';
 import Card from '../../Components/Card/Card';
-import styles from './Series.module.css';
+import Flex from '../../Components/Layouts/Flex/Flex';
+import Categories from '../../Components/Layouts/Categorys/Categories';
 
 const Series = () => {
   const { data, loading, error } = useDataContext();
@@ -13,7 +14,7 @@ const Series = () => {
   if (!newData) return null;
 
   return (
-    <section className={`${styles.Series} animationLeft`}>
+    <Flex>
       <Cover
         title="Séries"
         description='O Naped pode ser sua fonte de informações sobre Séries e outros assuntos relacionados.'
@@ -21,7 +22,7 @@ const Series = () => {
         slideStart={0}
         slideEnd={newData.length}
       />
-      <div className={styles.cards}>
+      <Categories>
         {newData.map((item) =>
           <Card
             key={item.id}
@@ -31,8 +32,8 @@ const Series = () => {
             info={item.info}
           />
         )}
-      </div>
-    </section>
+      </Categories>
+    </Flex>
   )
 }
 
