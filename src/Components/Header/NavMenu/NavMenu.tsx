@@ -23,8 +23,8 @@ const NavMenu = () => {
         </li>
         <li>
           <NavLink
-            to={"/filmes"}
-            className={location.pathname === "/filmes" ? styles.active : ''}>
+            to={"/movies"}
+            className={location.pathname === "/movies" ? styles.active : ''}>
             Filmes
           </NavLink>
         </li>
