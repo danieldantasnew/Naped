@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from "../../assets/Logo";
 import NavMenu from "./NavMenu/NavMenu";
 import Account from "./Account/Account";
