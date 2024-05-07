@@ -1,0 +1,80 @@
+.Cover {
+  position: relative;
+  overflow: hidden;
+}
+
+.imageContent {
+  position: relative;
+  max-height: 280px;
+}
+
+.imageContent img {
+  height: 280px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  animation: animateImage 8s infinite;
+}
+
+@keyframes animateImage {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+.configModal {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-color: #28283061;
+}
+
+.Cover h2, .Cover p {
+  position: absolute;
+  z-index: 2;
+  left: 2rem;
+}
+
+.Cover h2 {
+  top: 32%;
+  font-size: 2rem;
+  font-family: var(--font-1);
+  font-weight: 400;
+  color: var(--dark-40);
+}
+
+.Cover p {
+  top: 45%;
+  font-size: 1rem;
+  max-width: 420px;
+  line-height: 1.4rem;
+  color: #d4d4d4;
+}
+
+@media (max-width: 767px) {
+  .Cover h2,
+  .Cover p {
+    left: .8rem;
+  }
+  
+  .Cover h2 {
+    top: 60%;
+    font-size: 1.6rem;
+  }
+
+  .Cover p {
+    top: 74%;
+    line-height: 1.3rem;
+    font-size: .9rem;
+  }
+}
+
+.configH2 {
+  line-height: 8px;
+}
