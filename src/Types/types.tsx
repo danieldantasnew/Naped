@@ -1,4 +1,4 @@
-type Category = "animes" | "movies" | "games" | "series";
+export type Category = "animes" | "movies" | "games" | "series";
 
 export interface Naped {
   id: number;
