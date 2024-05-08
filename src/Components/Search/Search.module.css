@@ -31,3 +31,10 @@
   background-image: url('../../assets/Search.png');
   background-size: contain;
 }
+
+
+@media (max-width: 380px) {
+  .Search {
+    font-size: .8rem;
+  }
+}
