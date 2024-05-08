@@ -56,6 +56,11 @@
     display: flex;
     flex-direction: column;
   }
+
+  .content_2 > div:nth-child(2),
+  .content_2>div:nth-child(3) {
+    display: none;
+  }
 }
 
 .animationDelay img {
