@@ -1,9 +1,9 @@
 import React from "react";
-import { Naped } from "../../../Types/types";
-import H2 from "../../Helper/H2/H2";
-import Card from "../../Card/Card";
 import styles from "./Section_3.module.css";
-import StringToDate from "../../../Functions/StringToDate/StringToDate";
+import StringToDate from "../../../../Functions/StringToDate/StringToDate";
+import { Naped } from "../../../../Types/types";
+import Card from "../../../Card/Card";
+import H2 from "../../../Helper/H2/H2";
 
 function sortByRecents(dataCome: Naped[]) {
   const dataConvert = dataCome.sort((itemA, itemB) => {

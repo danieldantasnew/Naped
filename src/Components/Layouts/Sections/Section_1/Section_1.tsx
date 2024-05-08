@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Section_1.module.css";
-import { Naped } from "../../../Types/types";
-import Card from "../../Card/Card";
+import { Naped } from "../../../../Types/types";
+import Card from "../../../Card/Card";
 
 const Section_1 = ({ data }: { data: Naped[] }) => {
   const [newData, setNewData] = React.useState<Naped[] | null>(null);

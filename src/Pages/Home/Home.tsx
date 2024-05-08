@@ -1,7 +1,7 @@
 import Loading from '../../Components/Helper/Loading/Loading';
-import Section_1 from '../../Components/Sections/Section_1/Section_1';
-import Section_2 from '../../Components/Sections/Section_2/Section_2';
-import Section_3 from '../../Components/Sections/Section_3/Section_3';
+import Section_1 from '../../Components/Layouts/Sections/Section_1/Section_1';
+import Section_2 from '../../Components/Layouts/Sections/Section_2/Section_2';
+import Section_3 from '../../Components/Layouts/Sections/Section_3/Section_3';
 import { useDataContext } from '../../Store/Context/DataContext';
 import { Naped } from '../../Types/types';
 import styles from './Home.module.css';

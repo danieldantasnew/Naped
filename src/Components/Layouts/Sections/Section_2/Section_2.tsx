@@ -1,9 +1,9 @@
 import React from "react";
-import { Naped } from "../../../Types/types";
-import Card from "../../Card/Card";
 import styles from "./Section_2.module.css";
-import CardDetails from "../../CardDetails/CardDetails";
-import H2 from "../../Helper/H2/H2";
+import { Naped } from "../../../../Types/types";
+import CardDetails from "../../../CardDetails/CardDetails";
+import H2 from "../../../Helper/H2/H2";
+import Card from "../../../Card/Card";
 
 const Section_2 = ({ data }: { data: Naped[] }) => {
   const [newData, setNewData] = React.useState<Naped[] | null>(null);
