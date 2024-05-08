@@ -34,10 +34,9 @@
   width: 32px;
 }
 
-.btnMenu img {
+.btnMenu svg {
   height: 100%;
   width: 100%;
-  object-fit: cover;
 }
 
 .btnCloseMenu {
