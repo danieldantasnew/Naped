@@ -46,6 +46,7 @@ const ItemPage = () => {
         title={data.title}
         classStyle={styles.configCard}
         activeFunction={false}
+        animationOn={false}
       />
     </section>
   );
