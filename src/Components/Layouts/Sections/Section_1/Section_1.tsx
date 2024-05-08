@@ -2,15 +2,58 @@ import React from "react";
 import styles from "./Section_1.module.css";
 import { Naped } from "../../../../Types/types";
 import Card from "../../../Card/Card";
+import useAutoSlideTransition from "../../../../Hooks/useAutoSlideTransition";
+
+function observerAutoSlide(data: Naped[], stateSlide: number) {
+  if (stateSlide + 3 === data.length + 1) {
+    const newArray: Naped[] = [];
+    newArray.push(data[stateSlide]);
+    newArray.push(data[stateSlide + 1]);
+    newArray.push(data[0]);
+    return newArray;
+  }
+  else {
+    const newArray: Naped[] = [];
+    newArray.push(data[stateSlide]);
+    newArray.push(data[0]);
+    newArray.push(data[1]);
+    return newArray;
+  }
+}
 
 const Section_1 = ({ data }: { data: Naped[] }) => {
   const [newData, setNewData] = React.useState<Naped[] | null>(null);
+  const [animationDelay, setAnimationDelay] = React.useState(false);
+  const [endSlide, setEndSlide] = React.useState(0);
+  const slide = useAutoSlideTransition(0, endSlide);
 
   React.useEffect(() => {
     if (data) {
-      setNewData(data.slice(0, 3));
+      setEndSlide(data.length);
+      if (slide + 3 > data.length) {
+        const autoSlideReturns = observerAutoSlide(data, slide);
+        setNewData(autoSlideReturns);
+      } 
+      else setNewData(data.slice(slide, slide+3));
     }
-  }, [data]);
+  }, [data, slide]);
+
+  React.useEffect(() => {
+    setAnimationDelay(true);
+    const timeOutToAnimate = setTimeout(() => {
+      setAnimationDelay(false);
+    }, 8000);
+    
+    function handleVisibilityChange() {
+      setAnimationDelay(false);
+    }
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    return () => {
+      clearTimeout(timeOutToAnimate);
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+    };
+  }, [slide]);
 
   if (!newData) return null;
 
@@ -31,8 +74,9 @@ const Section_1 = ({ data }: { data: Naped[] }) => {
             title={item.title}
             images={item.images}
             info={item.info}
-            classStyle={styles.imageContent}
+            classStyle={`${styles.imageContent} ${animationDelay ? styles.animationDelay : ''}`}
             noLargeFirstCard={false}
+            animationOn={false}
           />
         ))}
       </div>
