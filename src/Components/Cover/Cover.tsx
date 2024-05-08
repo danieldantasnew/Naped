@@ -22,7 +22,16 @@ const Cover = ({ title, description, image, slideStart, slideEnd }: CoverType) =
       setAnimationDelay(false)
     }, 8000);
     
-    return () => clearTimeout(timeOutToAnimate);
+        function handleVisibilityChange() {
+      setAnimationDelay(false);
+    }
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+
+    return () => {
+      clearTimeout(timeOutToAnimate);
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+    } 
   }, [slide]);
 
   return (
