@@ -2,7 +2,7 @@ import React from "react";
 import Card from "../../Components/Card/Card";
 import Cover from "../../Components/Cover/Cover";
 import Loading from "../../Components/Helper/Loading/Loading";
-import Categories from "../../Components/Layouts/Categorys/Categories";
+import Categories from "../../Components/Layouts/Categories/Categories";
 import Flex from "../../Components/Layouts/Flex/Flex";
 import Search from "../../Components/Search/Search";
 import useCategoryData from "../../Hooks/useCategoryData";
@@ -28,17 +28,7 @@ const Animes = () => {
         slideEnd={dataForCover.length}
       />
       <Search onChange={({target})=> setSearch(target.value)}/>
-      <Categories>
-        {newData.map((item) => (
-          <Card
-            key={item.id}
-            id={item.id}
-            images={item.images}
-            title={item.title}
-            info={item.info}
-          />
-        ))}
-      </Categories>
+      <Categories newData={newData}/>
     </Flex>
   );
 };

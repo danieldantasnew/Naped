@@ -1,8 +1,7 @@
 import React from 'react';
 import Flex from '../../Components/Layouts/Flex/Flex';
 import Cover from '../../Components/Cover/Cover';
-import Categories from '../../Components/Layouts/Categorys/Categories';
-import Card from '../../Components/Card/Card';
+import Categories from '../../Components/Layouts/Categories/Categories';
 import Loading from '../../Components/Helper/Loading/Loading';
 import { useDataContext } from '../../Store/Context/DataContext';
 import useCategoryData from '../../Hooks/useCategoryData';
@@ -27,17 +26,7 @@ const Games = () => {
         slideEnd={dataForCover.length}
       />
       <Search onChange={({target})=> setSearch(target.value)}/>
-      <Categories>
-        {newData.map((item) => (
-          <Card
-            key={item.id}
-            id={item.id}
-            images={item.images}
-            title={item.title}
-            info={item.info}
-          />
-        ))}
-      </Categories>
+      <Categories newData={newData}/>
     </Flex>
   );
 };

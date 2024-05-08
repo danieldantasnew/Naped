@@ -5,7 +5,7 @@ import Cover from '../../Components/Cover/Cover';
 import useCategoryData from '../../Hooks/useCategoryData';
 import Card from '../../Components/Card/Card';
 import Flex from '../../Components/Layouts/Flex/Flex';
-import Categories from '../../Components/Layouts/Categorys/Categories';
+import Categories from '../../Components/Layouts/Categories/Categories';
 import Search from '../../Components/Search/Search';
 
 const Series = () => {
@@ -28,17 +28,7 @@ const Series = () => {
         slideEnd={dataForCover.length}
       />
       <Search onChange={({target})=> setSearch(target.value)}/>
-      <Categories>
-        {newData.map((item) =>
-          <Card
-            key={item.id}
-            id={item.id}
-            images={item.images}
-            title={item.title}
-            info={item.info}
-          />
-        )}
-      </Categories>
+      <Categories newData={newData}/>
     </Flex>
   )
 }
