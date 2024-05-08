@@ -10,6 +10,10 @@
   gap: 2rem;
 }
 
+.Section_3 > div > div img{
+  height: 100%;
+}
+
 .configCard h2 {
   font-size: 0.8rem !important;
   padding: .6rem;
@@ -29,7 +33,7 @@
 }
 
 @media (max-width: 767px) {
-  .Section_3>div {
+  .Section_3 > div {
     grid-template-columns: 1fr;
   }
 }
