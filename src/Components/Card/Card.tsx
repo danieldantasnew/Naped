@@ -11,9 +11,10 @@ type typeCard = {
   info?: string;
   classStyle?: CSSModuleClasses[string];
   noLargeFirstCard?: boolean;
+  animationOn?: boolean;
 };
 
-const Card = ({ id, title, images, info, classStyle, activeFunction = true, noLargeFirstCard = true }: typeCard) => {
+const Card = ({ id, title, images, info, classStyle, activeFunction = true, noLargeFirstCard = true, animationOn = true }: typeCard) => {
   const navigate = useNavigate();
 
   function openPage(id: number) {
@@ -23,7 +24,7 @@ const Card = ({ id, title, images, info, classStyle, activeFunction = true, noLa
   return (
     <div
       className={`
-        ${styles.imageContent}
+        ${`${styles.imageContent} ${animationOn ? styles.animationOn : ''}`}
         ${noLargeFirstCard ? styles.noLargeFirstCard : ''} 
         ${classStyle} 
         `}
