@@ -9,7 +9,7 @@ const Section_2 = ({ data }: { data: Naped[] }) => {
   const [newData, setNewData] = React.useState<Naped[] | null>(null);
 
   React.useEffect(() => {
-    setNewData(data.slice(3, -3));
+    setNewData(data.slice(0, -3));
   }, [data]);
 
   if (!newData) return null;
