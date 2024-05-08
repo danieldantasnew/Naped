@@ -1,5 +1,4 @@
 import React from "react";
-import Card from "../../Components/Card/Card";
 import Cover from "../../Components/Cover/Cover";
 import Loading from "../../Components/Helper/Loading/Loading";
 import Categories from "../../Components/Layouts/Categories/Categories";
