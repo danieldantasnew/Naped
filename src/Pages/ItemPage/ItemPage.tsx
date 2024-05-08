@@ -6,7 +6,7 @@ import Card from "../../Components/Card/Card";
 import styles from "./ItemPage.module.css";
 import Loading from "../../Components/Helper/Loading/Loading";
 import StringToDate from "../../Functions/StringToDate/StringToDate";
-import FormatDate from "../../Functions/NormalizeDate/formatDate";
+import FormatDate from "../../Functions/NormalizeDate/FormatDate";
 
 const ItemPage = () => {
   const { id } = useParams();

@@ -3,7 +3,7 @@ import Card from "../Card/Card";
 import Button from "../Form/Button/Button";
 import styles from "./CardDetails.module.css";
 import StringToDate from "../../Functions/StringToDate/StringToDate";
-import FormatDate from "../../Functions/NormalizeDate/formatDate";
+import FormatDate from "../../Functions/NormalizeDate/FormatDate";
 
 type typeCardDetails = {
   id: number;
