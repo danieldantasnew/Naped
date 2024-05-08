@@ -28,6 +28,10 @@
     opacity: 1;
     transform: scale(1.2);
   }
+  85% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
   100% {
     opacity: 0;
     transform: scale(1);
