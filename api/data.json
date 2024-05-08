@@ -1,0 +1,275 @@
+{
+  "naped": [
+    {
+      "id": "0",
+      "title": "The Walking Dead",
+      "info": "Uma série pós-apocalíptica que segue um grupo de sobreviventes liderados pelo xerife Rick Grimes, que viaja em busca de um lugar seguro em um mundo infestado por zumbis.",
+      "moreInfo": "The Walking Dead é baseado na série de quadrinhos de mesmo nome por Robert Kirkman, Tony Moore e Charlie Adlard. A série ganhou numerosos prêmios e elogios da crítica ao longo de suas temporadas.",
+      "date": "2023-12-31 05:35:42",
+      "clicks": 100,
+      "images": [
+        "../src/assets/image/02.png"
+      ],
+      "categories": [
+        "series"
+      ]
+    },
+    {
+      "id": "1",
+      "title": "Attack on Titan",
+      "info": "Um anime japonês que se passa em um mundo onde a humanidade vive dentro de enormes muralhas para se proteger dos Titãs, gigantes humanoides devoradores de humanos.",
+      "moreInfo": "Attack on Titan, também conhecido como Shingeki no Kyojin, é uma série de mangá escrita e ilustrada por Hajime Isayama. Ganhou grande popularidade internacional desde o lançamento de sua adaptação para anime em 2013.",
+      "date": "2023-12-30 02:14:12",
+      "clicks": 99,
+      "images": [
+        "../src/assets/image/01.png"
+      ],
+      "categories": [
+        "animes"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "League of Legends",
+      "info": "Um popular jogo eletrônico multiplayer online de arena de batalha, onde jogadores controlam campeões com habilidades únicas em confrontos entre equipes.",
+      "moreInfo": "League of Legends, desenvolvido e publicado pela Riot Games, é um dos jogos mais jogados do mundo, com uma grande base de fãs e uma cena competitiva vibrante.",
+      "date": "2023-12-29 02:35:42",
+      "clicks": 94,
+      "images": [
+        "../src/assets/image/07.png"
+      ],
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Naruto",
+      "info": "Uma série de anime e mangá que segue as aventuras de Naruto Uzumaki, um jovem ninja que busca reconhecimento e sonha em se tornar o líder de sua aldeia.",
+      "moreInfo": "Criado por Masashi Kishimoto, Naruto se tornou uma das franquias de anime e mangá mais populares em todo o mundo, com uma extensa lista de personagens e uma história emocionante.",
+      "date": "2023-12-28 04:15:32",
+      "clicks": 90,
+      "images": [
+        "../src/assets/image/16.png",
+        "../src/assets/image/12.png"
+      ],
+      "categories": [
+        "animes"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Deadpool",
+      "info": "Um anti-herói da Marvel conhecido por seu sarcasmo, humor negro e habilidades regenerativas, que usa suas habilidades para lutar contra vilões e mercenários.",
+      "moreInfo": "Deadpool, também conhecido como Wade Wilson, foi criado por Rob Liefeld e Fabian Nicieza. Ele se destaca por seu estilo único entre os super-heróis da Marvel.",
+      "date": "2023-12-27 10:32:13",
+      "clicks": 89,
+      "images": [
+        "../src/assets/image/15.png"
+      ],
+      "categories": [
+        "movies"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Minecraft",
+      "info": "Um jogo de sandbox que permite aos jogadores construir e explorar mundos tridimensionais, coletando recursos, construindo estruturas e enfrentando desafios.",
+      "moreInfo": "Minecraft, desenvolvido pela Mojang Studios, tornou-se um fenômeno cultural desde seu lançamento em 2011, com uma comunidade de jogadores ativos e uma infinidade de mods e expansões.",
+      "date": "2023-12-26 01:41:32",
+      "clicks": 88,
+      "images": [
+        "../src/assets/image/09.png"
+      ],
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Harry Potter",
+      "info": "Uma série de livros e filmes que segue as aventuras de um jovem bruxo, Harry Potter, e seus amigos enquanto frequentam a Escola de Magia e Bruxaria de Hogwarts.",
+      "moreInfo": "Escrita por J.K. Rowling, a série Harry Potter se tornou um fenômeno global, com filmes de sucesso e uma base de fãs dedicada em todo o mundo.",
+      "date": "2023-12-24 09:11:36",
+      "clicks": 85,
+      "images": [
+        "../src/assets/image/05.png"
+      ],
+      "categories": [
+        "movies"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Supernatural",
+      "info": "Uma série de televisão que segue os irmãos Sam e Dean Winchester enquanto caçam criaturas sobrenaturais, monstros e demônios em uma jornada para salvar o mundo.",
+      "moreInfo": "Supernatural, criado por Eric Kripke, é uma das séries de TV mais longas e populares da história, com uma base de fãs leal e um legado duradouro.",
+      "date": "2023-12-22 01:41:32",
+      "clicks": 76,
+      "images": [
+        "../src/assets/image/14.png"
+      ],
+      "categories": [
+        "series"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "The Wind Rises",
+      "info": "Um filme de animação japonês que segue a vida de Jiro Horikoshi, um engenheiro aeronáutico, e sua jornada para projetar aviões durante a Segunda Guerra Mundial.",
+      "moreInfo": "Dirigido por Hayao Miyazaki, The Wind Rises é conhecido por sua beleza visual e narrativa envolvente, explorando temas de amor, criatividade e os horrores da guerra.",
+      "date": "2024-05-03 01:41:32",
+      "clicks": 29,
+      "images": [
+        "../src/assets/image/17.png",
+        "../src/assets/image/18.png"
+      ],
+      "categories": [
+        "animes",
+        "movies"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "GTA V",
+      "info": "Um jogo eletrônico de ação-aventura que se passa em um mundo aberto, onde os jogadores podem participar de missões, dirigir veículos e explorar a cidade fictícia de Los Santos.",
+      "moreInfo": "Grand Theft Auto V, desenvolvido pela Rockstar Games, é um dos jogos mais vendidos de todos os tempos, conhecido por sua jogabilidade imersiva e vasto mundo aberto.",
+      "date": "2024-05-02 00:21:34",
+      "clicks": 44,
+      "images": [
+        "../src/assets/image/10.png"
+      ],
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Vikings",
+      "info": "Uma série de televisão histórica que segue as façanhas do lendário guerreiro viking Ragnar Lothbrok e sua família, enquanto eles exploram e conquistam novos territórios.",
+      "moreInfo": "Vikings, criado por Michael Hirst, combina elementos de drama, ação e intriga política em sua representação da Era Viking, ganhando elogios por sua precisão histórica e performances.",
+      "date": "2024-05-01 02:34:12",
+      "clicks": 34,
+      "images": [
+        "../src/assets/image/19.png"
+      ],
+      "categories": [
+        "series"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Soul",
+      "info": "Um filme de animação da Pixar que segue a jornada de um músico aspirante chamado Joe Gardner, que embarca em uma jornada para descobrir o verdadeiro significado da vida.",
+      "moreInfo": "Soul, dirigido por Pete Docter e co-dirigido por Kemp Powers, recebeu aclamação da crítica por sua abordagem madura e emocionante sobre temas de identidade, propósito e paixão.",
+      "date": "2024-04-30 03:21:34",
+      "clicks": 61,
+      "images": [
+        "../src/assets/image/13.png"
+      ],
+      "categories": [
+        "movies"
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Kimi no na wa",
+      "info": "Um filme de anime que segue a história de dois jovens, Mitsuha e Taki, que misteriosamente trocam de corpos e começam a se comunicar por meio de notas.",
+      "moreInfo": "Kimi no Na wa, também conhecido como Your Name, dirigido por Makoto Shinkai, é conhecido por sua bela animação e emocionante história de amor transcultural.",
+      "date": "2024-04-28 01:23:15",
+      "clicks": 24,
+      "images": [
+        "../src/assets/image/20.png"
+      ],
+      "categories": [
+        "animes",
+        "movies"
+      ]
+    },
+    {
+      "id": "13",
+      "title": "League of Legends: Wild Rift",
+      "info": "Uma versão móvel do popular jogo de PC League of Legends, adaptado para plataformas móveis para oferecer uma experiência de jogo rápida e acessível.",
+      "moreInfo": "League of Legends: Wild Rift traz a jogabilidade estratégica e os personagens icônicos de League of Legends para dispositivos móveis, permitindo que os jogadores participem de batalhas emocionantes em movimento.",
+      "date": "2024-04-26 02:14:12",
+      "clicks": 34,
+      "images": [
+        "../src/assets/image/04.png"
+      ],
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "id": "14",
+      "title": "A Viagem de Chihiro",
+      "info": "Um filme de animação japonês que segue as aventuras de uma jovem chamada Chihiro, que acaba em um mundo mágico cheio de espíritos e criaturas fantásticas.",
+      "moreInfo": "A Viagem de Chihiro, dirigido por Hayao Miyazaki, é considerado um dos maiores filmes de animação de todos os tempos, ganhando o Oscar de Melhor Filme de Animação em 2003.",
+      "date": "2024-04-21 01:23:15",
+      "clicks": 43,
+      "images": [
+        "../src/assets/image/03.png"
+      ],
+      "categories": [
+        "movies",
+        "animes"
+      ]
+    },
+    {
+      "id": "15",
+      "title": "A Rede Social",
+      "info": "Um filme que narra a fundação e ascensão do Facebook, explorando as relações pessoais e a ética por trás da criação da plataforma de mídia social mais popular do mundo.",
+      "moreInfo": "Dirigido por David Fincher e escrito por Aaron Sorkin, A Rede Social é baseado no livro de Ben Mezrich e recebeu elogios por suas performances e roteiro inteligente.",
+      "date": "2024-04-20 01:23:15",
+      "clicks": 15,
+      "images": [
+        "../src/assets/image/06.png"
+      ],
+      "categories": [
+        "movies"
+      ]
+    },
+    {
+      "id": "16",
+      "title": "God of War",
+      "info": "Um jogo eletrônico de ação-aventura que segue a jornada de Kratos, um guerreiro espartano, enquanto ele luta contra deuses, monstros e criaturas da mitologia grega.",
+      "moreInfo": "God of War, desenvolvido pela Santa Monica Studio, é conhecido por sua jogabilidade intensa, narrativa épica e gráficos impressionantes, ganhando vários prêmios e elogios da crítica.",
+      "date": "2024-04-19 01:23:15",
+      "clicks": 5,
+      "images": [
+        "../src/assets/image/11.png"
+      ],
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Dragon Ball",
+      "info": "Um popular anime e mangá que segue as aventuras de Goku, um guerreiro Saiyajin, enquanto ele busca as sete Esferas do Dragão para conceder desejos.",
+      "moreInfo": "Criado por Akira Toriyama, Dragon Ball é uma das franquias de mídia mais influentes e duradouras, deixando um legado significativo na cultura pop e inspirando inúmeros outros trabalhos.",
+      "date": "2024-04-12 01:23:15",
+      "clicks": 48,
+      "images": [
+        "../src/assets/image/08.png"
+      ],
+      "categories": [
+        "animes"
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Demon Slayer",
+      "info": "Um anime que segue a jornada de Tanjiro Kamado, um jovem que se torna um caçador de demônios após sua família ser massacrada por um demônio, e sua busca para vingar sua família e salvar sua irmã transformada em demônio.",
+      "moreInfo": "Demon Slayer, também conhecido como Kimetsu no Yaiba, é uma série de mangá escrita e ilustrada por Koyoharu Gotouge. Ganhou enorme popularidade com a adaptação para anime produzida pelo estúdio Ufotable.",
+      "date": "2024-04-10 01:23:15",
+      "clicks": 23,
+      "images": [
+        "../src/assets/image/21.png"
+      ],
+      "categories": [
+        "animes"
+      ]
+    }
+  ]
+}
