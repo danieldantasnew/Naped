@@ -22,3 +22,10 @@
 .Button svg {
   margin-top: 2px;
 }
+
+@media (max-width: 480px) {
+  .Button {
+    padding: .2rem;
+    max-width: none;
+  }
+}
