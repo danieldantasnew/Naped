@@ -33,6 +33,7 @@ const CardDetails = ({ id, images, title, info, moreInfo, date }: typeCardDetail
         title={title}
         classStyle={styles.configForCardComponent}
         activeFunction={false}
+        animationOn={false}
       />
       <div className={styles.contentOfCard}>
         <h2>{info}</h2>
