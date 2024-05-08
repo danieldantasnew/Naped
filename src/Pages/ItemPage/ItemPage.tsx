@@ -2,11 +2,11 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import useFetch from "../../Hooks/useFetch";
 import { Naped } from "../../Types/types";
-import StringToDate from "../../Functions/StringToDate/StringToDate";
-import FormatDate from "../../Functions/NormalizeDate/formatDate";
 import Card from "../../Components/Card/Card";
 import styles from "./ItemPage.module.css";
 import Loading from "../../Components/Helper/Loading/Loading";
+import StringToDate from "../../Functions/StringToDate/StringToDate";
+import FormatDate from "../../Functions/NormalizeDate/formatDate";
 
 const ItemPage = () => {
   const { id } = useParams();
@@ -22,7 +22,7 @@ const ItemPage = () => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          clicks: data.clicks + 1,
+          clicks: Number(data.clicks) + 1,
         }),
       });
       const dateConverted = StringToDate(data.date);

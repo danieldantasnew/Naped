@@ -1,15 +1,17 @@
 import React from 'react'
-import { Category, Naped } from '../Types/types';
+import { Naped } from '../Types/types';
+
+type Category = "animes" | "movies" | "games" | "series";
 
 function filterByCategory(arrayData: Naped[], category: Category, search?: string) {
   if (search) {
     const escapedContentSearch = search.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const regex = new RegExp(escapedContentSearch, 'i');
     return arrayData
-      .filter((item) => item.category === category)
+      .filter((item) => item.categories.includes(category))
       .filter((item) => regex.test(item.title));
   } 
-  return arrayData.filter((item)=> item.category === category);
+  return arrayData.filter((item) => item.categories.includes(category));
 }
 
 const useCategoryData = (data: Naped[] | null, category: Category, search?: string) => {
