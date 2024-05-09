@@ -30,7 +30,10 @@ const Card = ({ id, title, images, info, classStyle, activeFunction = true, noLa
         `}
       onClick={activeFunction ? () => openPage(id): ()=> ''}>
         <Modal stylesFrom={styles.configModal} />
-        <img src={images[0]} alt={`Foto de ${title}`} />
+        <img
+        src={images.length === 0 ? "../src/assets/image/WithoutPhoto/elric.jpg" : images[0] }
+        alt={`Foto de ${title}`}
+        />
         <h2>{title}</h2>
         {info ? <p>{info}</p> : ""}
     </div>

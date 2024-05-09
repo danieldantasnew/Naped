@@ -22,7 +22,7 @@ const Movies = () => {
       <Cover
         title="Filmes"
         description="O Naped pode ser sua fonte de informações sobre Filmes e outros assuntos relacionados."
-        image={dataForCover.map((item) => item.images[0])}
+        image={dataForCover.map((item) => item.images[1])}
         slideStart={0}
         slideEnd={dataForCover.length}
       />

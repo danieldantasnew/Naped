@@ -21,7 +21,7 @@ const Games = () => {
       <Cover
         title="Games"
         description="O Naped pode ser sua fonte de informações sobre Games e outros assuntos relacionados."
-        image={dataForCover.map((item) => item.images[0])}
+        image={dataForCover.map((item) => item.images[1])}
         slideStart={0}
         slideEnd={dataForCover.length}
       />

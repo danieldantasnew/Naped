@@ -41,7 +41,12 @@ const Cover = ({ title, description, image, slideStart, slideEnd }: CoverType) =
           <Modal
             stylesFrom={styles.configModal}
           />
-        <img src={image[slide]} alt={`Capa da categoria ${title}`} />
+        <img
+          src={image[slide] === undefined ?
+            "../src/assets/image/WithoutPhoto/elric.jpg" :
+            image[slide]
+          }
+          alt={`Capa da categoria ${title}`} />
       </div>
       <H2 label={title} classStyle={styles.configH2} />
       <p>{ description }</p>

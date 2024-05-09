@@ -8,7 +8,8 @@
       "date": "2023-12-31 05:35:42",
       "clicks": 101,
       "images": [
-        "../src/assets/image/02.png"
+        "../src/assets/image/02.png",
+        "../src/assets/image/135.jpg"
       ],
       "categories": [
         "series"
@@ -22,7 +23,8 @@
       "date": "2023-12-30 02:14:12",
       "clicks": 100,
       "images": [
-        "../src/assets/image/01.png"
+        "../src/assets/image/01.png",
+        "../src/assets/image/137.jpg"
       ],
       "categories": [
         "animes"
@@ -36,7 +38,8 @@
       "date": "2023-12-29 02:35:42",
       "clicks": 94,
       "images": [
-        "../src/assets/image/07.png"
+        "../src/assets/image/146.jpg",
+        "../src/assets/image/138.jpg"
       ],
       "categories": [
         "games"
@@ -65,7 +68,8 @@
       "date": "2023-12-27 10:32:13",
       "clicks": 89,
       "images": [
-        "../src/assets/image/15.png"
+        "../src/assets/image/15.png",
+        "../src/assets/image/139.jpg"
       ],
       "categories": [
         "movies"
@@ -79,7 +83,8 @@
       "date": "2023-12-26 01:41:32",
       "clicks": 88,
       "images": [
-        "../src/assets/image/09.png"
+        "../src/assets/image/09.png",
+        "../src/assets/image/140.jpg"
       ],
       "categories": [
         "games"
@@ -93,7 +98,8 @@
       "date": "2023-12-24 09:11:36",
       "clicks": 85,
       "images": [
-        "../src/assets/image/05.png"
+        "../src/assets/image/05.png",
+        "../src/assets/image/141.jpg"
       ],
       "categories": [
         "movies"
@@ -107,7 +113,8 @@
       "date": "2023-12-22 01:41:32",
       "clicks": 76,
       "images": [
-        "../src/assets/image/14.png"
+        "../src/assets/image/14.png",
+        "../src/assets/image/136.jpg"
       ],
       "categories": [
         "series"
@@ -137,7 +144,8 @@
       "date": "2024-05-02 00:21:34",
       "clicks": 44,
       "images": [
-        "../src/assets/image/10.png"
+        "../src/assets/image/10.png",
+        "../src/assets/image/142.jpg"
       ],
       "categories": [
         "games"
@@ -151,7 +159,8 @@
       "date": "2024-05-01 02:34:12",
       "clicks": 34,
       "images": [
-        "../src/assets/image/19.png"
+        "../src/assets/image/19.png",
+        "../src/assets/image/143.jpg"
       ],
       "categories": [
         "series"
@@ -165,7 +174,8 @@
       "date": "2024-04-30 03:21:34",
       "clicks": 61,
       "images": [
-        "../src/assets/image/13.png"
+        "../src/assets/image/13.png",
+        "../src/assets/image/144.jpg"
       ],
       "categories": [
         "movies"
@@ -179,7 +189,8 @@
       "date": "2024-04-28 01:23:15",
       "clicks": 24,
       "images": [
-        "../src/assets/image/20.png"
+        "../src/assets/image/20.png",
+        "../src/assets/image/145.jpg"
       ],
       "categories": [
         "animes",
@@ -194,6 +205,7 @@
       "date": "2024-04-26 02:14:12",
       "clicks": 34,
       "images": [
+        "../src/assets/image/07.png",
         "../src/assets/image/04.png"
       ],
       "categories": [
@@ -208,7 +220,8 @@
       "date": "2024-04-21 01:23:15",
       "clicks": 44,
       "images": [
-        "../src/assets/image/03.png"
+        "../src/assets/image/03.png",
+        "../src/assets/image/147.jpg"
       ],
       "categories": [
         "movies",
@@ -223,7 +236,8 @@
       "date": "2024-04-20 01:23:15",
       "clicks": 15,
       "images": [
-        "../src/assets/image/06.png"
+        "../src/assets/image/06.png",
+        "../src/assets/image/148.jpg"
       ],
       "categories": [
         "movies"
@@ -231,13 +245,14 @@
     },
     {
       "id": "16",
-      "title": "God of War",
-      "info": "Um jogo eletrônico de ação-aventura que segue a jornada de Kratos, um guerreiro espartano, enquanto ele luta contra deuses, monstros e criaturas da mitologia grega.",
-      "moreInfo": "God of War, desenvolvido pela Santa Monica Studio, é conhecido por sua jogabilidade intensa, narrativa épica e gráficos impressionantes, ganhando vários prêmios e elogios da crítica.",
+      "title": "God of War (2018)",
+      "info": "Um jogo eletrônico de ação-aventura que segue Kratos, um guerreiro espartano que agora vive em Midgard, acompanhado por seu filho, Atreus. Eles embarcam em uma jornada para espalhar as cinzas da falecida esposa de Kratos no pico mais alto dos Nove Reinos, enfrentando deuses nórdicos, monstros e criaturas mitológicas ao longo do caminho.",
+      "moreInfo": "God of War (2018), desenvolvido pela Santa Monica Studio, é uma reimaginação da série, adotando uma nova ambientação na mitologia nórdica. O jogo é conhecido por sua narrativa emocionante, jogabilidade desafiadora e gráficos de tirar o fôlego, recebendo inúmeros prêmios e elogios da crítica.",
       "date": "2024-04-19 01:23:15",
-      "clicks": 5,
+      "clicks": 6,
       "images": [
-        "../src/assets/image/11.png"
+        "../src/assets/image/11.png",
+        "../src/assets/image/149.jpg"
       ],
       "categories": [
         "games"
@@ -245,13 +260,14 @@
     },
     {
       "id": "17",
-      "title": "Dragon Ball",
-      "info": "Um popular anime e mangá que segue as aventuras de Goku, um guerreiro Saiyajin, enquanto ele busca as sete Esferas do Dragão para conceder desejos.",
-      "moreInfo": "Criado por Akira Toriyama, Dragon Ball é uma das franquias de mídia mais influentes e duradouras, deixando um legado significativo na cultura pop e inspirando inúmeros outros trabalhos.",
-      "date": "2024-04-12 01:23:15",
-      "clicks": 48,
+      "title": "Dragon Ball GT",
+      "info": "Uma série de anime que segue as aventuras de Goku e seus amigos enquanto enfrentam desafios cada vez maiores para proteger a Terra e o universo.",
+      "moreInfo": "Dragon Ball GT é uma continuação da série Dragon Ball Z, expandindo o universo e apresentando novos vilões e transformações.",
+      "date": "2024-05-09 10:00:00",
+      "clicks": 50,
       "images": [
-        "../src/assets/image/08.png"
+        "../src/assets/image/100.jpg",
+        "../src/assets/image/101.jpg"
       ],
       "categories": [
         "animes"
@@ -259,13 +275,629 @@
     },
     {
       "id": "18",
-      "title": "Demon Slayer",
-      "info": "Um anime que segue a jornada de Tanjiro Kamado, um jovem que se torna um caçador de demônios após sua família ser massacrada por um demônio, e sua busca para vingar sua família e salvar sua irmã transformada em demônio.",
-      "moreInfo": "Demon Slayer, também conhecido como Kimetsu no Yaiba, é uma série de mangá escrita e ilustrada por Koyoharu Gotouge. Ganhou enorme popularidade com a adaptação para anime produzida pelo estúdio Ufotable.",
-      "date": "2024-04-10 01:23:15",
-      "clicks": 23,
+      "title": "Boruto",
+      "info": "Um anime que segue as aventuras de Boruto Uzumaki, filho de Naruto Uzumaki, enquanto ele treina para se tornar um ninja poderoso e superar o legado de seu pai.",
+      "moreInfo": "Boruto é uma sequência direta da série Naruto, expandindo o mundo ninja e introduzindo uma nova geração de personagens.",
+      "date": "2024-05-09 11:00:00",
+      "clicks": 55,
       "images": [
-        "../src/assets/image/21.png"
+        "../src/assets/image/102.jpg",
+        "../src/assets/image/103.jpg"
+      ],
+      "categories": [
+        "animes"
+      ]
+    },
+    {
+      "id": "19",
+      "title": "South Park: A Fenda que Abunda Força",
+      "info": "Um jogo eletrônico baseado na popular série de televisão South Park, onde os personagens embarcam em uma aventura épica de super-heróis para salvar a cidade.",
+      "moreInfo": "South Park: A Fenda que Abunda Força apresenta o humor irreverente e satírico característico da série, combinado com jogabilidade de RPG e uma história hilária.",
+      "date": "2024-05-09 12:00:00",
+      "clicks": 60,
+      "images": [
+        "../src/assets/image/103.jpeg",
+        "../src/assets/image/104.jpg"
+      ],
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Bob Esponja: O Filme",
+      "info": "Um filme de animação que segue as aventuras de Bob Esponja e seus amigos da Fenda do Biquíni enquanto eles viajam para resgatar a coroa do Rei Netuno.",
+      "moreInfo": "Bob Esponja: O Filme combina animação divertida com humor inteligente, cativando crianças e adultos com suas piadas e personagens peculiares.",
+      "date": "2024-05-09 13:00:00",
+      "clicks": 70,
+      "images": [
+        "../src/assets/image/105.jpg",
+        "../src/assets/image/106.jpg"
+      ],
+      "categories": [
+        "movies"
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Oppenheimer",
+      "info": "Um filme biográfico que segue a vida e carreira de J. Robert Oppenheimer, o físico responsável pela liderança do Projeto Manhattan durante a Segunda Guerra Mundial.",
+      "moreInfo": "Oppenheimer, dirigido por Christopher Nolan, explora os dilemas éticos e morais enfrentados por Oppenheimer ao desenvolver a primeira bomba atômica.",
+      "date": "2024-05-09 14:00:00",
+      "clicks": 75,
+      "images": [
+        "../src/assets/image/107.jpg",
+        "../src/assets/image/108.jpg"
+      ],
+      "categories": [
+        "movies"
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Vingadores: Ultimato",
+      "info": "Um filme de super-herói que segue os Vingadores enquanto eles viajam no tempo para reunir as Joias do Infinito e derrotar o titã louco Thanos.",
+      "moreInfo": "Vingadores: Ultimato é o clímax da saga do Universo Cinematográfico Marvel, apresentando batalhas épicas e momentos emocionantes para os fãs de quadrinhos.",
+      "date": "2024-05-09 15:00:00",
+      "clicks": 80,
+      "images": [
+        "../src/assets/image/109.png",
+        "../src/assets/image/110.jpg"
+      ],
+      "categories": [
+        "movies"
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Capitão América: Guerra Civil",
+      "info": "Um filme de super-herói que segue o Capitão América e o Homem de Ferro enquanto eles lideram equipes opostas em um conflito sobre a regulamentação dos super-humanos.",
+      "moreInfo": "Capitão América: Guerra Civil apresenta uma batalha interna entre os Vingadores, dividindo-os em dois lados e questionando suas lealdades e crenças.",
+      "date": "2024-05-09 16:00:00",
+      "clicks": 95,
+      "images": [
+        "../src/assets/image/112.jpg",
+        "../src/assets/image/111.jpg"
+      ],
+      "categories": [
+        "movies"
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Homem-Aranha: Sem Volta Para Casa",
+      "info": "Um filme de super-herói que segue Peter Parker enquanto ele luta para lidar com a exposição de sua identidade secreta e as consequências de mexer com o multiverso.",
+      "moreInfo": "Homem-Aranha: Sem Volta Para Casa é o terceiro filme do Homem-Aranha no Universo Cinematográfico Marvel, prometendo reviravoltas emocionantes e encontros com personagens icônicos.",
+      "date": "2024-05-09 17:00:00",
+      "clicks": 92,
+      "images": [
+        "../src/assets/image/114.jpg",
+        "../src/assets/image/113.jpg"
+      ],
+      "categories": [
+        "movies"
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Ben 10: Força Alienígena",
+      "info": "É uma série de desenho animado estadunidense criada pelo Man of Action (um grupo que consiste de Duncan Rouleau, Joe Casey, Joe Kelly, e Steven T. Seagle) e produzido pelos estúdios Cartoon Network Studios (antigamente: Hanna-Barbera). O desenho segue as aventuras de Ben Tennyson, um jovem com um dispositivo alienígena que lhe permite se transformar em várias formas alienígenas.",
+      "moreInfo": "Ben 10: Força Alienígena é uma continuação da série original Ben 10, explorando novas aventuras e inimigos para Ben e seus amigos.",
+      "date": "2024-05-09 18:00:00",
+      "clicks": 95,
+      "images": [
+        "../src/assets/image/116.jpg",
+        "../src/assets/image/115.jpg"
+      ],
+      "categories": [
+        "series"
+      ]
+    },
+    {
+      "id": "26",
+      "title": "Stranger Things",
+      "info": "Uma série de televisão que segue um grupo de crianças em uma cidade pequena dos anos 80, enquanto eles lidam com eventos sobrenaturais e uma misteriosa garota com poderes telecinéticos.",
+      "moreInfo": "Stranger Things, criado pelos irmãos Duffer, combina elementos de suspense, ficção científica e nostalgia dos anos 80, ganhando uma base de fãs dedicada em todo o mundo.",
+      "date": "2024-05-09 19:00:00",
+      "clicks": 102,
+      "images": [
+        "../src/assets/image/117.jpg",
+        "../src/assets/image/118.jpg"
+      ],
+      "categories": [
+        "series"
+      ]
+    },
+    {
+      "id": "27",
+      "title": "The Batman (2022)",
+      "info": "Um filme de super-herói que segue Bruce Wayne enquanto ele assume o manto do Batman e enfrenta uma série de vilões em Gotham City.",
+      "moreInfo": "The Batman (2022), dirigido por Matt Reeves e estrelado por Robert Pattinson, apresenta uma abordagem sombria e mais investigativa do icônico vigilante mascarado.",
+      "date": "2024-05-09 20:00:00",
+      "clicks": 107,
+      "images": [
+        "../src/assets/image/120.jpg",
+        "../src/assets/image/119.jpeg"
+      ],
+      "categories": [
+        "movies"
+      ]
+    },
+    {
+      "id": "28",
+      "title": "Coringa (2019)",
+      "info": "Um filme de origem que explora a história do icônico vilão do Batman, Arthur Fleck, e sua transformação no criminoso conhecido como Coringa.",
+      "moreInfo": "Coringa (2019), dirigido por Todd Phillips e estrelado por Joaquin Phoenix, é uma exploração sombria e psicológica do personagem, ganhando aclamação da crítica e do público.",
+      "date": "2024-05-09 21:00:00",
+      "clicks": 115,
+      "images": [
+        "../src/assets/image/122.jpg",
+        "../src/assets/image/121.jpg"
+      ],
+      "categories": [
+        "movies"
+      ]
+    },
+    {
+      "id": "29",
+      "title": "Fallout 4",
+      "info": "Um jogo eletrônico de RPG de ação que se passa em um mundo pós-apocalíptico, onde o protagonista emerge de um abrigo nuclear para encontrar seu filho sequestrado e confrontar diversas facções.",
+      "moreInfo": "Fallout 4, desenvolvido pela Bethesda Game Studios, é conhecido por sua vasta exploração, construção de assentamentos e narrativa ramificada.",
+      "date": "2024-05-09 22:00:00",
+      "clicks": 118,
+      "images": [
+        "../src/assets/image/123.jpeg",
+        "../src/assets/image/124.jpg"
+      ],
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "id": "30",
+      "title": "Fallout 3",
+      "info": "Um jogo eletrônico de RPG de ação ambientado em uma versão pós-apocalíptica da região de Washington, D.C., onde o protagonista busca seu pai desaparecido e se envolve em conflitos entre várias facções.",
+      "moreInfo": "Fallout 3, desenvolvido pela Bethesda Game Studios, é conhecido por sua atmosfera sombria, escolhas morais complexas e mundo aberto detalhado.",
+      "date": "2024-05-09 23:00:00",
+      "clicks": 120,
+      "images": [
+        "../src/assets/image/125.jpg",
+        "../src/assets/image/126.jpg"
+      ],
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "id": "31",
+      "title": "Fallout: New Vegas",
+      "info": "Um jogo eletrônico de RPG de ação ambientado no deserto de Mojave, onde o protagonista é deixado para morrer e busca vingança contra quem o traiu, enquanto se envolve em uma guerra entre facções pelo controle da região.",
+      "moreInfo": "Fallout: New Vegas, desenvolvido pela Obsidian Entertainment, é elogiado por sua narrativa ramificada, personagens memoráveis e escolhas significativas do jogador.",
+      "date": "2024-05-10 00:00:00",
+      "clicks": 125,
+      "images": [
+        "../src/assets/image/127.jpg",
+        "../src/assets/image/128.jpg"
+      ],
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "id": "32",
+      "title": "The Witcher 3: Wild Hunt",
+      "info": "Um jogo eletrônico de RPG de ação que segue Geralt de Rivia, um Witcher, em sua jornada para encontrar sua filha adotiva, Ciri, enquanto enfrenta criaturas sobrenaturais e forças malignas em um vasto mundo aberto.",
+      "moreInfo": "The Witcher 3: Wild Hunt, desenvolvido pela CD Projekt Red, é aclamado por sua narrativa envolvente, personagens complexos e gráficos deslumbrantes, oferecendo aos jogadores uma experiência épica de fantasia.",
+      "date": "2024-05-10 01:00:00",
+      "clicks": 130,
+      "images": [
+        "../src/assets/image/129.jpg",
+        "../src/assets/image/130.jpg"
+      ],
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "id": "33",
+      "title": "Red Dead Redemption",
+      "info": "Um jogo eletrônico de ação-aventura ambientado no final do século XIX, onde o ex-fora da lei John Marston busca redenção enquanto enfrenta o governo e gangues rivais em um mundo aberto do Velho Oeste americano.",
+      "moreInfo": "Red Dead Redemption, desenvolvido pela Rockstar Games, é conhecido por sua narrativa envolvente, ambientação detalhada e mecânicas de jogo imersivas.",
+      "date": "2024-05-10 02:00:00",
+      "clicks": 135,
+      "images": [
+        "../src/assets/image/131.jpg",
+        "../src/assets/image/132.jpg"
+      ],
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "id": "34",
+      "title": "The Boys",
+      "info": "Uma série de televisão de super-heróis que segue um grupo de vigilantes enquanto eles tentam expor os segredos sujos dos super-heróis corporativos e confrontá-los.",
+      "moreInfo": "The Boys, criado por Eric Kripke, é conhecido por sua abordagem irreverente e subversiva do gênero de super-heróis, explorando temas de fama, poder e corrupção.",
+      "date": "2024-05-10 03:00:00",
+      "clicks": 140,
+      "images": [
+        "../src/assets/image/134.jpg",
+        "../src/assets/image/133.jpg"
+      ],
+      "categories": [
+        "series"
+      ]
+    },
+    {
+      "id": "35",
+      "title": "The Mandalorian",
+      "info": "Uma série de televisão de space western que segue um caçador de recompensas mandaloriano enquanto ele viaja pela galáxia com um misterioso bebê da mesma espécie do Mestre Yoda.",
+      "moreInfo": "The Mandalorian, criado por Jon Favreau, combina elementos de faroeste e ficção científica do universo Star Wars, conquistando fãs com sua narrativa cativante e personagens carismáticos.",
+      "date": "2024-05-10 04:00:00",
+      "clicks": 145,
+      "images": [
+        "../src/assets/image/150.jpg",
+        "../src/assets/image/151.jpg"
+      ],
+      "categories": [
+        "series"
+      ]
+    },
+    {
+      "id": "36",
+      "title": "Game of Thrones",
+      "info": "Uma série de televisão de fantasia épica que segue várias famílias nobres enquanto elas lutam pelo controle do Trono de Ferro em Westeros, um continente fictício cheio de intriga política e perigo.",
+      "moreInfo": "Game of Thrones, baseado nos livros de George R.R. Martin, é conhecido por suas reviravoltas chocantes, personagens complexos e produção visual deslumbrante.",
+      "date": "2024-05-10 05:00:00",
+      "clicks": 150,
+      "images": [
+        "../src/assets/image/152.jpg",
+        "../src/assets/image/153.jpg"
+      ],
+      "categories": [
+        "series"
+      ]
+    },
+    {
+      "id": "37",
+      "title": "Interestelar",
+      "info": "Um filme de ficção científica que segue uma equipe de astronautas em uma missão para encontrar um novo lar para a humanidade, explorando conceitos de espaço-tempo, amor e sobrevivência.",
+      "moreInfo": "Interestelar, dirigido por Christopher Nolan, é conhecido por seus efeitos visuais impressionantes, trilha sonora emocionante e exploração de teorias científicas complexas.",
+      "date": "2024-05-10 06:00:00",
+      "clicks": 155,
+      "images": [
+        "../src/assets/image/154.jpg",
+        "../src/assets/image/155.jpg"
+      ],
+      "categories": [
+        "movies"
+      ]
+    },
+    {
+      "id": "38",
+      "title": "The Big Bang Theory",
+      "info": "Uma série de televisão de comédia que segue um grupo de amigos nerds e sua convivência com uma vizinha que não tem afinidade com a cultura geek, explorando temas de amizade, amor e ciência.",
+      "moreInfo": "The Big Bang Theory, criado por Chuck Lorre e Bill Prady, é conhecido por seu humor inteligente, referências à cultura pop e elenco carismático.",
+      "date": "2024-05-10 07:00:00",
+      "clicks": 160,
+      "images": [
+        "../src/assets/image/156.jpg",
+        "../src/assets/image/157.jpg"
+      ],
+      "categories": [
+        "series"
+      ]
+    },
+    {
+      "id": "39",
+      "title": "Dois Homens e Meio",
+      "info": "Uma série de televisão de comédia que segue dois irmãos muito diferentes e o filho de um deles enquanto eles vivem juntos e enfrentam os altos e baixos da vida.",
+      "moreInfo": "Dois Homens e Meio, criado por Chuck Lorre e Lee Aronsohn, é conhecido por seu humor irreverente, diálogos afiados e performances memoráveis.",
+      "date": "2024-05-10 08:00:00",
+      "clicks": 165,
+      "images": [
+        "../src/assets/image/158.jpg",
+        "../src/assets/image/159.jpg"
+      ],
+      "categories": [
+        "series"
+      ]
+    },
+    {
+      "id": "40",
+      "title": "Star Wars: Episode I - A Ameaça Fantasma",
+      "info": "Um filme de ficção científica e fantasia que segue as aventuras de Qui-Gon Jinn, Obi-Wan Kenobi e Anakin Skywalker enquanto eles enfrentam a Federação de Comércio e descobrem o destino de Anakin como o Escolhido.",
+      "moreInfo": "Star Wars: Episode I - A Ameaça Fantasma é o primeiro filme da trilogia prequela de Star Wars, introduzindo novos personagens, locais e conflitos na galáxia muito, muito distante.",
+      "date": "2024-05-10 09:00:00",
+      "clicks": 170,
+      "images": [
+        "../src/assets/image/160.jpg",
+        "../src/assets/image/161.jpg"
+      ],
+      "categories": [
+        "movies"
+      ]
+    },
+    {
+      "id": "41",
+      "title": "Star Wars: Episode II - O Ataque dos Clones",
+      "info": "Um filme de ficção científica e fantasia que segue Anakin Skywalker e Padmé Amidala enquanto eles enfrentam conspirações e se apaixonam, enquanto Obi-Wan Kenobi investiga uma conspiração separatista.",
+      "moreInfo": "Star Wars: Episode II - O Ataque dos Clones é o segundo filme da trilogia prequela de Star Wars, expandindo a história e os personagens introduzidos no Episódio I.",
+      "date": "2024-05-10 10:00:00",
+      "clicks": 175,
+      "images": [
+        "../src/assets/image/162.jpg",
+        "../src/assets/image/163.jpg"
+      ],
+      "categories": [
+        "movies"
+      ]
+    },
+    {
+      "id": "42",
+      "title": "Star Wars: Episode III - A Vingança dos Sith",
+      "info": "Um filme de ficção científica e fantasia que segue a transformação de Anakin Skywalker em Darth Vader enquanto a República Galáctica entra em colapso e dá origem ao Império Galáctico.",
+      "moreInfo": "Star Wars: Episode III - A Vingança dos Sith é o terceiro filme da trilogia prequela de Star Wars, mostrando eventos cruciais que levam à criação do Império e à queda da Ordem Jedi.",
+      "date": "2024-05-10 11:00:00",
+      "clicks": 180,
+      "images": [
+        "../src/assets/image/164.jpg",
+        "../src/assets/image/165.jpg"
+      ],
+      "categories": [
+        "movies"
+      ]
+    },
+    {
+      "id": "43",
+      "title": "Star Wars: Episode IV - Uma Nova Esperança",
+      "info": "Um filme de ficção científica e fantasia que segue Luke Skywalker enquanto ele se junta à Rebelião contra o Império Galáctico e se torna um Jedi, lutando contra o tirano Darth Vader.",
+      "moreInfo": "Star Wars: Episode IV - Uma Nova Esperança é o primeiro filme da trilogia original de Star Wars, apresentando aos espectadores a jornada heróica de Luke Skywalker e os conflitos galácticos.",
+      "date": "2024-05-10 12:00:00",
+      "clicks": 185,
+      "images": [
+        "../src/assets/image/166.jpg",
+        "../src/assets/image/167.jpg"
+      ],
+      "categories": [
+        "movies"
+      ]
+    },
+    {
+      "id": "44",
+      "title": "Homem-Aranha: Longe de Casa",
+      "info": "Um filme de super-herói que segue Peter Parker enquanto ele viaja pela Europa em uma viagem escolar, mas é recrutado por Nick Fury para enfrentar ameaças elementais ao lado do misterioso Mysterio.",
+      "moreInfo": "Homem-Aranha: Longe de Casa é o segundo filme solo do Homem-Aranha no Universo Cinematográfico Marvel, explorando as consequências de Vingadores: Ultimato e o legado de Tony Stark.",
+      "date": "2024-05-10 13:00:00",
+      "clicks": 190,
+      "images": [
+        "../src/assets/image/168.jpg",
+        "../src/assets/image/169.jpg"
+      ],
+      "categories": [
+        "movies"
+      ]
+    },
+    {
+      "id": "45",
+      "title": "Peaky Blinders",
+      "info": "Uma série de televisão de drama que segue a família Shelby e sua gangue, os Peaky Blinders, enquanto eles navegam pelo submundo do crime em Birmingham, Inglaterra, na década de 1920.",
+      "moreInfo": "Peaky Blinders, criado por Steven Knight, é conhecido por sua atmosfera sombria, personagens complexos e tramas cheias de reviravoltas.",
+      "date": "2024-05-10 14:00:00",
+      "clicks": 195,
+      "images": [
+        "../src/assets/image/170.jpg",
+        "../src/assets/image/171.jpg"
+      ],
+      "categories": [
+        "series"
+      ]
+    },
+    {
+      "id": "46",
+      "title": "Shrek",
+      "info": "Um filme de animação que segue a jornada de Shrek, um ogro mal-humorado, enquanto ele tenta resgatar a princesa Fiona e restaurar sua paz e tranquilidade em seu pântano.",
+      "moreInfo": "Shrek é um clássico filme de animação da DreamWorks Animation, conhecido por sua comédia inteligente, personagens memoráveis e mensagens sobre aceitação e amizade.",
+      "date": "2024-05-10 15:00:00",
+      "clicks": 200,
+      "images": [
+        "../src/assets/image/172.jpg",
+        "../src/assets/image/173.jpg"
+      ],
+      "categories": [
+        "movies"
+      ]
+    },
+    {
+      "id": "47",
+      "title": "The Flash",
+      "info": "Uma série de televisão de super-heróis que segue Barry Allen, um cientista forense que adquire super velocidade após ser atingido por um raio, enquanto ele protege Central City como o Flash.",
+      "moreInfo": "The Flash, baseado no personagem da DC Comics, é conhecido por suas cenas de ação emocionantes, efeitos visuais impressionantes e explorar o multiverso.",
+      "date": "2024-05-10 16:00:00",
+      "clicks": 205,
+      "images": [
+        "../src/assets/image/174.jpg",
+        "../src/assets/image/175.jpg"
+      ],
+      "categories": [
+        "series"
+      ]
+    },
+    {
+      "id": "48",
+      "title": "Dragon Ball Z",
+      "info": "Um anime que continua a história de Dragon Ball, seguindo as aventuras de Goku adulto e seus amigos enquanto eles enfrentam ameaças cada vez mais poderosas, incluindo seres de outros planetas e androides assassinos.",
+      "moreInfo": "Dragon Ball Z é uma continuação direta de Dragon Ball, criado por Akira Toriyama, e é conhecido por suas batalhas épicas, transformações de poder e personagens icônicos.",
+      "date": "2024-05-10 17:00:00",
+      "clicks": 210,
+      "images": [
+        "../src/assets/image/176.jpg",
+        "../src/assets/image/177.jpg"
+      ],
+      "categories": [
+        "animes"
+      ]
+    },
+    {
+      "id": "49",
+      "title": "Red Dead Redemption 2",
+      "info": "Um jogo eletrônico de ação-aventura que segue Arthur Morgan, um fora da lei e membro da gangue Van der Linde, enquanto ele busca sobreviver em um mundo aberto implacável durante os últimos anos do Velho Oeste americano.",
+      "moreInfo": "Red Dead Redemption 2, desenvolvido pela Rockstar Games, é conhecido por sua história envolvente, vasto mundo aberto e detalhes realistas, oferecendo uma experiência imersiva de vida no Velho Oeste.",
+      "date": "2024-05-10 18:00:00",
+      "clicks": 215,
+      "images": [
+        "../src/assets/image/178.jpg",
+        "../src/assets/image/179.jpg"
+      ],
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "id": "50",
+      "title": "GTA IV",
+      "info": "Um jogo eletrônico de ação-aventura que segue Niko Bellic, um imigrante do Leste Europeu, enquanto ele se envolve em atividades criminosas e busca o sonho americano em Liberty City.",
+      "moreInfo": "Grand Theft Auto IV, desenvolvido pela Rockstar Games, é conhecido por sua narrativa sombria, personagens complexos e vasto mundo aberto urbano, explorando temas como crime, corrupção e imigração.",
+      "date": "2024-05-10 19:00:00",
+      "clicks": 220,
+      "images": [
+        "../src/assets/image/180.jpg",
+        "../src/assets/image/181.jpg"
+      ],
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "id": "51",
+      "title": "The Office",
+      "info": "Uma série de televisão de comédia que segue os funcionários do escritório de uma empresa de papel em Scranton, Pensilvânia, enquanto eles lidam com o cotidiano do ambiente de trabalho, interações sociais e um chefe peculiar.",
+      "moreInfo": "The Office, criado por Greg Daniels e baseado na série britânica de mesmo nome de Ricky Gervais e Stephen Merchant, é conhecido por seu humor seco, personagens cativantes e formato de falso documentário.",
+      "date": "2024-05-10 20:00:00",
+      "clicks": 225,
+      "images": [
+        "../src/assets/image/182.jpg",
+        "../src/assets/image/183.jpg"
+      ],
+      "categories": [
+        "series"
+      ]
+    },
+    {
+      "id": "52",
+      "title": "Grey's Anatomy",
+      "info": "Uma série de televisão médica que segue a vida pessoal e profissional dos médicos e residentes do Grey Sloan Memorial Hospital, enquanto eles lidam com casos médicos complexos, relacionamentos e dramas pessoais.",
+      "moreInfo": "Grey's Anatomy, criado por Shonda Rhimes, é conhecido por sua longevidade, narrativas emocionantes e representação realista da vida no ambiente hospitalar.",
+      "date": "2024-05-10 21:00:00",
+      "clicks": 230,
+      "images": [
+        "../src/assets/image/184.jpg",
+        "../src/assets/image/185.jpg"
+      ],
+      "categories": [
+        "series"
+      ]
+    },
+    {
+      "id": "53",
+      "title": "The Witcher (2019)",
+      "info": "Uma série de televisão de fantasia baseada na série de livros de mesmo nome de Andrzej Sapkowski, que segue o bruxo Geralt de Rivia enquanto ele caça monstros e lida com as intrigas políticas do continente de The Witcher.",
+      "moreInfo": "The Witcher, estrelado por Henry Cavill como Geralt de Rivia, é conhecido por sua atmosfera sombria, cenas de ação empolgantes e fidelidade aos livros de fantasia.",
+      "date": "2024-05-10 22:00:00",
+      "clicks": 235,
+      "images": [
+        "../src/assets/image/186.jpg",
+        "../src/assets/image/187.jpg"
+      ],
+      "categories": [
+        "series"
+      ]
+    },
+    {
+      "id": "54",
+      "title": "The Witcher: Lenda do Lobo",
+      "info": "Um filme de animação que explora as origens do personagem Vesemir, um bruxo veterano do universo de The Witcher, enquanto ele enfrenta um poderoso monstro que ameaça um reino.",
+      "moreInfo": "The Witcher: Lenda do Lobo é um filme animado baseado na série de livros e jogos de The Witcher, expandindo o universo e explorando novos personagens e histórias.",
+      "date": "2024-05-10 23:00:00",
+      "clicks": 240,
+      "images": [
+        "../src/assets/image/188.jpg",
+        "../src/assets/image/189.jpg"
+      ],
+      "categories": [
+        "movies"
+      ]
+    },
+    {
+      "id": "55",
+      "title": "Rocket League",
+      "info": "Um jogo eletrônico que combina futebol com veículos controlados por jogadores em uma arena futurista, onde os jogadores competem para marcar gols usando carros com propulsores.",
+      "moreInfo": "Rocket League, desenvolvido pela Psyonix, é conhecido por sua jogabilidade única, partidas rápidas e competitivas, e uma comunidade ativa de jogadores.",
+      "date": "2024-05-11 00:00:00",
+      "clicks": 245,
+      "images": [
+        "../src/assets/image/190.jpg",
+        "../src/assets/image/191.jpg"
+      ],
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "id": "56",
+      "title": "Fortnite",
+      "info": "Um jogo eletrônico de batalha real que coloca jogadores uns contra os outros em uma ilha, onde eles devem coletar recursos, construir estruturas e lutar para ser o último sobrevivente.",
+      "moreInfo": "Fortnite, desenvolvido pela Epic Games, é conhecido por seu estilo de arte único, eventos colaborativos e atualizações frequentes, mantendo os jogadores engajados em sua jogabilidade competitiva.",
+      "date": "2024-05-11 01:00:00",
+      "clicks": 250,
+      "images": [
+        "../src/assets/image/192.jpg",
+        "../src/assets/image/193.jpg"
+      ],
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "id": "57",
+      "title": "Star Wars Jedi: Fallen Order",
+      "info": "Um jogo eletrônico de ação e aventura que segue Cal Kestis, um jovem Padawan sobrevivente da Ordem Jedi após a execução da Ordem 66, enquanto ele foge do Império e busca completar seu treinamento Jedi.",
+      "moreInfo": "Star Wars Jedi: Fallen Order, desenvolvido pela Respawn Entertainment, é elogiado por sua narrativa envolvente, combate desafiador e fidelidade ao universo de Star Wars.",
+      "date": "2024-05-11 02:00:00",
+      "clicks": 156,
+      "images": [
+        "../src/assets/image/194.jpg",
+        "../src/assets/image/195.jpg"
+      ],
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "id": "58",
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "info": "Um anime que segue os irmãos alquimistas Edward e Alphonse Elric enquanto eles buscam a Pedra Filosofal para restaurar seus corpos após uma tentativa de ressurreição malsucedida. Eles enfrentam conspirações, segredos do passado e os perigos da alquimia proibida em sua jornada.",
+      "moreInfo": "Fullmetal Alchemist: Brotherhood é uma adaptação fiel do mangá Fullmetal Alchemist de Hiromu Arakawa, conhecida por sua história complexa, personagens cativantes e temas filosóficos profundos.",
+      "date": "2024-05-11 03:00:00",
+      "clicks": 60,
+      "images": [
+        "../src/assets/image/196.jpg",
+        "../src/assets/image/197.jpg"
+      ],
+      "categories": [
+        "animes"
+      ]
+    },
+    {
+      "id": "59",
+      "title": "Death Note",
+      "info": "Um anime que segue Light Yagami, um estudante do ensino médio que encontra um caderno sobrenatural chamado Death Note, que lhe dá o poder de matar qualquer pessoa cujo nome ele escrever nele. Ele começa a usar o Death Note para punir criminosos e criar um mundo livre do mal, mas seus atos atraem a atenção de um detetive genial chamado L.",
+      "moreInfo": "Death Note, criado por Tsugumi Ohba e Takeshi Obata, é conhecido por sua narrativa intensa, intrincada batalha mental entre Light e L, e exploração de temas morais e éticos.",
+      "date": "2024-05-11 04:00:00",
+      "clicks": 65,
+      "images": [
+        "../src/assets/image/198.jpg",
+        "../src/assets/image/199.jpg"
       ],
       "categories": [
         "animes"
