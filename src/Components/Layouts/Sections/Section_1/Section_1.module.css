@@ -31,6 +31,10 @@
   overflow: hidden;
 }
 
+.imageContent {
+  max-height: 100% !important;
+}
+
 .imageContent:first-child {
   grid-area: first;
 }

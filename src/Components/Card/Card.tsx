@@ -1,12 +1,13 @@
 import styles from "./Card.module.css";
 import Modal from "../Helper/Modal/Modal";
 import { useNavigate } from "react-router-dom";
+import { Images } from "../../Types/types";
 
 
 type typeCard = {
   id: number;
   title: string;
-  images: string[];
+  images: Images;
   activeFunction?: boolean;
   info?: string;
   classStyle?: CSSModuleClasses[string];
@@ -31,7 +32,7 @@ const Card = ({ id, title, images, info, classStyle, activeFunction = true, noLa
       onClick={activeFunction ? () => openPage(id): ()=> ''}>
         <Modal stylesFrom={styles.configModal} />
         <img
-        src={images.length === 0 ? "../src/assets/image/WithoutPhoto/elric.jpg" : images[0] }
+        src={!images.card ? "../src/assets/image/WithoutPhoto/elric.jpg" : images.card }
         alt={`Foto de ${title}`}
         />
         <h2>{title}</h2>

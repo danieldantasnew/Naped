@@ -3,11 +3,12 @@ import styles from './Cover.module.css';
 import Modal from '../Helper/Modal/Modal';
 import H2 from '../Helper/H2/H2';
 import useAutoSlideTransition from '../../Hooks/useAutoSlideTransition';
+import { Naped } from '../../Types/types';
 
 type CoverType = {
   title: string;
   description: string;
-  image: string[];
+  image: Naped[];
   slideStart: number;
   slideEnd: number;
 }
@@ -42,9 +43,9 @@ const Cover = ({ title, description, image, slideStart, slideEnd }: CoverType) =
             stylesFrom={styles.configModal}
           />
         <img
-          src={image[slide] === undefined ?
+          src={!image[slide].images.customSecondImage ?
             "../src/assets/image/WithoutPhoto/elric.jpg" :
-            image[slide]
+            image[slide].images.customSecondImage
           }
           alt={`Capa da categoria ${title}`} />
       </div>

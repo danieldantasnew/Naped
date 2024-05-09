@@ -4,6 +4,7 @@ import Button from "../Form/Button/Button";
 import styles from "./CardDetails.module.css";
 import StringToDate from "../../Functions/StringToDate/StringToDate";
 import FormatDate from "../../Functions/NormalizeDate/FormatDate";
+import { Images } from "../../Types/types";
 
 type typeCardDetails = {
   id: number;
@@ -11,7 +12,7 @@ type typeCardDetails = {
   info: string;
   moreInfo: string;
   date: string;
-  images: string[];
+  images: Images;
 }
 
 const CardDetails = ({ id, images, title, info, moreInfo, date }: typeCardDetails) => {

@@ -3,7 +3,6 @@ import styles from "./Section_1.module.css";
 import { Naped } from "../../../../Types/types";
 import Card from "../../../Card/Card";
 import useAutoSlideTransition from "../../../../Hooks/useAutoSlideTransition";
-import useMobile from "../../../../Hooks/useMobile";
 
 function observerAutoSlide(data: Naped[], stateSlide: number) {
   if (stateSlide + 3 === data.length + 1) {

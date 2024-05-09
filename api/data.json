@@ -7,10 +7,11 @@
       "moreInfo": "The Walking Dead é baseado na série de quadrinhos de mesmo nome por Robert Kirkman, Tony Moore e Charlie Adlard. A série ganhou numerosos prêmios e elogios da crítica ao longo de suas temporadas.",
       "date": "2023-12-31 05:35:42",
       "clicks": 101,
-      "images": [
-        "../src/assets/image/02.png",
-        "../src/assets/image/135.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/02.png",
+        "largeSecondImage": "../src/assets/image/largeImages/135.jpg",
+        "customSecondImage": "../src/assets/image/customImages/135.jpg"
+      },
       "categories": [
         "series"
       ]
@@ -22,10 +23,11 @@
       "moreInfo": "Attack on Titan, também conhecido como Shingeki no Kyojin, é uma série de mangá escrita e ilustrada por Hajime Isayama. Ganhou grande popularidade internacional desde o lançamento de sua adaptação para anime em 2013.",
       "date": "2023-12-30 02:14:12",
       "clicks": 100,
-      "images": [
-        "../src/assets/image/01.png",
-        "../src/assets/image/137.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/01.png",
+        "largeSecondImage": "../src/assets/image/largeImages/137.jpg",
+        "customSecondImage": "../src/assets/image/customImages/137.jpg"
+      },
       "categories": [
         "animes"
       ]
@@ -37,10 +39,11 @@
       "moreInfo": "League of Legends, desenvolvido e publicado pela Riot Games, é um dos jogos mais jogados do mundo, com uma grande base de fãs e uma cena competitiva vibrante.",
       "date": "2023-12-29 02:35:42",
       "clicks": 94,
-      "images": [
-        "../src/assets/image/146.jpg",
-        "../src/assets/image/138.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/146.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/138.jpg",
+        "customSecondImage": "../src/assets/image/customImages/138.jpg"
+      },
       "categories": [
         "games"
       ]
@@ -52,10 +55,11 @@
       "moreInfo": "Criado por Masashi Kishimoto, Naruto se tornou uma das franquias de anime e mangá mais populares em todo o mundo, com uma extensa lista de personagens e uma história emocionante.",
       "date": "2023-12-28 04:15:32",
       "clicks": 90,
-      "images": [
-        "../src/assets/image/16.png",
-        "../src/assets/image/12.png"
-      ],
+      "images": {
+        "card": "../src/assets/image/16.png",
+        "largeSecondImage": "../src/assets/image/largeImages/12.png",
+        "customSecondImage": "../src/assets/image/customImages/12.png"
+      },
       "categories": [
         "animes"
       ]
@@ -67,10 +71,11 @@
       "moreInfo": "Deadpool, também conhecido como Wade Wilson, foi criado por Rob Liefeld e Fabian Nicieza. Ele se destaca por seu estilo único entre os super-heróis da Marvel.",
       "date": "2023-12-27 10:32:13",
       "clicks": 89,
-      "images": [
-        "../src/assets/image/15.png",
-        "../src/assets/image/139.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/15.png",
+        "largeSecondImage": "../src/assets/image/largeImages/139.jpg",
+        "customSecondImage": "../src/assets/image/customImages/139.jpg"
+      },
       "categories": [
         "movies"
       ]
@@ -82,10 +87,11 @@
       "moreInfo": "Minecraft, desenvolvido pela Mojang Studios, tornou-se um fenômeno cultural desde seu lançamento em 2011, com uma comunidade de jogadores ativos e uma infinidade de mods e expansões.",
       "date": "2023-12-26 01:41:32",
       "clicks": 88,
-      "images": [
-        "../src/assets/image/09.png",
-        "../src/assets/image/140.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/09.png",
+        "largeSecondImage": "../src/assets/image/largeImages/140.jpg",
+        "customSecondImage": "../src/assets/image/customImages/140.jpg"
+      },
       "categories": [
         "games"
       ]
@@ -97,10 +103,11 @@
       "moreInfo": "Escrita por J.K. Rowling, a série Harry Potter se tornou um fenômeno global, com filmes de sucesso e uma base de fãs dedicada em todo o mundo.",
       "date": "2023-12-24 09:11:36",
       "clicks": 85,
-      "images": [
-        "../src/assets/image/05.png",
-        "../src/assets/image/141.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/05.png",
+        "largeSecondImage": "../src/assets/image/largeImages/141.jpg",
+        "customSecondImage": "../src/assets/image/customImages/141.jpg"
+      },
       "categories": [
         "movies"
       ]
@@ -112,10 +119,11 @@
       "moreInfo": "Supernatural, criado por Eric Kripke, é uma das séries de TV mais longas e populares da história, com uma base de fãs leal e um legado duradouro.",
       "date": "2023-12-22 01:41:32",
       "clicks": 76,
-      "images": [
-        "../src/assets/image/14.png",
-        "../src/assets/image/136.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/14.png",
+        "largeSecondImage": "../src/assets/image/largeImages/136.jpg",
+        "customSecondImage": "../src/assets/image/customImages/136.jpg"
+      },
       "categories": [
         "series"
       ]
@@ -127,10 +135,11 @@
       "moreInfo": "Dirigido por Hayao Miyazaki, The Wind Rises é conhecido por sua beleza visual e narrativa envolvente, explorando temas de amor, criatividade e os horrores da guerra.",
       "date": "2024-05-03 01:41:32",
       "clicks": 29,
-      "images": [
-        "../src/assets/image/17.png",
-        "../src/assets/image/18.png"
-      ],
+      "images": {
+        "card": "../src/assets/image/17.png",
+        "largeSecondImage": "../src/assets/image/largeImages/18.png",
+        "customSecondImage": "../src/assets/image/customImages/18.png"
+      },
       "categories": [
         "animes",
         "movies"
@@ -143,10 +152,11 @@
       "moreInfo": "Grand Theft Auto V, desenvolvido pela Rockstar Games, é um dos jogos mais vendidos de todos os tempos, conhecido por sua jogabilidade imersiva e vasto mundo aberto.",
       "date": "2024-05-02 00:21:34",
       "clicks": 44,
-      "images": [
-        "../src/assets/image/10.png",
-        "../src/assets/image/142.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/10.png",
+        "largeSecondImage": "../src/assets/image/largeImages/142.jpg",
+        "customSecondImage": "../src/assets/image/customImages/142.jpg"
+      },
       "categories": [
         "games"
       ]
@@ -158,10 +168,11 @@
       "moreInfo": "Vikings, criado por Michael Hirst, combina elementos de drama, ação e intriga política em sua representação da Era Viking, ganhando elogios por sua precisão histórica e performances.",
       "date": "2024-05-01 02:34:12",
       "clicks": 34,
-      "images": [
-        "../src/assets/image/19.png",
-        "../src/assets/image/143.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/19.png",
+        "largeSecondImage": "../src/assets/image/largeImages/143.jpg",
+        "customSecondImage": "../src/assets/image/customImages/143.jpg"
+      },
       "categories": [
         "series"
       ]
@@ -173,10 +184,11 @@
       "moreInfo": "Soul, dirigido por Pete Docter e co-dirigido por Kemp Powers, recebeu aclamação da crítica por sua abordagem madura e emocionante sobre temas de identidade, propósito e paixão.",
       "date": "2024-04-30 03:21:34",
       "clicks": 61,
-      "images": [
-        "../src/assets/image/13.png",
-        "../src/assets/image/144.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/13.png",
+        "largeSecondImage": "../src/assets/image/largeImages/144.jpg",
+        "customSecondImage": "../src/assets/image/customImages/144.jpg"
+      },
       "categories": [
         "movies"
       ]
@@ -188,10 +200,11 @@
       "moreInfo": "Kimi no Na wa, também conhecido como Your Name, dirigido por Makoto Shinkai, é conhecido por sua bela animação e emocionante história de amor transcultural.",
       "date": "2024-04-28 01:23:15",
       "clicks": 24,
-      "images": [
-        "../src/assets/image/20.png",
-        "../src/assets/image/145.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/20.png",
+        "largeSecondImage": "../src/assets/image/largeImages/145.jpg",
+        "customSecondImage": "../src/assets/image/customImages/145.jpg"
+      },
       "categories": [
         "animes",
         "movies"
@@ -204,10 +217,11 @@
       "moreInfo": "League of Legends: Wild Rift traz a jogabilidade estratégica e os personagens icônicos de League of Legends para dispositivos móveis, permitindo que os jogadores participem de batalhas emocionantes em movimento.",
       "date": "2024-04-26 02:14:12",
       "clicks": 34,
-      "images": [
-        "../src/assets/image/07.png",
-        "../src/assets/image/04.png"
-      ],
+      "images": {
+        "card": "../src/assets/image/07.png",
+        "largeSecondImage": "../src/assets/image/largeImages/04.png",
+        "customSecondImage": "../src/assets/image/customImages/04.png"
+      },
       "categories": [
         "games"
       ]
@@ -219,10 +233,11 @@
       "moreInfo": "A Viagem de Chihiro, dirigido por Hayao Miyazaki, é considerado um dos maiores filmes de animação de todos os tempos, ganhando o Oscar de Melhor Filme de Animação em 2003.",
       "date": "2024-04-21 01:23:15",
       "clicks": 44,
-      "images": [
-        "../src/assets/image/03.png",
-        "../src/assets/image/147.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/03.png",
+        "largeSecondImage": "../src/assets/image/largeImages/147.jpg",
+        "customSecondImage": "../src/assets/image/customImages/147.jpg"
+      },
       "categories": [
         "movies",
         "animes"
@@ -235,10 +250,11 @@
       "moreInfo": "Dirigido por David Fincher e escrito por Aaron Sorkin, A Rede Social é baseado no livro de Ben Mezrich e recebeu elogios por suas performances e roteiro inteligente.",
       "date": "2024-04-20 01:23:15",
       "clicks": 15,
-      "images": [
-        "../src/assets/image/06.png",
-        "../src/assets/image/148.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/06.png",
+        "largeSecondImage": "../src/assets/image/largeImages/148.jpg",
+        "customSecondImage": "../src/assets/image/customImages/148.jpg"
+      },
       "categories": [
         "movies"
       ]
@@ -250,10 +266,11 @@
       "moreInfo": "God of War (2018), desenvolvido pela Santa Monica Studio, é uma reimaginação da série, adotando uma nova ambientação na mitologia nórdica. O jogo é conhecido por sua narrativa emocionante, jogabilidade desafiadora e gráficos de tirar o fôlego, recebendo inúmeros prêmios e elogios da crítica.",
       "date": "2024-04-19 01:23:15",
       "clicks": 6,
-      "images": [
-        "../src/assets/image/11.png",
-        "../src/assets/image/149.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/11.png",
+        "largeSecondImage": "../src/assets/image/largeImages/149.jpg",
+        "customSecondImage": "../src/assets/image/customImages/149.jpg"
+      },
       "categories": [
         "games"
       ]
@@ -265,10 +282,11 @@
       "moreInfo": "Dragon Ball GT é uma continuação da série Dragon Ball Z, expandindo o universo e apresentando novos vilões e transformações.",
       "date": "2024-05-09 10:00:00",
       "clicks": 50,
-      "images": [
-        "../src/assets/image/100.jpg",
-        "../src/assets/image/101.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/100.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/101.jpg",
+        "customSecondImage": "../src/assets/image/customImages/101.jpg"
+      },
       "categories": [
         "animes"
       ]
@@ -280,10 +298,11 @@
       "moreInfo": "Boruto é uma sequência direta da série Naruto, expandindo o mundo ninja e introduzindo uma nova geração de personagens.",
       "date": "2024-05-09 11:00:00",
       "clicks": 55,
-      "images": [
-        "../src/assets/image/102.jpg",
-        "../src/assets/image/103.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/102.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/103.jpeg",
+        "customSecondImage": "../src/assets/image/customImages/103.jpeg"
+      },
       "categories": [
         "animes"
       ]
@@ -295,10 +314,11 @@
       "moreInfo": "South Park: A Fenda que Abunda Força apresenta o humor irreverente e satírico característico da série, combinado com jogabilidade de RPG e uma história hilária.",
       "date": "2024-05-09 12:00:00",
       "clicks": 60,
-      "images": [
-        "../src/assets/image/103.jpeg",
-        "../src/assets/image/104.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/103.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/104.jpg",
+        "customSecondImage": "../src/assets/image/customImages/104.jpg"
+      },
       "categories": [
         "games"
       ]
@@ -310,10 +330,11 @@
       "moreInfo": "Bob Esponja: O Filme combina animação divertida com humor inteligente, cativando crianças e adultos com suas piadas e personagens peculiares.",
       "date": "2024-05-09 13:00:00",
       "clicks": 70,
-      "images": [
-        "../src/assets/image/105.jpg",
-        "../src/assets/image/106.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/105.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/106.jpg",
+        "customSecondImage": "../src/assets/image/customImages/106.jpg"
+      },
       "categories": [
         "movies"
       ]
@@ -325,10 +346,11 @@
       "moreInfo": "Oppenheimer, dirigido por Christopher Nolan, explora os dilemas éticos e morais enfrentados por Oppenheimer ao desenvolver a primeira bomba atômica.",
       "date": "2024-05-09 14:00:00",
       "clicks": 75,
-      "images": [
-        "../src/assets/image/107.jpg",
-        "../src/assets/image/108.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/107.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/108.jpg",
+        "customSecondImage": "../src/assets/image/customImages/108.jpg"
+      },
       "categories": [
         "movies"
       ]
@@ -340,10 +362,11 @@
       "moreInfo": "Vingadores: Ultimato é o clímax da saga do Universo Cinematográfico Marvel, apresentando batalhas épicas e momentos emocionantes para os fãs de quadrinhos.",
       "date": "2024-05-09 15:00:00",
       "clicks": 80,
-      "images": [
-        "../src/assets/image/109.png",
-        "../src/assets/image/110.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/109.png",
+        "largeSecondImage": "../src/assets/image/largeImages/110.jpg",
+        "customSecondImage": "../src/assets/image/customImages/110.jpg"
+      },
       "categories": [
         "movies"
       ]
@@ -355,10 +378,11 @@
       "moreInfo": "Capitão América: Guerra Civil apresenta uma batalha interna entre os Vingadores, dividindo-os em dois lados e questionando suas lealdades e crenças.",
       "date": "2024-05-09 16:00:00",
       "clicks": 95,
-      "images": [
-        "../src/assets/image/112.jpg",
-        "../src/assets/image/111.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/112.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/111.jpg",
+        "customSecondImage": "../src/assets/image/customImages/111.jpg"
+      },
       "categories": [
         "movies"
       ]
@@ -372,7 +396,7 @@
       "clicks": 92,
       "images": [
         "../src/assets/image/114.jpg",
-        "../src/assets/image/113.jpg"
+        "../src/assets/image/customImages/113.jpg"
       ],
       "categories": [
         "movies"
@@ -385,10 +409,11 @@
       "moreInfo": "Ben 10: Força Alienígena é uma continuação da série original Ben 10, explorando novas aventuras e inimigos para Ben e seus amigos.",
       "date": "2024-05-09 18:00:00",
       "clicks": 95,
-      "images": [
-        "../src/assets/image/116.jpg",
-        "../src/assets/image/115.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/116.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/115.jpg",
+        "customSecondImage": "../src/assets/image/customImages/115.jpg"
+      },
       "categories": [
         "series"
       ]
@@ -400,10 +425,11 @@
       "moreInfo": "Stranger Things, criado pelos irmãos Duffer, combina elementos de suspense, ficção científica e nostalgia dos anos 80, ganhando uma base de fãs dedicada em todo o mundo.",
       "date": "2024-05-09 19:00:00",
       "clicks": 102,
-      "images": [
-        "../src/assets/image/117.jpg",
-        "../src/assets/image/118.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/117.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/118.jpg",
+        "customSecondImage": "../src/assets/image/customImages/118.jpg"
+      },
       "categories": [
         "series"
       ]
@@ -415,10 +441,11 @@
       "moreInfo": "The Batman (2022), dirigido por Matt Reeves e estrelado por Robert Pattinson, apresenta uma abordagem sombria e mais investigativa do icônico vigilante mascarado.",
       "date": "2024-05-09 20:00:00",
       "clicks": 107,
-      "images": [
-        "../src/assets/image/120.jpg",
-        "../src/assets/image/119.jpeg"
-      ],
+      "images": {
+        "card": "../src/assets/image/120.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/119.jpeg",
+        "customSecondImage": "../src/assets/image/customImages/119.jpeg"
+      },
       "categories": [
         "movies"
       ]
@@ -430,10 +457,11 @@
       "moreInfo": "Coringa (2019), dirigido por Todd Phillips e estrelado por Joaquin Phoenix, é uma exploração sombria e psicológica do personagem, ganhando aclamação da crítica e do público.",
       "date": "2024-05-09 21:00:00",
       "clicks": 115,
-      "images": [
-        "../src/assets/image/122.jpg",
-        "../src/assets/image/121.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/122.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/121.jpg",
+        "customSecondImage": "../src/assets/image/customImages/121.jpg"
+      },
       "categories": [
         "movies"
       ]
@@ -445,10 +473,11 @@
       "moreInfo": "Fallout 4, desenvolvido pela Bethesda Game Studios, é conhecido por sua vasta exploração, construção de assentamentos e narrativa ramificada.",
       "date": "2024-05-09 22:00:00",
       "clicks": 118,
-      "images": [
-        "../src/assets/image/123.jpeg",
-        "../src/assets/image/124.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/123.jpeg",
+        "largeSecondImage": "../src/assets/image/largeImages/124.jpg",
+        "customSecondImage": "../src/assets/image/customImages/124.jpg"
+      },
       "categories": [
         "games"
       ]
@@ -460,10 +489,11 @@
       "moreInfo": "Fallout 3, desenvolvido pela Bethesda Game Studios, é conhecido por sua atmosfera sombria, escolhas morais complexas e mundo aberto detalhado.",
       "date": "2024-05-09 23:00:00",
       "clicks": 120,
-      "images": [
-        "../src/assets/image/125.jpg",
-        "../src/assets/image/126.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/125.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/126.jpg",
+        "customSecondImage": "../src/assets/image/customImages/126.jpg"
+      },
       "categories": [
         "games"
       ]
@@ -475,10 +505,11 @@
       "moreInfo": "Fallout: New Vegas, desenvolvido pela Obsidian Entertainment, é elogiado por sua narrativa ramificada, personagens memoráveis e escolhas significativas do jogador.",
       "date": "2024-05-10 00:00:00",
       "clicks": 125,
-      "images": [
-        "../src/assets/image/127.jpg",
-        "../src/assets/image/128.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/127.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/128.jpg",
+        "customSecondImage": "../src/assets/image/customImages/128.jpg"
+      },
       "categories": [
         "games"
       ]
@@ -490,10 +521,11 @@
       "moreInfo": "The Witcher 3: Wild Hunt, desenvolvido pela CD Projekt Red, é aclamado por sua narrativa envolvente, personagens complexos e gráficos deslumbrantes, oferecendo aos jogadores uma experiência épica de fantasia.",
       "date": "2024-05-10 01:00:00",
       "clicks": 130,
-      "images": [
-        "../src/assets/image/129.jpg",
-        "../src/assets/image/130.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/129.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/130.jpg",
+        "customSecondImage": "../src/assets/image/customImages/130.jpg"
+      },
       "categories": [
         "games"
       ]
@@ -505,10 +537,11 @@
       "moreInfo": "Red Dead Redemption, desenvolvido pela Rockstar Games, é conhecido por sua narrativa envolvente, ambientação detalhada e mecânicas de jogo imersivas.",
       "date": "2024-05-10 02:00:00",
       "clicks": 135,
-      "images": [
-        "../src/assets/image/131.jpg",
-        "../src/assets/image/132.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/131.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/132.jpg",
+        "customSecondImage": "../src/assets/image/customImages/132.jpg"
+      },
       "categories": [
         "games"
       ]
@@ -520,10 +553,11 @@
       "moreInfo": "The Boys, criado por Eric Kripke, é conhecido por sua abordagem irreverente e subversiva do gênero de super-heróis, explorando temas de fama, poder e corrupção.",
       "date": "2024-05-10 03:00:00",
       "clicks": 140,
-      "images": [
-        "../src/assets/image/134.jpg",
-        "../src/assets/image/133.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/133.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/134.jpg",
+        "customSecondImage": "../src/assets/image/customImages/134.jpg"
+      },
       "categories": [
         "series"
       ]
@@ -535,10 +569,11 @@
       "moreInfo": "The Mandalorian, criado por Jon Favreau, combina elementos de faroeste e ficção científica do universo Star Wars, conquistando fãs com sua narrativa cativante e personagens carismáticos.",
       "date": "2024-05-10 04:00:00",
       "clicks": 145,
-      "images": [
-        "../src/assets/image/150.jpg",
-        "../src/assets/image/151.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/150.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/151.jpg",
+        "customSecondImage": "../src/assets/image/customImages/151.jpg"
+      },
       "categories": [
         "series"
       ]
@@ -550,10 +585,11 @@
       "moreInfo": "Game of Thrones, baseado nos livros de George R.R. Martin, é conhecido por suas reviravoltas chocantes, personagens complexos e produção visual deslumbrante.",
       "date": "2024-05-10 05:00:00",
       "clicks": 150,
-      "images": [
-        "../src/assets/image/152.jpg",
-        "../src/assets/image/153.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/152.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/153.jpg",
+        "customSecondImage": "../src/assets/image/customImages/153.jpg"
+      },
       "categories": [
         "series"
       ]
@@ -565,10 +601,11 @@
       "moreInfo": "Interestelar, dirigido por Christopher Nolan, é conhecido por seus efeitos visuais impressionantes, trilha sonora emocionante e exploração de teorias científicas complexas.",
       "date": "2024-05-10 06:00:00",
       "clicks": 155,
-      "images": [
-        "../src/assets/image/154.jpg",
-        "../src/assets/image/155.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/154.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/155.jpg",
+        "customSecondImage": "../src/assets/image/customImages/155.jpg"
+      },
       "categories": [
         "movies"
       ]
@@ -580,10 +617,11 @@
       "moreInfo": "The Big Bang Theory, criado por Chuck Lorre e Bill Prady, é conhecido por seu humor inteligente, referências à cultura pop e elenco carismático.",
       "date": "2024-05-10 07:00:00",
       "clicks": 160,
-      "images": [
-        "../src/assets/image/156.jpg",
-        "../src/assets/image/157.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/156.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/157.jpg",
+        "customSecondImage": "../src/assets/image/customImages/157.jpg"
+      },
       "categories": [
         "series"
       ]
@@ -595,70 +633,75 @@
       "moreInfo": "Dois Homens e Meio, criado por Chuck Lorre e Lee Aronsohn, é conhecido por seu humor irreverente, diálogos afiados e performances memoráveis.",
       "date": "2024-05-10 08:00:00",
       "clicks": 165,
-      "images": [
-        "../src/assets/image/158.jpg",
-        "../src/assets/image/159.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/158.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/159.jpg",
+        "customSecondImage": "../src/assets/image/customImages/159.jpg"
+      },
       "categories": [
         "series"
       ]
     },
     {
       "id": "40",
-      "title": "Star Wars: Episode I - A Ameaça Fantasma",
+      "title": "Star Wars: Episódio I - A Ameaça Fantasma",
       "info": "Um filme de ficção científica e fantasia que segue as aventuras de Qui-Gon Jinn, Obi-Wan Kenobi e Anakin Skywalker enquanto eles enfrentam a Federação de Comércio e descobrem o destino de Anakin como o Escolhido.",
-      "moreInfo": "Star Wars: Episode I - A Ameaça Fantasma é o primeiro filme da trilogia prequela de Star Wars, introduzindo novos personagens, locais e conflitos na galáxia muito, muito distante.",
+      "moreInfo": "Star Wars: Episódio I - A Ameaça Fantasma é o primeiro filme da trilogia prequela de Star Wars, introduzindo novos personagens, locais e conflitos na galáxia muito, muito distante.",
       "date": "2024-05-10 09:00:00",
       "clicks": 170,
-      "images": [
-        "../src/assets/image/160.jpg",
-        "../src/assets/image/161.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/160.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/161.jpg",
+        "customSecondImage": "../src/assets/image/customImages/161.jpg"
+      },
       "categories": [
         "movies"
       ]
     },
     {
       "id": "41",
-      "title": "Star Wars: Episode II - O Ataque dos Clones",
+      "title": "Star Wars: Episódio II - O Ataque dos Clones",
       "info": "Um filme de ficção científica e fantasia que segue Anakin Skywalker e Padmé Amidala enquanto eles enfrentam conspirações e se apaixonam, enquanto Obi-Wan Kenobi investiga uma conspiração separatista.",
-      "moreInfo": "Star Wars: Episode II - O Ataque dos Clones é o segundo filme da trilogia prequela de Star Wars, expandindo a história e os personagens introduzidos no Episódio I.",
+      "moreInfo": "Star Wars: Episódio II - O Ataque dos Clones é o segundo filme da trilogia prequela de Star Wars, expandindo a história e os personagens introduzidos no Episódio I.",
       "date": "2024-05-10 10:00:00",
       "clicks": 175,
-      "images": [
-        "../src/assets/image/162.jpg",
-        "../src/assets/image/163.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/162.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/163.jpg",
+        "customSecondImage": "../src/assets/image/customImages/163.jpg"
+      },
       "categories": [
         "movies"
       ]
     },
     {
       "id": "42",
-      "title": "Star Wars: Episode III - A Vingança dos Sith",
+      "title": "Star Wars: Episódio III - A Vingança dos Sith",
       "info": "Um filme de ficção científica e fantasia que segue a transformação de Anakin Skywalker em Darth Vader enquanto a República Galáctica entra em colapso e dá origem ao Império Galáctico.",
-      "moreInfo": "Star Wars: Episode III - A Vingança dos Sith é o terceiro filme da trilogia prequela de Star Wars, mostrando eventos cruciais que levam à criação do Império e à queda da Ordem Jedi.",
+      "moreInfo": "Star Wars: Episódio III - A Vingança dos Sith é o terceiro filme da trilogia prequela de Star Wars, mostrando eventos cruciais que levam à criação do Império e à queda da Ordem Jedi.",
       "date": "2024-05-10 11:00:00",
       "clicks": 180,
-      "images": [
-        "../src/assets/image/164.jpg",
-        "../src/assets/image/165.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/164.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/165.jpg",
+        "customSecondImage": "../src/assets/image/customImages/165.jpg"
+      },
       "categories": [
         "movies"
       ]
     },
     {
       "id": "43",
-      "title": "Star Wars: Episode IV - Uma Nova Esperança",
+      "title": "Star Wars: Episódio IV - Uma Nova Esperança",
       "info": "Um filme de ficção científica e fantasia que segue Luke Skywalker enquanto ele se junta à Rebelião contra o Império Galáctico e se torna um Jedi, lutando contra o tirano Darth Vader.",
-      "moreInfo": "Star Wars: Episode IV - Uma Nova Esperança é o primeiro filme da trilogia original de Star Wars, apresentando aos espectadores a jornada heróica de Luke Skywalker e os conflitos galácticos.",
+      "moreInfo": "Star Wars: Episódio IV - Uma Nova Esperança é o primeiro filme da trilogia original de Star Wars, apresentando aos espectadores a jornada heróica de Luke Skywalker e os conflitos galácticos.",
       "date": "2024-05-10 12:00:00",
       "clicks": 185,
-      "images": [
-        "../src/assets/image/166.jpg",
-        "../src/assets/image/167.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/166.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/167.jpg",
+        "customSecondImage": "../src/assets/image/customImages/167.jpg"
+      },
       "categories": [
         "movies"
       ]
@@ -670,10 +713,11 @@
       "moreInfo": "Homem-Aranha: Longe de Casa é o segundo filme solo do Homem-Aranha no Universo Cinematográfico Marvel, explorando as consequências de Vingadores: Ultimato e o legado de Tony Stark.",
       "date": "2024-05-10 13:00:00",
       "clicks": 190,
-      "images": [
-        "../src/assets/image/168.jpg",
-        "../src/assets/image/169.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/168.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/169.jpg",
+        "customSecondImage": "../src/assets/image/customImages/169.jpg"
+      },
       "categories": [
         "movies"
       ]
@@ -685,10 +729,11 @@
       "moreInfo": "Peaky Blinders, criado por Steven Knight, é conhecido por sua atmosfera sombria, personagens complexos e tramas cheias de reviravoltas.",
       "date": "2024-05-10 14:00:00",
       "clicks": 195,
-      "images": [
-        "../src/assets/image/170.jpg",
-        "../src/assets/image/171.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/170.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/171.jpg",
+        "customSecondImage": "../src/assets/image/customImages/171.jpg"
+      },
       "categories": [
         "series"
       ]
@@ -700,10 +745,11 @@
       "moreInfo": "Shrek é um clássico filme de animação da DreamWorks Animation, conhecido por sua comédia inteligente, personagens memoráveis e mensagens sobre aceitação e amizade.",
       "date": "2024-05-10 15:00:00",
       "clicks": 200,
-      "images": [
-        "../src/assets/image/172.jpg",
-        "../src/assets/image/173.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/172.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/173.jpg",
+        "customSecondImage": "../src/assets/image/customImages/173.jpg"
+      },
       "categories": [
         "movies"
       ]
@@ -715,10 +761,11 @@
       "moreInfo": "The Flash, baseado no personagem da DC Comics, é conhecido por suas cenas de ação emocionantes, efeitos visuais impressionantes e explorar o multiverso.",
       "date": "2024-05-10 16:00:00",
       "clicks": 205,
-      "images": [
-        "../src/assets/image/174.jpg",
-        "../src/assets/image/175.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/174.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/175.jpg",
+        "customSecondImage": "../src/assets/image/customImages/175.jpg"
+      },
       "categories": [
         "series"
       ]
@@ -730,10 +777,11 @@
       "moreInfo": "Dragon Ball Z é uma continuação direta de Dragon Ball, criado por Akira Toriyama, e é conhecido por suas batalhas épicas, transformações de poder e personagens icônicos.",
       "date": "2024-05-10 17:00:00",
       "clicks": 210,
-      "images": [
-        "../src/assets/image/176.jpg",
-        "../src/assets/image/177.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/176.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/177.jpg",
+        "customSecondImage": "../src/assets/image/customImages/177.jpg"
+      },
       "categories": [
         "animes"
       ]
@@ -745,10 +793,11 @@
       "moreInfo": "Red Dead Redemption 2, desenvolvido pela Rockstar Games, é conhecido por sua história envolvente, vasto mundo aberto e detalhes realistas, oferecendo uma experiência imersiva de vida no Velho Oeste.",
       "date": "2024-05-10 18:00:00",
       "clicks": 215,
-      "images": [
-        "../src/assets/image/178.jpg",
-        "../src/assets/image/179.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/178.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/179.jpg",
+        "customSecondImage": "../src/assets/image/customImages/179.jpg"
+      },
       "categories": [
         "games"
       ]
@@ -760,10 +809,11 @@
       "moreInfo": "Grand Theft Auto IV, desenvolvido pela Rockstar Games, é conhecido por sua narrativa sombria, personagens complexos e vasto mundo aberto urbano, explorando temas como crime, corrupção e imigração.",
       "date": "2024-05-10 19:00:00",
       "clicks": 220,
-      "images": [
-        "../src/assets/image/180.jpg",
-        "../src/assets/image/181.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/180.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/181.jpg",
+        "customSecondImage": "../src/assets/image/customImages/181.jpg"
+      },
       "categories": [
         "games"
       ]
@@ -775,10 +825,11 @@
       "moreInfo": "The Office, criado por Greg Daniels e baseado na série britânica de mesmo nome de Ricky Gervais e Stephen Merchant, é conhecido por seu humor seco, personagens cativantes e formato de falso documentário.",
       "date": "2024-05-10 20:00:00",
       "clicks": 225,
-      "images": [
-        "../src/assets/image/182.jpg",
-        "../src/assets/image/183.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/182.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/183.jpg",
+        "customSecondImage": "../src/assets/image/customImages/183.jpg"
+      },
       "categories": [
         "series"
       ]
@@ -790,10 +841,11 @@
       "moreInfo": "Grey's Anatomy, criado por Shonda Rhimes, é conhecido por sua longevidade, narrativas emocionantes e representação realista da vida no ambiente hospitalar.",
       "date": "2024-05-10 21:00:00",
       "clicks": 230,
-      "images": [
-        "../src/assets/image/184.jpg",
-        "../src/assets/image/185.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/184.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/185.jpg",
+        "customSecondImage": "../src/assets/image/customImages/185.jpg"
+      },
       "categories": [
         "series"
       ]
@@ -805,10 +857,11 @@
       "moreInfo": "The Witcher, estrelado por Henry Cavill como Geralt de Rivia, é conhecido por sua atmosfera sombria, cenas de ação empolgantes e fidelidade aos livros de fantasia.",
       "date": "2024-05-10 22:00:00",
       "clicks": 235,
-      "images": [
-        "../src/assets/image/186.jpg",
-        "../src/assets/image/187.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/186.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/187.jpg",
+        "customSecondImage": "../src/assets/image/customImages/187.jpg"
+      },
       "categories": [
         "series"
       ]
@@ -820,10 +873,11 @@
       "moreInfo": "The Witcher: Lenda do Lobo é um filme animado baseado na série de livros e jogos de The Witcher, expandindo o universo e explorando novos personagens e histórias.",
       "date": "2024-05-10 23:00:00",
       "clicks": 240,
-      "images": [
-        "../src/assets/image/188.jpg",
-        "../src/assets/image/189.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/188.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/189.jpg",
+        "customSecondImage": "../src/assets/image/customImages/189.jpg"
+      },
       "categories": [
         "movies"
       ]
@@ -834,11 +888,12 @@
       "info": "Um jogo eletrônico que combina futebol com veículos controlados por jogadores em uma arena futurista, onde os jogadores competem para marcar gols usando carros com propulsores.",
       "moreInfo": "Rocket League, desenvolvido pela Psyonix, é conhecido por sua jogabilidade única, partidas rápidas e competitivas, e uma comunidade ativa de jogadores.",
       "date": "2024-05-11 00:00:00",
-      "clicks": 245,
-      "images": [
-        "../src/assets/image/190.jpg",
-        "../src/assets/image/191.jpg"
-      ],
+      "clicks": 246,
+      "images": {
+        "card": "../src/assets/image/190.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/191.jpg",
+        "customSecondImage": "../src/assets/image/customImages/191.jpg"
+      },
       "categories": [
         "games"
       ]
@@ -850,10 +905,11 @@
       "moreInfo": "Fortnite, desenvolvido pela Epic Games, é conhecido por seu estilo de arte único, eventos colaborativos e atualizações frequentes, mantendo os jogadores engajados em sua jogabilidade competitiva.",
       "date": "2024-05-11 01:00:00",
       "clicks": 250,
-      "images": [
-        "../src/assets/image/192.jpg",
-        "../src/assets/image/193.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/192.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/193.jpg",
+        "customSecondImage": "../src/assets/image/customImages/193.jpg"
+      },
       "categories": [
         "games"
       ]
@@ -865,10 +921,11 @@
       "moreInfo": "Star Wars Jedi: Fallen Order, desenvolvido pela Respawn Entertainment, é elogiado por sua narrativa envolvente, combate desafiador e fidelidade ao universo de Star Wars.",
       "date": "2024-05-11 02:00:00",
       "clicks": 156,
-      "images": [
-        "../src/assets/image/194.jpg",
-        "../src/assets/image/195.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/194.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/195.jpg",
+        "customSecondImage": "../src/assets/image/customImages/195.jpg"
+      },
       "categories": [
         "games"
       ]
@@ -880,10 +937,11 @@
       "moreInfo": "Fullmetal Alchemist: Brotherhood é uma adaptação fiel do mangá Fullmetal Alchemist de Hiromu Arakawa, conhecida por sua história complexa, personagens cativantes e temas filosóficos profundos.",
       "date": "2024-05-11 03:00:00",
       "clicks": 60,
-      "images": [
-        "../src/assets/image/196.jpg",
-        "../src/assets/image/197.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/196.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/197.jpg",
+        "customSecondImage": "../src/assets/image/customImages/197.jpg"
+      },
       "categories": [
         "animes"
       ]
@@ -895,10 +953,11 @@
       "moreInfo": "Death Note, criado por Tsugumi Ohba e Takeshi Obata, é conhecido por sua narrativa intensa, intrincada batalha mental entre Light e L, e exploração de temas morais e éticos.",
       "date": "2024-05-11 04:00:00",
       "clicks": 65,
-      "images": [
-        "../src/assets/image/198.jpg",
-        "../src/assets/image/199.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/198.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/199.jpg",
+        "customSecondImage": "../src/assets/image/customImages/199.jpg"
+      },
       "categories": [
         "animes"
       ]

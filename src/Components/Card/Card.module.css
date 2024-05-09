@@ -1,6 +1,7 @@
 .imageContent {
   position: relative;
   min-height: 212px;
+  max-height: 216px;
   overflow: hidden;
 }
 
