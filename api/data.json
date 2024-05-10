@@ -220,7 +220,7 @@
       "images": {
         "card": "../src/assets/image/07.png",
         "largeSecondImage": "../src/assets/image/largeImages/04.png",
-        "customSecondImage": "../src/assets/image/customImages/04.png"
+        "customSecondImage": "../src/assets/image/customImages/04.jpg"
       },
       "categories": [
         "games"
