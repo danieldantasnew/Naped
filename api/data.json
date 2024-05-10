@@ -300,8 +300,8 @@
       "clicks": 55,
       "images": {
         "card": "../src/assets/image/102.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/103.jpeg",
-        "customSecondImage": "../src/assets/image/customImages/103.jpeg"
+        "largeSecondImage": "../src/assets/image/largeImages/103.jpg",
+        "customSecondImage": "../src/assets/image/customImages/103.jpg"
       },
       "categories": [
         "animes"
@@ -394,10 +394,11 @@
       "moreInfo": "Homem-Aranha: Sem Volta Para Casa é o terceiro filme do Homem-Aranha no Universo Cinematográfico Marvel, prometendo reviravoltas emocionantes e encontros com personagens icônicos.",
       "date": "2024-05-09 17:00:00",
       "clicks": 92,
-      "images": [
-        "../src/assets/image/114.jpg",
-        "../src/assets/image/customImages/113.jpg"
-      ],
+      "images": {
+        "card": "../src/assets/image/114.jpg",
+        "largeSecondImage": "../src/assets/image/largeImages/113.jpg",
+        "customSecondImage": "../src/assets/image/customImages/113.jpg"
+      },
       "categories": [
         "movies"
       ]
@@ -443,8 +444,8 @@
       "clicks": 107,
       "images": {
         "card": "../src/assets/image/120.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/119.jpeg",
-        "customSecondImage": "../src/assets/image/customImages/119.jpeg"
+        "largeSecondImage": "../src/assets/image/largeImages/119.jpg",
+        "customSecondImage": "../src/assets/image/customImages/119.jpg"
       },
       "categories": [
         "movies"
@@ -680,7 +681,7 @@
       "info": "Um filme de ficção científica e fantasia que segue a transformação de Anakin Skywalker em Darth Vader enquanto a República Galáctica entra em colapso e dá origem ao Império Galáctico.",
       "moreInfo": "Star Wars: Episódio III - A Vingança dos Sith é o terceiro filme da trilogia prequela de Star Wars, mostrando eventos cruciais que levam à criação do Império e à queda da Ordem Jedi.",
       "date": "2024-05-10 11:00:00",
-      "clicks": 180,
+      "clicks": 181,
       "images": {
         "card": "../src/assets/image/164.jpg",
         "largeSecondImage": "../src/assets/image/largeImages/165.jpg",
@@ -904,7 +905,7 @@
       "info": "Um jogo eletrônico de batalha real que coloca jogadores uns contra os outros em uma ilha, onde eles devem coletar recursos, construir estruturas e lutar para ser o último sobrevivente.",
       "moreInfo": "Fortnite, desenvolvido pela Epic Games, é conhecido por seu estilo de arte único, eventos colaborativos e atualizações frequentes, mantendo os jogadores engajados em sua jogabilidade competitiva.",
       "date": "2024-05-11 01:00:00",
-      "clicks": 250,
+      "clicks": 251,
       "images": {
         "card": "../src/assets/image/192.jpg",
         "largeSecondImage": "../src/assets/image/largeImages/193.jpg",
