@@ -38,10 +38,12 @@ const Cover = ({ title, description, image, slideStart, slideEnd }: CoverType) =
   return (
     <div className={styles.Cover}>
       <div
-        className={`${styles.imageContent} ${animationDelay ? styles.animationDelay : ''}`}>
-          <Modal
-            stylesFrom={styles.configModal}
-          />
+        className=
+        {`
+          ${styles.imageContent} ${animationDelay ? styles.animationDelay : ''}
+        `}
+      >
+        <Modal stylesFrom={styles.configModal}/>
         <img
           src={!image[slide].images.customSecondImage ?
             "../src/assets/image/WithoutPhoto/elric.jpg" :

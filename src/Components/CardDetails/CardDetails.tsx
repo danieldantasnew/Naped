@@ -39,7 +39,7 @@ const CardDetails = ({ id, images, title, info, moreInfo, date }: typeCardDetail
       <div className={styles.contentOfCard}>
         <h2>{info}</h2>
         <p>{moreInfo}</p>
-        <p style={{color: "var(--dark-40)"}}>{newDate ? FormatDate(newDate): ''}</p>
+        <p>{newDate ? FormatDate(newDate): ''}</p>
         <Button label="Ler notícia" onClick={(e)=> navigateTo(e, id)}/>
       </div>
     </div>

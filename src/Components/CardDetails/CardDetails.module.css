@@ -16,10 +16,18 @@
 
 .contentOfCard h2 {
   font-size: 0.9rem;
+  color: var(--dark-40);
 }
 
 .contentOfCard p {
   font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.1rem;
+}
+
+.contentOfCard p:nth-child(3) {
+  color: var(--dark-30) !important;
+  font-weight: 600;
 }
 
 .configForCardComponent {
@@ -29,11 +37,6 @@
 .configForCardComponent:hover {
   transform: scale(1);
   cursor: default;
-}
-
-.configForCardComponent img {
-  height: 100%;
-  object-fit: cover;
 }
 
 .configForCardComponent h2 {
@@ -62,6 +65,12 @@
   }
 }
 
+@media (min-width: 481px) {
+  .configForCardComponent {
+    padding: .5rem 0;
+    max-height: initial;
+  }
+}
 @media (max-width: 834px) {
   .configForCardComponent h2 {
     left: 50%;

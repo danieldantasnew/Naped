@@ -5,6 +5,7 @@
 
 .imageContent {
   position: relative;
+  min-height: 280px;
   max-height: 280px;
 }
 
@@ -43,7 +44,7 @@
   height: 100%;
   width: 100%;
   z-index: 1;
-  background-color: #28283061;
+  background-image: linear-gradient(to left, #2828301e, #28283081);
 }
 
 .Cover h2, .Cover p {
