@@ -44,7 +44,8 @@
   height: 100%;
   width: 100%;
   z-index: 1;
-  background-image: linear-gradient(to left, #2828301e, #28283081);
+  background-image: linear-gradient(-90deg, #2828301e, #28283081);
+  animation: animateModal 1s infinite;
 }
 
 .Cover h2, .Cover p {
