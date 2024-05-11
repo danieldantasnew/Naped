@@ -12,8 +12,8 @@ const Categories = ({ newData }: { newData: Naped[] | null }) => {
             key={item.id}
             id={item.id}
             images={item.images}
+            name={item.name}
             title={item.title}
-            info={item.info}
           />
         ))
       ) : (

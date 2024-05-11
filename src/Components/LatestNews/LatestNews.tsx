@@ -39,8 +39,8 @@ const LatestNews = ({ data }: { data: Naped[] }) => {
             key={item.id}
             id={item.id}
             images={item.images}
+            name={item.name}
             title={item.title}
-            info={item.info}
             classStyle={styles.configCard}
           />
         ))}

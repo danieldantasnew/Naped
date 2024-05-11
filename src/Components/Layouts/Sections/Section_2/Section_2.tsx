@@ -20,11 +20,11 @@ const Section_2 = ({ data }: { data: Naped[] }) => {
           <CardDetails
             key={item.id}
             id={item.id}
-            title={item.title}
+            name={item.name}
             images={item.images}
             date={item.date}
-            info={item.info}
-            moreInfo={item.moreInfo}
+            title={item.title}
+            infoAboutItem={item.infoAboutItem}
           />
         ))}
       </div>
@@ -35,8 +35,8 @@ const Section_2 = ({ data }: { data: Naped[] }) => {
             key={item.id}
             id={item.id}
             images={item.images}
+            name={item.name}
             title={item.title}
-            info={item.info}
             classStyle={styles.configForCardComponent}
           />
         )}

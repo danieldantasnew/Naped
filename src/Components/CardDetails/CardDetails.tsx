@@ -8,14 +8,14 @@ import { Images } from "../../Types/types";
 
 type typeCardDetails = {
   id: number;
+  name: string;
   title: string;
-  info: string;
-  moreInfo: string;
+  infoAboutItem: string;
   date: string;
   images: Images;
 }
 
-const CardDetails = ({ id, images, title, info, moreInfo, date }: typeCardDetails) => {
+const CardDetails = ({ id, images, name, title, infoAboutItem, date }: typeCardDetails) => {
   
   const navigate = useNavigate();
 
@@ -31,14 +31,14 @@ const CardDetails = ({ id, images, title, info, moreInfo, date }: typeCardDetail
       <Card
         id={id}
         images={images}
-        title={title}
+        name={name}
         classStyle={styles.configForCardComponent}
         activeFunction={false}
         animationOn={false}
       />
       <div className={styles.contentOfCard}>
-        <h2>{info}</h2>
-        <p>{moreInfo}</p>
+        <h2>{title}</h2>
+        <p>{infoAboutItem}</p>
         <p>{newDate ? FormatDate(newDate): ''}</p>
         <Button label="Ler notícia" aria-label="Ler notícia" onPointerDown={(e)=> navigateTo(e, id)}/>
       </div>

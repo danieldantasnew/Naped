@@ -8,9 +8,11 @@ export type Images = {
 
 export interface Naped {
   id: number;
+  name: string;
   title: string;
-  info: string;
-  moreInfo: string;
+  infoAboutItem: string;
+  paragraph_1: string;
+  paragraph_2: string;
   date: string;
   clicks: number;
   images: Images;
