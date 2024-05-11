@@ -5,7 +5,7 @@ const useMobile = (screen: string) => {
 
   React.useEffect(() => {
     function handleMedia() {
-      const mobile = window.matchMedia(`(max-width: ${screen}`).matches;
+      const mobile = window.matchMedia(`(${screen}`).matches;
       setMatch(mobile);
     }
 

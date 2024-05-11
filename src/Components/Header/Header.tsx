@@ -6,7 +6,7 @@ import useMobile from "../../Hooks/useMobile";
 import MobileMenu from "./MobileMenu/MobileMenu";
 
 const Header = () => {
-  const mobile = useMobile("767px");
+  const mobile = useMobile("max-width: 767px");
   
   return (
     <header className={styles.Header}>
@@ -16,7 +16,7 @@ const Header = () => {
       ) : (
         <div className={styles.divNavs}>
           <NavMenu />
-          <Account onClick={(e) => e.preventDefault()} />
+          <Account onPointerDown={(e) => e.preventDefault()} />
         </div>
       )}
     </header>

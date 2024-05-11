@@ -40,7 +40,7 @@ const CardDetails = ({ id, images, title, info, moreInfo, date }: typeCardDetail
         <h2>{info}</h2>
         <p>{moreInfo}</p>
         <p>{newDate ? FormatDate(newDate): ''}</p>
-        <Button label="Ler notícia" aria-label="Ler notícia" onClick={(e)=> navigateTo(e, id)}/>
+        <Button label="Ler notícia" aria-label="Ler notícia" onPointerDown={(e)=> navigateTo(e, id)}/>
       </div>
     </div>
   );
