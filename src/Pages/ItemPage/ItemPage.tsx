@@ -7,12 +7,14 @@ import styles from "./ItemPage.module.css";
 import Loading from "../../Components/Helper/Loading/Loading";
 import StringToDate from "../../Functions/StringToDate/StringToDate";
 import FormatDate from "../../Functions/NormalizeDate/FormatDate";
+import { useDataContext } from "../../Store/Context/DataContext";
+import LatestNews from "../../Components/LatestNews/LatestNews";
 
 const ItemPage = () => {
   const { id } = useParams();
   const [newDate, setNewDate] = React.useState<string | null>(null);
   const {data, loading, error} = useFetch<Naped>(`http://localhost:3000/naped/${id}`);
-  
+  const dataContext = useDataContext();
 
   React.useEffect(() => {
     if (data) {
@@ -32,7 +34,7 @@ const ItemPage = () => {
 
 
   if (loading) return <Loading />;
-  if(!data) return null;
+  if(!data || !dataContext.data) return null;
 
   return (
     <section className={`${styles.ItemPage} animationLeft`}>
@@ -48,6 +50,7 @@ const ItemPage = () => {
         activeFunction={false}
         animationOn={false}
       />
+      <LatestNews data={dataContext.data} />
     </section>
   );
 };
