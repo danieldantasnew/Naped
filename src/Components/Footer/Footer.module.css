@@ -6,4 +6,11 @@
   justify-content: center;
   text-align: center;
   padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 767px) {
+  .Footer {
+    font-size: .8rem;
+  }
 }

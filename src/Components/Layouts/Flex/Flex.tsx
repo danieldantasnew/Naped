@@ -1,12 +1,19 @@
-import React from 'react';
-import styles from './Flex.module.css';
+import React from "react";
+import styles from "./Flex.module.css";
 
-const Flex = ({children}: React.PropsWithChildren) => {
+type FlexTypes = React.PropsWithChildren & {
+  classStyle?: CSSModuleClasses[string];
+};
+
+const Flex = ({ children, classStyle }: FlexTypes) => {
   return (
-    <section className={`${styles.Flex} animationLeft`}>
+    <section
+      className={`${styles.Flex} ${
+        classStyle ? classStyle : ""
+      } animationLeft`}>
       {children}
     </section>
-  )
-}
+  );
+};
 
 export default Flex;

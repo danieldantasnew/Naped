@@ -23,6 +23,10 @@
   margin-top: 2px;
 }
 
+.arrowLeft svg {
+  margin-top: 1px;
+}
+
 @media (max-width: 480px) {
   .Button {
     padding: .2rem;

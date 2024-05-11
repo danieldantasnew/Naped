@@ -50,7 +50,7 @@ h1, h2 {
   font-family: var(--font-1);
 }
 
-img{
+img, svg{
   max-width: 100%;
   max-height: 100%;
 }
