@@ -20,6 +20,7 @@
 
 .container_1::-webkit-scrollbar-thumb {
   background-color: var(--brand-color);
+  height: 200px;
 }
 
 .container_2 {
