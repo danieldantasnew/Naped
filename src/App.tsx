@@ -9,6 +9,7 @@ import Series from "./Pages/Series/Series";
 import Movies from "./Pages/Movies/Movies";
 import Animes from "./Pages/Animes/Animes";
 import Games from "./Pages/Games/Games";
+import NotFound from "./Pages/NotFound/NotFound";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
               <Route path="/animes" element={<Animes/>}></Route>
               <Route path="/games" element={<Games/>}></Route>
               <Route path="/item/:id" element={<ItemPage/>}></Route>
-              <Route path="*" element={<div>non se</div>}></Route>
+              <Route path="*" element={<NotFound/>}></Route>
             </Routes>
           </main>
           <Footer />
