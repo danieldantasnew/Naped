@@ -19,7 +19,7 @@ const CardDetails = ({ id, images, title, info, moreInfo, date }: typeCardDetail
   
   const navigate = useNavigate();
 
-  function navigateTo(e: React.MouseEvent<HTMLButtonElement, MouseEvent>, src: number) {
+  function navigateTo(e: React.PointerEvent<HTMLButtonElement>, src: number) {
     e.preventDefault();
     navigate(`/item/${src}`);
   }

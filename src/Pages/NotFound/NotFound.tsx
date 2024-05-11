@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 const NotFound = () => {
   const navigate = useNavigate();
 
-  function navigateTo(event: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
+  function navigateTo(event: React.PointerEvent<HTMLButtonElement>) {
     event.preventDefault();
     navigate('/');
   }
@@ -27,7 +27,7 @@ const NotFound = () => {
           aria-label="Botão para voltar a página inicial"
           Arrow="left"
           classStyle={styles.configButton}
-          onClick={(e)=> navigateTo(e)}
+          onPointerDown={(e)=> navigateTo(e)}
         />
       </Flex>
       <Flex classStyle={styles.content_2}>

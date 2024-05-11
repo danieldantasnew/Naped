@@ -18,7 +18,8 @@ type typeCard = {
 const Card = ({ id, title, images, info, classStyle, activeFunction = true, noLargeFirstCard = true, animationOn = true }: typeCard) => {
   const navigate = useNavigate();
 
-  function openPage(id: number) {
+  function openPage(event: React.PointerEvent<HTMLDivElement>, id: number) {
+    event.preventDefault();
     navigate(`/item/${id}`);
   }
 
@@ -29,7 +30,7 @@ const Card = ({ id, title, images, info, classStyle, activeFunction = true, noLa
         ${noLargeFirstCard ? styles.noLargeFirstCard : ''} 
         ${classStyle} 
         `}
-      onPointerDown={activeFunction ? () => openPage(id): ()=> ''}>
+      onPointerDown={activeFunction ? (e) => openPage(e, id): ()=> ''}>
         <Modal stylesFrom={info ? styles.configModal : styles.configModalNoInfo} />
         <img
         src={!images.card ? "../src/assets/image/WithoutPhoto/elric.jpg" : images.card }
