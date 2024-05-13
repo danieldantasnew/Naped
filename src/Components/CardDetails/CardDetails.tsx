@@ -10,12 +10,12 @@ type typeCardDetails = {
   id: number;
   name: string;
   title: string;
-  infoAboutItem: string;
+  previous: string;
   date: string;
   images: Images;
 }
 
-const CardDetails = ({ id, images, name, title, infoAboutItem, date }: typeCardDetails) => {
+const CardDetails = ({ id, images, name, title, previous, date }: typeCardDetails) => {
   
   const navigate = useNavigate();
 
@@ -38,7 +38,7 @@ const CardDetails = ({ id, images, name, title, infoAboutItem, date }: typeCardD
       />
       <div className={styles.contentOfCard}>
         <h2>{title}</h2>
-        <p>{infoAboutItem}</p>
+        <p>{previous}</p>
         <p>{newDate ? FormatDate(newDate): ''}</p>
         <Button label="Ler notícia" aria-label="Ler notícia" onPointerDown={(e)=> navigateTo(e, id)}/>
       </div>

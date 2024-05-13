@@ -24,7 +24,7 @@ const Section_2 = ({ data }: { data: Naped[] }) => {
             images={item.images}
             date={item.date}
             title={item.title}
-            infoAboutItem={item.infoAboutItem}
+            previous={item.previous}
           />
         ))}
       </div>

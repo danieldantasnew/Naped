@@ -9,6 +9,7 @@ import StringToDate from "../../Functions/StringToDate/StringToDate";
 import FormatDate from "../../Functions/NormalizeDate/FormatDate";
 import { useDataContext } from "../../Store/Context/DataContext";
 import LatestNews from "../../Components/LatestNews/LatestNews";
+import Flex from "../../Components/Layouts/Flex/Flex";
 
 const ItemPage = () => {
   const { id } = useParams();
@@ -38,18 +39,25 @@ const ItemPage = () => {
 
   return (
     <section className={`${styles.ItemPage} animationLeft`}>
-      <h2>{data.info}</h2>
-      <p>{data.moreInfo}</p>
-      <p>Publicado em {newDate}</p>
-      <Card
-        key={data.id}
-        id={data.id}
-        images={data.images}
-        title={data.title}
-        classStyle={styles.configCard}
-        activeFunction={false}
-        animationOn={false}
-      />
+      <Flex classStyle={styles.content_1}>
+        <Flex classStyle={styles.container}>
+          <h2>{data.title}</h2>
+          <p>{data.previous}</p>
+          <p className={styles.detailsInfo}>Por <strong>{ data.author }</strong> - Publicado em {newDate}</p>
+        </Flex>
+        <Card
+          key={data.id}
+          id={data.id}
+          images={data.images}
+          name={data.name}
+          classStyle={styles.configCard}
+          activeFunction={false}
+          animationOn={false}
+        />
+        {data.paragraphs.slice(0, -1).map((item, index) => <p key={index}>{item}</p>)}
+        <img src={data.images.largeSecondImage} alt={`Foto de ${data.name}`} />
+        {data.paragraphs.slice(-1).map((item, index) => <p key={index}>{item}</p>)}
+      </Flex>
       <LatestNews data={dataContext.data} />
     </section>
   );
