@@ -14,15 +14,21 @@
   object-fit: cover;
 }
 
+.content_1 p {
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
 .container {
   gap: 1rem !important;
 }
+
 .container p {
-  line-height: 1.5rem !important;
+  line-height: 1.5rem;
 }
 
-.detailsInfo {
-  font-size: .8rem !important;
+#detailsInfo {
+  font-size: .8rem;
 }
 
 .configCard {
@@ -35,26 +41,21 @@
 }
 
 .configCard h2 {
-  left: 1.5rem;
-  padding: 1rem;
-  font-size: 1rem;
+  left: 1.5rem !important;
+  padding: 1rem !important;
+  font-size: 1rem !important;
 }
 
-.content_1 p {
-  line-height: 2rem;
-  font-size: 1rem;
-}
-
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .configCard {
     max-height: 240px;
     height: 100%;
   }
 
   .configCard h2 {
-    left: 1rem;
-    padding: .5rem;
-    font-size: .8rem;
+    left: 1rem !important;
+    padding: .5rem !important;
+    font-size: .8rem !important;
   }
 
   .content_1 img {

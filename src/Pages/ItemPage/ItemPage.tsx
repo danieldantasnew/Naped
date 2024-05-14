@@ -43,7 +43,7 @@ const ItemPage = () => {
         <Flex classStyle={styles.container}>
           <h2>{data.title}</h2>
           <p>{data.previous}</p>
-          <p className={styles.detailsInfo}>Por <strong>{ data.author }</strong> - Publicado em {newDate}</p>
+          <p id={styles.detailsInfo}>Por <strong>{ data.author }</strong> - Publicado em {newDate}</p>
         </Flex>
         <Card
           key={data.id}
