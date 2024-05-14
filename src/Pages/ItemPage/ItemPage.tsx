@@ -10,6 +10,7 @@ import FormatDate from "../../Functions/NormalizeDate/FormatDate";
 import { useDataContext } from "../../Store/Context/DataContext";
 import LatestNews from "../../Components/LatestNews/LatestNews";
 import Flex from "../../Components/Layouts/Flex/Flex";
+import ErrorComponent from "../../Components/Helper/ErrorComponent/ErrorComponent";
 
 const ItemPage = () => {
   const { id } = useParams();
@@ -35,7 +36,8 @@ const ItemPage = () => {
 
 
   if (loading) return <Loading />;
-  if(!data || !dataContext.data) return null;
+  if (error) return <ErrorComponent message={error} />;
+  if(!data || !dataContext.data) return <ErrorComponent message="Não há itens para mostrar" />;
 
   return (
     <section className={`${styles.ItemPage} animationLeft`}>

@@ -5,8 +5,8 @@ import Loading from "../../Components/Helper/Loading/Loading";
 import Flex from "../../Components/Layouts/Flex/Flex";
 import Cover from "../../Components/Cover/Cover";
 import Categories from "../../Components/Layouts/Categories/Categories";
-import Card from "../../Components/Card/Card";
 import Search from "../../Components/Search/Search";
+import ErrorComponent from "../../Components/Helper/ErrorComponent/ErrorComponent";
 
 const Movies = () => {
   const { data, loading, error } = useDataContext();
@@ -15,7 +15,8 @@ const Movies = () => {
   const dataForCover = useCategoryData(data, 'movies');
 
   if (loading) return <Loading />;
-  if (!newData || !dataForCover) return null;
+  if (error) return <ErrorComponent message={ error } />;
+  if (!newData || !dataForCover) return <ErrorComponent message="Não há itens para mostrar"/>;
 
   return (
     <Flex>

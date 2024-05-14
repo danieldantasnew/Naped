@@ -3,10 +3,10 @@ import { useDataContext } from '../../Store/Context/DataContext';
 import Loading from '../../Components/Helper/Loading/Loading';
 import Cover from '../../Components/Cover/Cover';
 import useCategoryData from '../../Hooks/useCategoryData';
-import Card from '../../Components/Card/Card';
 import Flex from '../../Components/Layouts/Flex/Flex';
 import Categories from '../../Components/Layouts/Categories/Categories';
 import Search from '../../Components/Search/Search';
+import ErrorComponent from '../../Components/Helper/ErrorComponent/ErrorComponent';
 
 const Series = () => {
   const { data, loading, error } = useDataContext();
@@ -15,7 +15,8 @@ const Series = () => {
   const dataForCover = useCategoryData(data, 'series');
 
   if (loading) return <Loading />;
-  if (!newData || !dataForCover) return null;
+  if (error) return <ErrorComponent message={ error }/>;
+  if (!newData || !dataForCover) return <ErrorComponent message="Não há itens para mostrar"/>;
 
 
   return (

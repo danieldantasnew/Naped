@@ -36,7 +36,7 @@ const CardDetails = ({ id, images, name, title, previous, date }: typeCardDetail
         activeFunction={false}
         animationOn={false}
       />
-      <div className={styles.contentOfCard}>
+      <div className={styles.contentCard}>
         <h2>{title}</h2>
         <p>{previous}</p>
         <p>{newDate ? FormatDate(newDate): ''}</p>

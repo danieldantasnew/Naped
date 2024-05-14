@@ -6,7 +6,7 @@ import Flex from "../../Components/Layouts/Flex/Flex";
 import Search from "../../Components/Search/Search";
 import useCategoryData from "../../Hooks/useCategoryData";
 import { useDataContext } from "../../Store/Context/DataContext";
-
+import ErrorComponent from "../../Components/Helper/ErrorComponent/ErrorComponent";
 
 const Animes = () => {
   const { data, loading, error } = useDataContext();
@@ -15,7 +15,8 @@ const Animes = () => {
   const dataForCover = useCategoryData(data, 'animes');
 
   if (loading) return <Loading />;
-  if (!newData || !dataForCover) return null;
+  if (error) return <ErrorComponent message={ error } />
+  if (!newData || !dataForCover) return <ErrorComponent message="Não há itens para mostrar"/>;
 
   return (
     <Flex>

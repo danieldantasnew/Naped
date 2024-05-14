@@ -6,6 +6,7 @@ import Loading from '../../Components/Helper/Loading/Loading';
 import { useDataContext } from '../../Store/Context/DataContext';
 import useCategoryData from '../../Hooks/useCategoryData';
 import Search from '../../Components/Search/Search';
+import ErrorComponent from '../../Components/Helper/ErrorComponent/ErrorComponent';
 
 const Games = () => {
   const { data, loading, error } = useDataContext();
@@ -14,7 +15,8 @@ const Games = () => {
   const dataForCover = useCategoryData(data, 'games');
 
   if (loading) return <Loading />;
-  if (!newData || !dataForCover) return null;
+  if (error) return <ErrorComponent message={ error }/>;
+  if (!newData || !dataForCover) return <ErrorComponent message="Não há itens para mostrar"/>;
 
   return (
     <Flex>

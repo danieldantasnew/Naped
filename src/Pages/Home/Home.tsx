@@ -5,6 +5,7 @@ import LatestNews from '../../Components/LatestNews/LatestNews';
 import { useDataContext } from '../../Store/Context/DataContext';
 import { Naped } from '../../Types/types';
 import styles from './Home.module.css';
+import ErrorComponent from '../../Components/Helper/ErrorComponent/ErrorComponent';
 
 const highNotice = (data: Naped[]) => {
   return data.sort((itemA, itemB) => {
@@ -13,10 +14,11 @@ const highNotice = (data: Naped[]) => {
 }
 
 const Home = () => {
-  const { data, loading } = useDataContext();
+  const { data, loading, error } = useDataContext();
 
   if (loading) return <Loading />;
-  if (!data) return null;
+  if(error) return  <ErrorComponent message={ error }/>
+  if (!data) return <ErrorComponent message="Não há itens para mostrar"/>;
   return (
     <section className={`${styles.Home} animationLeft`}>
       <Section_1 data={highNotice(data)} />

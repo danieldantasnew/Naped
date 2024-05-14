@@ -5,7 +5,7 @@
   justify-content: space-between;
 }
 
-.contentOfCard {
+.contentCard {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -14,18 +14,19 @@
   padding-right: 12px;
 }
 
-.contentOfCard h2 {
+.contentCard h2 {
   font-size: 0.9rem;
   color: var(--dark-40);
+  line-height: 1.4rem;
 }
 
-.contentOfCard p {
+.contentCard p {
   font-size: 0.8rem;
   font-weight: 500;
   line-height: 1.1rem;
 }
 
-.contentOfCard p:nth-child(3) {
+.contentCard p:nth-child(3) {
   color: var(--dark-30) !important;
   font-weight: 600;
 }
@@ -55,13 +56,13 @@
 }
 
 @media (max-width: 385px) {
-  .contentOfCard h2 {
+  .contentCard h2 {
     font-size: .8rem !important;
   }
 }
 
 @media (max-width: 480px) {
-  .contentOfCard p:nth-child(2) {
+  .contentCard p:nth-child(2) {
     display: none;
   }
 }
