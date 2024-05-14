@@ -26,15 +26,16 @@ const Card = ({ id, name, images, title, classStyle, activeFunction = true, noLa
   return (
     <div
       className={`
-        ${`${styles.imageContent} ${animationOn ? styles.animationOn : ''}`}
+        ${`${styles.imageContent} 
+        ${animationOn ? styles.animationOn : ''}`}
         ${noLargeFirstCard ? styles.noLargeFirstCard : ''} 
-        ${classStyle} 
+        ${classStyle ? classStyle : ''} 
         `}
-      onPointerDown={activeFunction ? (e) => openPage(e, id): ()=> ''}>
+      onPointerDown={activeFunction ? (event) => openPage(event, id): ()=> ''}>
         <Modal stylesFrom={title ? styles.configModal : styles.configModalNoInfo} />
         <img
-        src={!images.card ? "../src/assets/image/WithoutPhoto/elric.jpg" : images.card }
-        alt={`Foto de ${name}`}
+          src={!images.card ? "../src/assets/image/WithoutPhoto/elric.jpg" : images.card }
+          alt={`Foto de ${name}`}
         />
         <h2>{name}</h2>
         {title ? <p>{title}</p> : ""}

@@ -15,11 +15,6 @@
   object-fit: cover;
 }
 
-.animationOn:hover img {
-  transform: scale(1.2);
-  transition: 0.8s;
-}
-
 .imageContent h2 {
   position: absolute;
   top: 1.2rem;
@@ -61,6 +56,18 @@
   font-size: 0.9rem;
   left: 0.5rem;
   bottom: 1rem;
+}
+
+.animationOn:hover img {
+  transform: scale(1.2);
+  transition: 0.8s;
+}
+
+@media (min-width: 460px) and (max-width: 767px) {
+  .imageContent {
+    min-height: initial !important;
+    max-height: initial !important;
+  }
 }
 
 @media (max-width: 767px) {
@@ -112,11 +119,4 @@
   font-size: 0.9rem;
   left: 0.5rem;
   bottom: 1rem;
-}
-
-@media (min-width: 460px) and (max-width: 767px) {
-  .imageContent {
-    min-height: initial !important;
-    max-height: initial !important;
-  }
 }

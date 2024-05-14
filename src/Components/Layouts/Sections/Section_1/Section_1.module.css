@@ -33,24 +33,24 @@
   max-height: 444px;
 }
 
-.imageContent {
+.configCard {
   max-height: 100% !important;
 }
 
-.imageContent:first-child p {
+.configCard:first-child p {
   padding-right: 1rem;
   line-height: 1.7rem;
 }
 
-.imageContent:first-child {
+.configCard:first-child {
   grid-area: first;
 }
 
-.imageContent:nth-child(2) {
+.configCard:nth-child(2) {
   grid-area: second;
 }
 
-.imageContent:nth-child(3) {
+.configCard:nth-child(3) {
   grid-area: third;
 }
 
@@ -75,7 +75,7 @@
     display: none;
   }
 
-  .imageContent:first-child p {
+  .configCard:first-child p {
     padding-right: .5rem;
     line-height: 1.4rem;
   }

@@ -76,7 +76,7 @@ const Section_1 = ({ data }: { data: Naped[] }) => {
             name={item.name}
             images={item.images}
             title={item.title}
-            classStyle={`${styles.imageContent} ${animationDelay ? styles.animationDelay : ''}`}
+            classStyle={`${styles.configCard} ${animationDelay ? styles.animationDelay : ''}`}
             noLargeFirstCard={false}
             animationOn={false}
           />
