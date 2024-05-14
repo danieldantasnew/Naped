@@ -32,7 +32,7 @@ const Card = ({ id, name, images, title, classStyle, activeFunction = true, noLa
         ${classStyle ? classStyle : ''} 
         `}
       onPointerDown={activeFunction ? (event) => openPage(event, id): ()=> ''}>
-        <Modal stylesFrom={title ? styles.configModal : styles.configModalNoInfo} />
+        <Modal stylesFrom={title ? styles.configModal : styles.configModalWithoutInfo} />
         <img
           src={!images.card ? "../src/assets/image/WithoutPhoto/elric.jpg" : images.card }
           alt={`Foto de ${name}`}

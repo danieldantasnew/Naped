@@ -18,7 +18,7 @@ const Home = () => {
 
   if (loading) return <Loading />;
   if(error) return  <ErrorComponent message={ error }/>
-  if (!data) return <ErrorComponent message="Não há itens para mostrar"/>;
+  if (!data || data.length === 0) return <ErrorComponent message="Não há itens para mostrar"/>;
   return (
     <section className={`${styles.Home} animationLeft`}>
       <Section_1 data={highNotice(data)} />

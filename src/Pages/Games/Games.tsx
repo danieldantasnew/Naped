@@ -16,7 +16,7 @@ const Games = () => {
 
   if (loading) return <Loading />;
   if (error) return <ErrorComponent message={ error }/>;
-  if (!newData || !dataForCover) return <ErrorComponent message="Não há itens para mostrar"/>;
+  if (!newData || !dataForCover  || newData.length === 0) return <ErrorComponent message="Não há itens para mostrar"/>;
 
   return (
     <Flex>

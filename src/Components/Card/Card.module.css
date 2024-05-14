@@ -95,15 +95,15 @@
 .configModal {
   position: absolute;
   height: 100%;
-  width: 100% !important;
+  width: 100%;
   z-index: 1;
   background-image: linear-gradient(to bottom,#2828303d, #282830e5);
 }
 
-.configModalNoInfo {
+.configModalWithoutInfo {
   position: absolute;
-  height: 100% !important;
-  width: 100% !important;
+  height: 100%;
+  width: 100%;
   z-index: 1;
   background-color: #28283060;
 }
