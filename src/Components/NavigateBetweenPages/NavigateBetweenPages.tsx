@@ -5,8 +5,10 @@ type TypeNavigate = {
   page: number;
   setPage: React.Dispatch<React.SetStateAction<number>>;
   totalPages: number;
-  previous: number | null;
-  next: number | null;
+  firstPage: number;
+  lastPage: number;
+  previous?: number | null;
+  next?: number | null;
 };
 
 const noBackground: React.CSSProperties = {
@@ -21,15 +23,26 @@ const activeItem: React.CSSProperties = {
 const NavigateBetweenPages = ({
   page,
   setPage,
+  totalPages,
+  firstPage,
+  lastPage,
   previous,
   next,
-  totalPages,
 }: TypeNavigate) => {
+
+  React.useEffect(() => {
+    scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth"
+    });
+  }, [page]);
+
   return (
     <ul className={styles.NavigateBetweenPages}>
-      {previous ? (
+      {firstPage !== page? (
         <li
-          onClick={() => setPage(previous)}
+          onClick={() => setPage(firstPage)}
           className={`${styles.toLeft} ${styles.noTransition}`}>
           <img
             src="../../src/assets/ArrowsNavigate/arrowActive.png"
@@ -54,8 +67,8 @@ const NavigateBetweenPages = ({
           </li>
         ))}
       </ul>
-      {next ? (
-        <li onClick={() => setPage(next)} className={`${styles.noTransition}`}>
+      {lastPage !== page ? (
+        <li onClick={() => setPage(lastPage)} className={`${styles.noTransition}`}>
           <img
             src="../../src/assets/ArrowsNavigate/arrowActive.png"
             alt="Voltar uma página"

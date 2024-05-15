@@ -47,8 +47,8 @@ const Games = () => {
         page={page}
         setPage={setPage}
         totalPages={cardsPagination.pages}
-        previous={cardsPagination.prev}
-        next={cardsPagination.next}
+        firstPage={cardsPagination.first}
+        lastPage={cardsPagination.last}
       />
     </Flex>
   );
