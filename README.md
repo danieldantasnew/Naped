@@ -1,6 +1,12 @@
 # Olá, bem vindo ao Naped!👋
 
-![added-statistics-to-structure](https://raw.githubusercontent.com/balta-io/blog/main/documentacao-com-github/images/added-statistics-to-structure.jpg)
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
+  <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
+  <img src="http://img.shields.io/static/v1?label=TESTES&message=%3E50&color=GREEN&style=for-the-badge"/>
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20ANDAMENTO&color=GREEN&style=for-the-badge"/>
+</p>
 
 ## Descrição e Objetivo do Projeto📜
 
@@ -16,6 +22,10 @@ O objetivo da construção desse site é praticar o uso do React com Typescript,
 - NormalizeDate
 - StringToDate
 
+### NormalizeDate
+
+### StringToDate
+
 ## Hooks🪝
 
 - useAutoSlideTransition
@@ -23,3 +33,13 @@ O objetivo da construção desse site é praticar o uso do React com Typescript,
 - useFetch
 - useMobile
 - usePaginate
+
+### useAutoSlideTransition
+
+### useCategoryData
+
+### useFetch
+
+### useMobile
+
+### usePaginate
