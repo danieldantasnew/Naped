@@ -1,6 +1,6 @@
 import React from "react";
 
-const useAutoSlideTransition = (start: number, end: number) => {
+const useAutoSlideTransition = (start: number, end: number, time= 8000) => {
   const [slide, setSlide] = React.useState(start);
   const timeOutRef = React.useRef<number | null>(null);
 
@@ -14,12 +14,12 @@ const useAutoSlideTransition = (start: number, end: number) => {
   
   React.useEffect(() => {
     if (timeOutRef.current !== null) clearInterval(timeOutRef.current);
-    timeOutRef.current = setInterval(transitionCallback, 8000);
+    timeOutRef.current = setInterval(transitionCallback, time);
 
     return () => {
       if (timeOutRef.current !== null) clearInterval(timeOutRef.current);
     };
-  }, [transitionCallback]);
+  }, [transitionCallback, time]);
 
   return slide;
 };
