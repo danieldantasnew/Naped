@@ -10,7 +10,7 @@
 
 🔹[Descrição e Objetivo do Projeto](#descrição-e-objetivo-do-projeto)
 
-🔹[Funções](#funções)
+🔹[Funções](#funções-)
 
 <!-- 🔹[Deploy da Aplicação](#deploy-da-aplicação-dash) -->
 
