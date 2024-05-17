@@ -1,11 +1,12 @@
-# Olá, bem vindo ao Naped!👋
-
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
-  <img src="https://img.shields.io/static/v1?label=typescript&message=language&color=blue&style=for-the-badge&logo=TYPESCRIPT&logoColor=3174bc"/>
+<p>
+  <img src="https://img.shields.io/static/v1?label=react&message=framework&color=61d3f1&style=for-the-badge&logo=REACT"/>
+  <img src="https://img.shields.io/static/v1?label=GIT&message=VERSIONAMENTO&color=ef5239&style=for-the-badge&logo=GIT"/>
+  <img src="https://img.shields.io/static/v1?label=typescript&message=linguagem&color=blue&style=for-the-badge&logo=TYPESCRIPT&logoColor=3174bc"/>
   <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=f8c24e&style=for-the-badge"/>
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=f8c24e&style=for-the-badge"/>
 </p>
+
+# Olá, bem vindo ao Naped!👋
 
 ## Descrição e Objetivo do Projeto📜
 
@@ -18,12 +19,29 @@ O objetivo da construção desse site é praticar o uso do React com Typescript,
 
 ## Funções ⚽
 
-- NormalizeDate
+- formatDate
 - StringToDate
 
-### NormalizeDate
+### formatDate ⭐
 
-### StringToDate
+formatDate é uma função que transformará um objeto do tipo Date em uma string com o formato "dd/mm/aaaa às hh:mm:ss". Nela é possível retornar apenas a data ou a data com o horário.
+
+Para utilizá-la basta passar o objeto do tipo Date e se você quer que o formato tenha ou não a hora. Por padrão a hora está como falso.
+
+#### Casos de uso:
+
+- Com o horário:
+  - **FormatDate(objetoDate, true)** retorna dd/mm/aaaa às hh:mm:ss ;
+- Sem o horário:
+  - **FormatDate(objetoDate)** retorna dd/mm/aaaa ;
+
+### StringToDate ⭐
+
+StringToDate é uma função que transformará uma string no formato "YYYY-MM-DD HH:MM:SS" em um objeto Date.
+
+#### Caso de uso:
+
+- **StringTodate("2024-05-11 04:00:00")** retorna um objeto do tipo Date (Sat May 11 2024 04:00:00 GMT-0300);
 
 ## Hooks🪝
 
@@ -33,12 +51,12 @@ O objetivo da construção desse site é praticar o uso do React com Typescript,
 - useMobile
 - usePaginate
 
-### useAutoSlideTransition
+### useAutoSlideTransition ⭐
 
-### useCategoryData
+### useCategoryData ⭐
 
-### useFetch
+### useFetch ⭐
 
-### useMobile
+### useMobile ⭐
 
-### usePaginate
+### usePaginate ⭐
