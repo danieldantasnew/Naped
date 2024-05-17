@@ -20,7 +20,6 @@ const Movies = () => {
     data: allItemsInCategory,
     page,
     limit: 12,
-    start: 0,
   });
 
   if (loading) return <Loading />;
