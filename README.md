@@ -14,7 +14,7 @@
 
 <!-- 🔹[Deploy da Aplicação](#deploy-da-aplicação-dash) -->
 
-## Descrição e Objetivo do Projeto📜
+## 📜 Descrição e Objetivo do Projeto
 
 Este projeto foi construído por meio do Desafio 10 da Codelândia mas com algumas adaptações.
 
@@ -25,12 +25,12 @@ O objetivo da construção desse site é praticar o uso do React com Typescript,
 
 https://www.figma.com/design/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=15409%3A2&t=PFZzXp4C8Fb1MJQP-1
 
-## Funções ⚽
+## ⚽ Funções
 
 - FormatDate
 - StringToDate
 
-### FormatDate 🚀
+### 🚀 FormatDate
 
 FormatDate é uma função que transformará um objeto do tipo Date em uma string com o formato "dd/mm/aaaa às hh:mm:ss". Nela é possível retornar apenas a data ou a data com o horário.
 
@@ -46,15 +46,15 @@ Para utilizá-la basta passar o objeto do tipo Date e se você quer que o format
 
 - **FormatDate(objetoDate)** retorna "dd/mm/aaaa";
 
-### StringToDate 🚀
+### 🚀 StringToDate
 
 StringToDate é uma função que transformará uma string no formato "YYYY-MM-DD HH:MM:SS" em um objeto Date.
 
 #### Caso de uso:
 
-- **StringTodate("2024-05-11 04:00:00")** retorna um objeto do tipo Date (Sat May 11 2024 04:00:00 GMT-0300);
+- **StringToDate("2024-05-11 04:00:00")** retorna um objeto do tipo Date (Sat May 11 2024 04:00:00 GMT-0300);
 
-## Hooks🪝
+## 🪝 Hooks
 
 🔹 useAutoSlideTransition
 
@@ -66,7 +66,7 @@ StringToDate é uma função que transformará uma string no formato "YYYY-MM-DD
 
 🔹 usePaginate
 
-### useAutoSlideTransition 🚀
+### 🚀 useAutoSlideTransition
 
 O useAutoSlideTransition permite a transição automática de um slide. Basicamente ele recebe um valor de start (onde o slide irá iniciar), de end (onde o slide irá terminar) e também o de time (opcional) caso queira alterar o tempo, por padrão são 8s. Após passar os parâmetros necessários ele fará um looping que passa os slides de um por um de acordo com o tempo definido.
 
@@ -74,7 +74,7 @@ O useAutoSlideTransition permite a transição automática de um slide. Basicame
 
 - useAutoSlideTransition(0, 10), seu retorno será o slide atual após ter passado o tempo definido. No primeiro momento ele retornará 1, em seguida 2 e assim por diante.
 
-### useCategoryData 🚀
+### 🚀 useCategoryData
 
 O useCategoryData irá filtrar os objetos do array. Basicamente ele irá receber um array do tipo naped e também qual categoria que deseja filtrar são 4 opções "animes" | "movies" | "games" | "series". Caso seja passado o search ele fará a filtragem da categoria e também verificar entre os objetos filtrados se algum deles tem o mesmo nome que o passado em search
 
@@ -85,11 +85,11 @@ O useCategoryData irá filtrar os objetos do array. Basicamente ele irá receber
 - Com o search:
   - useCategoryData(array, "animes", "naruto") retorna um array com um ou mais objetos que contenham o nome naruto;
 
-### useFetch 🚀
+### 🚀 useFetch
 
 O useFetch fará uma requisição de dados recebendo um tipo genérico e retornando esse mesmo tipo. Neste hook ele sempre fará uma nova requisição sempre que a url mudar e retornará um objeto com data, loading e error. Caso esteja sendo feita alguma requisição de o usuário saia da página, a requisição será abortada anulando uma requisição desnecessária.
 
-### useMobile 🚀
+### 🚀 useMobile
 
 O useMobile verificará se o tamanho da tela corresponde ao valor repassado retornando verdadeiro ou falso. Este hook recebe uma string e nele contém um evento que verifica sempre que a tela mudar de tamanho.
 
@@ -102,17 +102,19 @@ O useMobile verificará se o tamanho da tela corresponde ao valor repassado reto
 - useMobile("max-width: 767px") retornará true caso o tamanho da tela será no máximo 767 pixels;
 - useMobile("max-width: 767px") retornará false caso o tamanho da tela não seja no máximo 767 pixels, ou seja, excedeu o tamanho que foi passado no parâmetro, nesse caso a partir de 768 pixels;
 
-### usePaginate 🚀
+### 🚀 usePaginate
 
 Este Hook gera uma paginação em cada página de categoria, permitindo limitar a quantidade de itens a serem exibidos por página. Ele irá receber um objeto com data (array do tipo naped), limit (limite de itens a serem exibidos por página), page (qual a página que deverá ser mostrada) e retorna um objeto com as seguintes características:
 
-- first: retorna a primeira página;
-- prev: retorna a página anterior ou null caso não tenha página anterior;
-- next: retorna a próxima página ou null caso não tenha a próxima página;
-- last: retorna a última página;
-- pages: retorna a quantidade de páginas;
-- items: retorna a quantidade de itens no total do array que foi passado;
-- data: retorna o array com a quantidade de itens repassados no limit ou o que restou dele;
+| Campo   | Descrição                                                                          | Tipo               |
+| ------- | ---------------------------------------------------------------------------------- | ------------------ |
+| `first` | retorna a primeira página                                                          | `number`           |
+| `prev`  | retorna a página anterior ou null caso não tenha página anterior                   | `number` or `null` |
+| `next`  | retorna a próxima página ou `null` caso não tenha a próxima página                 | `number` or `null` |
+| `last`  | retorna a última página                                                            | `number`           |
+| `pages` | retorna a quantidade de páginas                                                    | `number`           |
+| `items` | retorna a quantidade de itens no total do array que foi passado                    | `number`           |
+| `data`  | retorna o array com a quantidade de itens repassados no limit ou o que restou dele | `naped [ ]`        |
 
 #### Casos de uso:
 
