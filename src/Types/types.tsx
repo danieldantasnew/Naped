@@ -1,6 +1,6 @@
-export type Category = ("animes" | "movies" | "games" | "series")[];
+type Category = ("animes" | "movies" | "games" | "series")[];
 
-export type Images = {
+type Images = {
   card: string;
   largeSecondImage: string;
   customSecondImage: string;

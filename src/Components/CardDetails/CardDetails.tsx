@@ -4,16 +4,9 @@ import Button from "../Form/Button/Button";
 import styles from "./CardDetails.module.css";
 import StringToDate from "../../Functions/StringToDate/StringToDate";
 import FormatDate from "../../Functions/NormalizeDate/FormatDate";
-import { Images } from "../../Types/types";
+import { Naped } from "../../Types/types";
 
-type typeCardDetails = {
-  id: number;
-  name: string;
-  title: string;
-  previous: string;
-  date: string;
-  images: Images;
-}
+type typeCardDetails = Omit<Naped, 'author' | 'paragraphs' | 'clicks' | 'categories'>
 
 const CardDetails = ({ id, images, name, title, previous, date }: typeCardDetails) => {
   

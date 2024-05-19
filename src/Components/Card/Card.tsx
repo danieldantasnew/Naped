@@ -1,13 +1,10 @@
 import styles from "./Card.module.css";
 import Modal from "../Helper/Modal/Modal";
 import { useNavigate } from "react-router-dom";
-import { Images } from "../../Types/types";
+import { Naped } from "../../Types/types";
 
 
-type typeCard = {
-  id: number;
-  name: string;
-  images: Images;
+type typeCard = Pick<Naped, 'id' | 'name' | 'images'> & {
   activeFunction?: boolean;
   title?: string;
   classStyle?: CSSModuleClasses[string];
