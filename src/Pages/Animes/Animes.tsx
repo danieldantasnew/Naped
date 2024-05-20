@@ -42,13 +42,15 @@ const Animes = () => {
       ) : (
         <Categories newData={cardsPagination.data} />
       )}
-      <NavigateBetweenPages
-        page={page}
-        setPage={setPage}
-        totalPages={cardsPagination.pages}
-        firstPage={cardsPagination.first}
-        lastPage={cardsPagination.last}
-      />
+      {search ? '' :
+        <NavigateBetweenPages
+          page={page}
+          setPage={setPage}
+          totalPages={cardsPagination.pages}
+          firstPage={cardsPagination.first}
+          lastPage={cardsPagination.last}
+        />
+      }
     </Flex>
   );
 };
