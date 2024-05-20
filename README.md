@@ -110,7 +110,7 @@ Este Hook gera uma paginação em cada página de categoria, permitindo limitar 
 | ------- | ---------------------------------------------------------------------------------- | ------------------ |
 | `first` | retorna a primeira página                                                          | `number`           |
 | `prev`  | retorna a página anterior ou null caso não tenha página anterior                   | `number` or `null` |
-| `next`  | retorna a próxima página ou `null` caso não tenha a próxima página                 | `number` or `null` |
+| `next`  | retorna a próxima página ou null caso não tenha a próxima página                   | `number` or `null` |
 | `last`  | retorna a última página                                                            | `number`           |
 | `pages` | retorna a quantidade de páginas                                                    | `number`           |
 | `items` | retorna a quantidade de itens no total do array que foi passado                    | `number`           |
