@@ -23,7 +23,7 @@ const Card = ({ id, name, images, title, classStyle, activeFunction = true, noLa
   }
 
   function handleErrorImage() {
-    setImage("../src/assets/WithoutPhoto/elric.jpg");
+    setImage("../src/assets/elric.jpg");
   }
 
   return (

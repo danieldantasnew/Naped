@@ -22,7 +22,7 @@ const Cover = ({
   slideEnd,
 }: CoverType) => {
   const slide = useAutoSlideTransition(slideStart, slideEnd);
-  const imageCaseError = "../src/assets/WithoutPhoto/elric.jpg";
+  const imageCaseError = "../src/assets/elric.jpg";
   const [animationDelay, setAnimationDelay] = React.useState(false);
   const mobile = useMobile("max-width: 640px");
 
