@@ -18,7 +18,7 @@ export const useDataContext = () => {
 }
 
 export const DataContext = ({ children }: React.PropsWithChildren) => {
-  const requestData = useFetch<Naped[]>('http://localhost:3000/naped/?_sort=name');
+  const requestData = useFetch<Naped[]>('https://apinaped.vercel.app/naped/?_sort=name');
 
   return (
     <Context.Provider value={{...requestData}}>

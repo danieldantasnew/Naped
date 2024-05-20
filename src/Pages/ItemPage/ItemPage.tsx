@@ -15,12 +15,12 @@ import ErrorComponent from "../../Components/Helper/ErrorComponent/ErrorComponen
 const ItemPage = () => {
   const { id } = useParams();
   const [newDate, setNewDate] = React.useState<string | null>(null);
-  const {data, loading, error} = useFetch<Naped>(`http://localhost:3000/naped/${id}`);
+  const {data, loading, error} = useFetch<Naped>(`https://apinaped.vercel.app/naped/${id}`);
   const dataContext = useDataContext();
 
   React.useEffect(() => {
     if (data) {
-      fetch(`http://localhost:3000/naped/${id}`, {
+      fetch(`https://apinaped.vercel.app/naped/${id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",
