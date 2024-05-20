@@ -4,6 +4,18 @@
   gap: 1rem;
 }
 
+.configCard {
+  min-height: 212px;
+  max-height: 216px;
+}
+
+@media (min-width: 460px) and (max-width: 767px) {
+  .configCard {
+    min-height: initial !important;
+    max-height: initial !important;
+  }
+}
+
 @media (max-width: 1060px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);

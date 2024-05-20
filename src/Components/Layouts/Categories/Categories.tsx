@@ -14,6 +14,7 @@ const Categories = ({ newData }: { newData: Naped[] | null }) => {
             images={item.images}
             name={item.name}
             title={item.title}
+            classStyle={styles.configCard}
           />
         ))
       ) : (
