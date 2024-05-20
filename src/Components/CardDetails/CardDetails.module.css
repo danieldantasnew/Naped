@@ -18,7 +18,7 @@
   color: var(--dark-40);
   line-height: 1.4rem;
   display: -webkit-box;
-  -webkit-line-clamp: 6;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
