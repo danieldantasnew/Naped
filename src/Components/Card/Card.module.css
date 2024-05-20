@@ -1,6 +1,15 @@
 .imageContent {
   position: relative;
+  min-height: 212px;
+  max-height: 216px;
   overflow: hidden;
+}
+
+@media (min-width: 460px) and (max-width: 767px) {
+  .imageContent {
+    min-height: initial !important;
+    max-height: initial !important;
+  }
 }
 
 .imageContent:hover {

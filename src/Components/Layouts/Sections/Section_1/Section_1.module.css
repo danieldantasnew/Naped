@@ -35,6 +35,8 @@
 
 .configCard {
   height: 100% !important;
+  min-height: initial !important;
+  max-height: initial !important;
 }
 
 .configCard:first-child p {
