@@ -17,7 +17,7 @@ const Card = ({ id, name, images, title, classStyle, activeFunction = true, noLa
   const navigate = useNavigate();
   const [image, setImage] = React.useState(images.card);
 
-  function openPage(event: React.PointerEvent<HTMLDivElement>, id: number) {
+  function openPage(event: React.MouseEvent<HTMLDivElement, MouseEvent>, id: number) {
     event.preventDefault();
     navigate(`/item/${id}`);
   }
@@ -34,7 +34,7 @@ const Card = ({ id, name, images, title, classStyle, activeFunction = true, noLa
         ${noLargeFirstCard ? styles.noLargeFirstCard : ''} 
         ${classStyle ? classStyle : ''} 
         `}
-      onPointerDown={activeFunction ? (event) => openPage(event, id): ()=> ''}>
+      onClick={activeFunction ? (event) => openPage(event, id): ()=> ''}>
         <Modal stylesFrom={title ? styles.configModal : styles.configModalWithoutInfo} />
         <img
           src={image}

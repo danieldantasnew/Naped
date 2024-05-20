@@ -12,7 +12,7 @@ const CardDetails = ({ id, images, name, title, previous, date }: typeCardDetail
   
   const navigate = useNavigate();
 
-  function navigateTo(e: React.PointerEvent<HTMLButtonElement>, src: number) {
+  function navigateTo(e: React.MouseEvent<HTMLButtonElement, MouseEvent>, src: number) {
     e.preventDefault();
     navigate(`/item/${src}`);
   }
@@ -33,7 +33,7 @@ const CardDetails = ({ id, images, name, title, previous, date }: typeCardDetail
         <h2>{title}</h2>
         <p>{previous}</p>
         <p>{newDate ? FormatDate(newDate): ''}</p>
-        <Button label="Ler notícia" aria-label="Ler notícia" onPointerDown={(e)=> navigateTo(e, id)}/>
+        <Button label="Ler notícia" aria-label="Ler notícia" onClick={(e)=> navigateTo(e, id)}/>
       </div>
     </div>
   );
