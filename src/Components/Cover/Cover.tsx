@@ -22,6 +22,7 @@ const Cover = ({
   slideEnd,
 }: CoverType) => {
   const slide = useAutoSlideTransition(slideStart, slideEnd);
+  const imageCaseError = "../src/assets/image/WithoutPhoto/elric.jpg";
   const [animationDelay, setAnimationDelay] = React.useState(false);
   const mobile = useMobile("max-width: 640px");
 
@@ -54,7 +55,7 @@ const Cover = ({
           <img
             src={
               !image[slide].images.largeSecondImage
-                ? "../src/assets/image/WithoutPhoto/elric.jpg"
+                ? imageCaseError
                 : image[slide].images.largeSecondImage
             }
             alt={`Capa da categoria ${title}`}
@@ -63,7 +64,7 @@ const Cover = ({
           <img
             src={
               !image[slide].images.customSecondImage
-                ? "../src/assets/image/WithoutPhoto/elric.jpg"
+                ? imageCaseError
                 : image[slide].images.customSecondImage
             }
             alt={`Capa da categoria ${title}`}
