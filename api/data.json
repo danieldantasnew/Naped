@@ -15,9 +15,9 @@
       "date": "2023-12-31 05:35:42",
       "clicks": 411,
       "images": {
-        "card": "../src/assets/image/02.png",
-        "largeSecondImage": "../src/assets/image/largeImages/135.jpg",
-        "customSecondImage": "../src/assets/image/customImages/135.jpg"
+        "card": "./src/assets/image/02.png",
+        "largeSecondImage": "./src/assets/image/largeImages/135.jpg",
+        "customSecondImage": "./src/assets/image/customImages/135.jpg"
       },
       "categories": [
         "series"
@@ -37,9 +37,9 @@
       "date": "2023-12-30 02:14:12",
       "clicks": 101,
       "images": {
-        "card": "../src/assets/image/01.png",
-        "largeSecondImage": "../src/assets/image/largeImages/137.jpg",
-        "customSecondImage": "../src/assets/image/customImages/137.jpg"
+        "card": "./src/assets/image/01.png",
+        "largeSecondImage": "./src/assets/image/largeImages/137.jpg",
+        "customSecondImage": "./src/assets/image/customImages/137.jpg"
       },
       "categories": [
         "animes"
@@ -59,9 +59,9 @@
       "date": "2023-12-29 02:35:42",
       "clicks": 94,
       "images": {
-        "card": "../src/assets/image/146.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/138.jpg",
-        "customSecondImage": "../src/assets/image/customImages/138.jpg"
+        "card": "./src/assets/image/146.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/138.jpg",
+        "customSecondImage": "./src/assets/image/customImages/138.jpg"
       },
       "categories": [
         "games"
@@ -82,9 +82,9 @@
       "date": "2023-12-28 04:15:32",
       "clicks": 91,
       "images": {
-        "card": "../src/assets/image/16.png",
-        "largeSecondImage": "../src/assets/image/largeImages/12.png",
-        "customSecondImage": "../src/assets/image/customImages/12.png"
+        "card": "./src/assets/image/16.png",
+        "largeSecondImage": "./src/assets/image/largeImages/12.png",
+        "customSecondImage": "./src/assets/image/customImages/12.png"
       },
       "categories": [
         "animes"
@@ -107,9 +107,9 @@
       "date": "2023-12-27 10:32:13",
       "clicks": 90,
       "images": {
-        "card": "../src/assets/image/15.png",
-        "largeSecondImage": "../src/assets/image/largeImages/139.jpg",
-        "customSecondImage": "../src/assets/image/customImages/139.jpg"
+        "card": "./src/assets/image/15.png",
+        "largeSecondImage": "./src/assets/image/largeImages/139.jpg",
+        "customSecondImage": "./src/assets/image/customImages/139.jpg"
       },
       "categories": [
         "movies"
@@ -131,9 +131,9 @@
       "date": "2023-12-26 01:41:32",
       "clicks": 88,
       "images": {
-        "card": "../src/assets/image/09.png",
-        "largeSecondImage": "../src/assets/image/largeImages/140.jpg",
-        "customSecondImage": "../src/assets/image/customImages/140.jpg"
+        "card": "./src/assets/image/09.png",
+        "largeSecondImage": "./src/assets/image/largeImages/140.jpg",
+        "customSecondImage": "./src/assets/image/customImages/140.jpg"
       },
       "categories": [
         "games"
@@ -154,9 +154,9 @@
       "date": "2023-12-24 09:11:36",
       "clicks": 86,
       "images": {
-        "card": "../src/assets/image/05.png",
-        "largeSecondImage": "../src/assets/image/largeImages/141.jpg",
-        "customSecondImage": "../src/assets/image/customImages/141.jpg"
+        "card": "./src/assets/image/05.png",
+        "largeSecondImage": "./src/assets/image/largeImages/141.jpg",
+        "customSecondImage": "./src/assets/image/customImages/141.jpg"
       },
       "categories": [
         "movies"
@@ -177,9 +177,9 @@
       "date": "2023-12-22 01:41:32",
       "clicks": 76,
       "images": {
-        "card": "../src/assets/image/14.png",
-        "largeSecondImage": "../src/assets/image/largeImages/136.jpg",
-        "customSecondImage": "../src/assets/image/customImages/136.jpg"
+        "card": "./src/assets/image/14.png",
+        "largeSecondImage": "./src/assets/image/largeImages/136.jpg",
+        "customSecondImage": "./src/assets/image/customImages/136.jpg"
       },
       "categories": [
         "series"
@@ -199,9 +199,9 @@
       "date": "2024-05-03 01:41:32",
       "clicks": 30,
       "images": {
-        "card": "../src/assets/image/17.png",
-        "largeSecondImage": "../src/assets/image/largeImages/18.png",
-        "customSecondImage": "../src/assets/image/customImages/18.png"
+        "card": "./src/assets/image/17.png",
+        "largeSecondImage": "./src/assets/image/largeImages/18.png",
+        "customSecondImage": "./src/assets/image/customImages/18.png"
       },
       "categories": [
         "animes",
@@ -223,9 +223,9 @@
       "date": "2024-05-02 00:21:34",
       "clicks": 48,
       "images": {
-        "card": "../src/assets/image/10.png",
-        "largeSecondImage": "../src/assets/image/largeImages/142.jpg",
-        "customSecondImage": "../src/assets/image/customImages/142.jpg"
+        "card": "./src/assets/image/10.png",
+        "largeSecondImage": "./src/assets/image/largeImages/142.jpg",
+        "customSecondImage": "./src/assets/image/customImages/142.jpg"
       },
       "categories": [
         "games"
@@ -245,9 +245,9 @@
       "date": "2024-05-01 02:34:12",
       "clicks": 34,
       "images": {
-        "card": "../src/assets/image/19.png",
-        "largeSecondImage": "../src/assets/image/largeImages/143.jpg",
-        "customSecondImage": "../src/assets/image/customImages/143.jpg"
+        "card": "./src/assets/image/19.png",
+        "largeSecondImage": "./src/assets/image/largeImages/143.jpg",
+        "customSecondImage": "./src/assets/image/customImages/143.jpg"
       },
       "categories": [
         "series"
@@ -267,9 +267,9 @@
       "date": "2024-04-30 03:21:34",
       "clicks": 61,
       "images": {
-        "card": "../src/assets/image/13.png",
-        "largeSecondImage": "../src/assets/image/largeImages/144.jpg",
-        "customSecondImage": "../src/assets/image/customImages/144.jpg"
+        "card": "./src/assets/image/13.png",
+        "largeSecondImage": "./src/assets/image/largeImages/144.jpg",
+        "customSecondImage": "./src/assets/image/customImages/144.jpg"
       },
       "categories": [
         "movies"
@@ -289,9 +289,9 @@
       "date": "2024-04-28 01:23:15",
       "clicks": 29,
       "images": {
-        "card": "../src/assets/image/20.png",
-        "largeSecondImage": "../src/assets/image/largeImages/145.jpg",
-        "customSecondImage": "../src/assets/image/customImages/145.jpg"
+        "card": "./src/assets/image/20.png",
+        "largeSecondImage": "./src/assets/image/largeImages/145.jpg",
+        "customSecondImage": "./src/assets/image/customImages/145.jpg"
       },
       "categories": [
         "animes",
@@ -313,9 +313,9 @@
       "date": "2024-04-26 02:14:12",
       "clicks": 34,
       "images": {
-        "card": "../src/assets/image/07.png",
-        "largeSecondImage": "../src/assets/image/largeImages/04.png",
-        "customSecondImage": "../src/assets/image/customImages/04.jpg"
+        "card": "./src/assets/image/07.png",
+        "largeSecondImage": "./src/assets/image/largeImages/04.png",
+        "customSecondImage": "./src/assets/image/customImages/04.jpg"
       },
       "categories": [
         "games"
@@ -336,9 +336,9 @@
       "date": "2024-04-21 01:23:15",
       "clicks": 44,
       "images": {
-        "card": "../src/assets/image/03.png",
-        "largeSecondImage": "../src/assets/image/largeImages/147.jpg",
-        "customSecondImage": "../src/assets/image/customImages/147.jpg"
+        "card": "./src/assets/image/03.png",
+        "largeSecondImage": "./src/assets/image/largeImages/147.jpg",
+        "customSecondImage": "./src/assets/image/customImages/147.jpg"
       },
       "categories": [
         "movies",
@@ -359,9 +359,9 @@
       "date": "2024-04-20 01:23:15",
       "clicks": 15,
       "images": {
-        "card": "../src/assets/image/06.png",
-        "largeSecondImage": "../src/assets/image/largeImages/148.jpg",
-        "customSecondImage": "../src/assets/image/customImages/148.jpg"
+        "card": "./src/assets/image/06.png",
+        "largeSecondImage": "./src/assets/image/largeImages/148.jpg",
+        "customSecondImage": "./src/assets/image/customImages/148.jpg"
       },
       "categories": [
         "movies"
@@ -381,9 +381,9 @@
       "date": "2024-04-19 01:23:15",
       "clicks": 7,
       "images": {
-        "card": "../src/assets/image/11.png",
-        "largeSecondImage": "../src/assets/image/largeImages/149.jpg",
-        "customSecondImage": "../src/assets/image/customImages/149.jpg"
+        "card": "./src/assets/image/11.png",
+        "largeSecondImage": "./src/assets/image/largeImages/149.jpg",
+        "customSecondImage": "./src/assets/image/customImages/149.jpg"
       },
       "categories": [
         "games"
@@ -406,9 +406,9 @@
       "date": "2024-05-09 10:00:00",
       "clicks": 50,
       "images": {
-        "card": "../src/assets/image/100.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/101.jpg",
-        "customSecondImage": "../src/assets/image/customImages/101.jpg"
+        "card": "./src/assets/image/100.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/101.jpg",
+        "customSecondImage": "./src/assets/image/customImages/101.jpg"
       },
       "categories": [
         "animes"
@@ -430,9 +430,9 @@
       "date": "2024-05-09 11:00:00",
       "clicks": 55,
       "images": {
-        "card": "../src/assets/image/102.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/103.jpg",
-        "customSecondImage": "../src/assets/image/customImages/103.jpg"
+        "card": "./src/assets/image/102.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/103.jpg",
+        "customSecondImage": "./src/assets/image/customImages/103.jpg"
       },
       "categories": [
         "animes"
@@ -453,9 +453,9 @@
       "date": "2024-05-09 12:00:00",
       "clicks": 60,
       "images": {
-        "card": "../src/assets/image/103.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/104.jpg",
-        "customSecondImage": "../src/assets/image/customImages/104.jpg"
+        "card": "./src/assets/image/103.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/104.jpg",
+        "customSecondImage": "./src/assets/image/customImages/104.jpg"
       },
       "categories": [
         "games"
@@ -477,9 +477,9 @@
       "date": "2024-05-09 13:00:00",
       "clicks": 70,
       "images": {
-        "card": "../src/assets/image/105.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/106.jpg",
-        "customSecondImage": "../src/assets/image/customImages/106.jpg"
+        "card": "./src/assets/image/105.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/106.jpg",
+        "customSecondImage": "./src/assets/image/customImages/106.jpg"
       },
       "categories": [
         "movies"
@@ -500,9 +500,9 @@
       "date": "2024-05-09 14:00:00",
       "clicks": 76,
       "images": {
-        "card": "../src/assets/image/107.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/108.jpg",
-        "customSecondImage": "../src/assets/image/customImages/108.jpg"
+        "card": "./src/assets/image/107.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/108.jpg",
+        "customSecondImage": "./src/assets/image/customImages/108.jpg"
       },
       "categories": [
         "movies"
@@ -527,9 +527,9 @@
       "date": "2024-05-09 15:00:00",
       "clicks": 80,
       "images": {
-        "card": "../src/assets/image/109.png",
-        "largeSecondImage": "../src/assets/image/largeImages/110.jpg",
-        "customSecondImage": "../src/assets/image/customImages/110.jpg"
+        "card": "./src/assets/image/109.png",
+        "largeSecondImage": "./src/assets/image/largeImages/110.jpg",
+        "customSecondImage": "./src/assets/image/customImages/110.jpg"
       },
       "categories": [
         "movies"
@@ -553,9 +553,9 @@
       "date": "2024-05-09 16:00:00",
       "clicks": 95,
       "images": {
-        "card": "../src/assets/image/112.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/111.jpg",
-        "customSecondImage": "../src/assets/image/customImages/111.jpg"
+        "card": "./src/assets/image/112.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/111.jpg",
+        "customSecondImage": "./src/assets/image/customImages/111.jpg"
       },
       "categories": [
         "movies"
@@ -580,9 +580,9 @@
       "date": "2024-05-09 17:00:00",
       "clicks": 92,
       "images": {
-        "card": "../src/assets/image/114.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/113.jpg",
-        "customSecondImage": "../src/assets/image/customImages/113.jpg"
+        "card": "./src/assets/image/114.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/113.jpg",
+        "customSecondImage": "./src/assets/image/customImages/113.jpg"
       },
       "categories": [
         "movies"
@@ -605,9 +605,9 @@
       "date": "2024-05-09 18:00:00",
       "clicks": 95,
       "images": {
-        "card": "../src/assets/image/116.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/115.jpg",
-        "customSecondImage": "../src/assets/image/customImages/115.jpg"
+        "card": "./src/assets/image/116.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/115.jpg",
+        "customSecondImage": "./src/assets/image/customImages/115.jpg"
       },
       "categories": [
         "series"
@@ -628,9 +628,9 @@
       "date": "2024-05-09 19:00:00",
       "clicks": 103,
       "images": {
-        "card": "../src/assets/image/117.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/118.jpg",
-        "customSecondImage": "../src/assets/image/customImages/118.jpg"
+        "card": "./src/assets/image/117.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/118.jpg",
+        "customSecondImage": "./src/assets/image/customImages/118.jpg"
       },
       "categories": [
         "series"
@@ -650,9 +650,9 @@
       "date": "2024-05-09 20:00:00",
       "clicks": 108,
       "images": {
-        "card": "../src/assets/image/120.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/119.jpg",
-        "customSecondImage": "../src/assets/image/customImages/119.jpg"
+        "card": "./src/assets/image/120.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/119.jpg",
+        "customSecondImage": "./src/assets/image/customImages/119.jpg"
       },
       "categories": [
         "movies"
@@ -672,9 +672,9 @@
       "date": "2024-05-09 21:00:00",
       "clicks": 115,
       "images": {
-        "card": "../src/assets/image/122.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/121.jpg",
-        "customSecondImage": "../src/assets/image/customImages/121.jpg"
+        "card": "./src/assets/image/122.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/121.jpg",
+        "customSecondImage": "./src/assets/image/customImages/121.jpg"
       },
       "categories": [
         "movies"
@@ -696,9 +696,9 @@
       "date": "2024-05-09 22:00:00",
       "clicks": 118,
       "images": {
-        "card": "../src/assets/image/123.jpeg",
-        "largeSecondImage": "../src/assets/image/largeImages/124.jpg",
-        "customSecondImage": "../src/assets/image/customImages/124.jpg"
+        "card": "./src/assets/image/123.jpeg",
+        "largeSecondImage": "./src/assets/image/largeImages/124.jpg",
+        "customSecondImage": "./src/assets/image/customImages/124.jpg"
       },
       "categories": [
         "games"
@@ -719,9 +719,9 @@
       "date": "2024-05-09 23:00:00",
       "clicks": 120,
       "images": {
-        "card": "../src/assets/image/125.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/126.jpg",
-        "customSecondImage": "../src/assets/image/customImages/126.jpg"
+        "card": "./src/assets/image/125.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/126.jpg",
+        "customSecondImage": "./src/assets/image/customImages/126.jpg"
       },
       "categories": [
         "games"
@@ -743,9 +743,9 @@
       "date": "2024-05-10 00:00:00",
       "clicks": 125,
       "images": {
-        "card": "../src/assets/image/127.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/128.jpg",
-        "customSecondImage": "../src/assets/image/customImages/128.jpg"
+        "card": "./src/assets/image/127.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/128.jpg",
+        "customSecondImage": "./src/assets/image/customImages/128.jpg"
       },
       "categories": [
         "games"
@@ -766,9 +766,9 @@
       "date": "2024-05-10 01:00:00",
       "clicks": 130,
       "images": {
-        "card": "../src/assets/image/129.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/130.jpg",
-        "customSecondImage": "../src/assets/image/customImages/130.jpg"
+        "card": "./src/assets/image/129.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/130.jpg",
+        "customSecondImage": "./src/assets/image/customImages/130.jpg"
       },
       "categories": [
         "games"
@@ -790,9 +790,9 @@
       "date": "2024-05-10 02:00:00",
       "clicks": 137,
       "images": {
-        "card": "../src/assets/image/131.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/132.jpg",
-        "customSecondImage": "../src/assets/image/customImages/132.jpg"
+        "card": "./src/assets/image/131.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/132.jpg",
+        "customSecondImage": "./src/assets/image/customImages/132.jpg"
       },
       "categories": [
         "games"
@@ -814,9 +814,9 @@
       "date": "2024-05-10 03:00:00",
       "clicks": 140,
       "images": {
-        "card": "../src/assets/image/133.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/134.jpg",
-        "customSecondImage": "../src/assets/image/customImages/134.jpg"
+        "card": "./src/assets/image/133.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/134.jpg",
+        "customSecondImage": "./src/assets/image/customImages/134.jpg"
       },
       "categories": [
         "series"
@@ -838,9 +838,9 @@
       "date": "2024-05-10 04:00:00",
       "clicks": 145,
       "images": {
-        "card": "../src/assets/image/150.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/151.jpg",
-        "customSecondImage": "../src/assets/image/customImages/151.jpg"
+        "card": "./src/assets/image/150.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/151.jpg",
+        "customSecondImage": "./src/assets/image/customImages/151.jpg"
       },
       "categories": [
         "series"
@@ -860,9 +860,9 @@
       "date": "2024-05-10 05:00:00",
       "clicks": 150,
       "images": {
-        "card": "../src/assets/image/152.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/153.jpg",
-        "customSecondImage": "../src/assets/image/customImages/153.jpg"
+        "card": "./src/assets/image/152.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/153.jpg",
+        "customSecondImage": "./src/assets/image/customImages/153.jpg"
       },
       "categories": [
         "series"
@@ -883,9 +883,9 @@
       "date": "2024-05-10 06:00:00",
       "clicks": 155,
       "images": {
-        "card": "../src/assets/image/154.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/155.jpg",
-        "customSecondImage": "../src/assets/image/customImages/155.jpg"
+        "card": "./src/assets/image/154.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/155.jpg",
+        "customSecondImage": "./src/assets/image/customImages/155.jpg"
       },
       "categories": [
         "movies"
@@ -907,9 +907,9 @@
       "date": "2024-05-10 07:00:00",
       "clicks": 161,
       "images": {
-        "card": "../src/assets/image/156.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/157.jpg",
-        "customSecondImage": "../src/assets/image/customImages/157.jpg"
+        "card": "./src/assets/image/156.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/157.jpg",
+        "customSecondImage": "./src/assets/image/customImages/157.jpg"
       },
       "categories": [
         "series"
@@ -931,9 +931,9 @@
       "date": "2024-05-10 08:00:00",
       "clicks": 165,
       "images": {
-        "card": "../src/assets/image/158.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/159.jpg",
-        "customSecondImage": "../src/assets/image/customImages/159.jpg"
+        "card": "./src/assets/image/158.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/159.jpg",
+        "customSecondImage": "./src/assets/image/customImages/159.jpg"
       },
       "categories": [
         "series"
@@ -959,9 +959,9 @@
       "date": "2024-05-10 09:00:00",
       "clicks": 171,
       "images": {
-        "card": "../src/assets/image/160.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/161.jpg",
-        "customSecondImage": "../src/assets/image/customImages/161.jpg"
+        "card": "./src/assets/image/160.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/161.jpg",
+        "customSecondImage": "./src/assets/image/customImages/161.jpg"
       },
       "categories": [
         "movies"
@@ -987,9 +987,9 @@
       "date": "2024-05-10 10:00:00",
       "clicks": 175,
       "images": {
-        "card": "../src/assets/image/162.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/163.jpg",
-        "customSecondImage": "../src/assets/image/customImages/163.jpg"
+        "card": "./src/assets/image/162.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/163.jpg",
+        "customSecondImage": "./src/assets/image/customImages/163.jpg"
       },
       "categories": [
         "movies"
@@ -1015,9 +1015,9 @@
       "date": "2024-05-10 11:00:00",
       "clicks": 181,
       "images": {
-        "card": "../src/assets/image/164.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/165.jpg",
-        "customSecondImage": "../src/assets/image/customImages/165.jpg"
+        "card": "./src/assets/image/164.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/165.jpg",
+        "customSecondImage": "./src/assets/image/customImages/165.jpg"
       },
       "categories": [
         "movies"
@@ -1043,9 +1043,9 @@
       "date": "2024-05-10 12:00:00",
       "clicks": 186,
       "images": {
-        "card": "../src/assets/image/166.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/167.jpg",
-        "customSecondImage": "../src/assets/image/customImages/167.jpg"
+        "card": "./src/assets/image/166.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/167.jpg",
+        "customSecondImage": "./src/assets/image/customImages/167.jpg"
       },
       "categories": [
         "movies"
@@ -1067,9 +1067,9 @@
       "date": "2024-05-10 13:00:00",
       "clicks": 193,
       "images": {
-        "card": "../src/assets/image/168.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/169.jpg",
-        "customSecondImage": "../src/assets/image/customImages/169.jpg"
+        "card": "./src/assets/image/168.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/169.jpg",
+        "customSecondImage": "./src/assets/image/customImages/169.jpg"
       },
       "categories": [
         "movies"
@@ -1093,9 +1093,9 @@
       "date": "2024-05-10 14:00:00",
       "clicks": 195,
       "images": {
-        "card": "../src/assets/image/170.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/171.jpg",
-        "customSecondImage": "../src/assets/image/customImages/171.jpg"
+        "card": "./src/assets/image/170.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/171.jpg",
+        "customSecondImage": "./src/assets/image/customImages/171.jpg"
       },
       "categories": [
         "series"
@@ -1117,9 +1117,9 @@
       "date": "2024-05-10 15:00:00",
       "clicks": 201,
       "images": {
-        "card": "../src/assets/image/172.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/173.jpg",
-        "customSecondImage": "../src/assets/image/customImages/173.jpg"
+        "card": "./src/assets/image/172.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/173.jpg",
+        "customSecondImage": "./src/assets/image/customImages/173.jpg"
       },
       "categories": [
         "movies"
@@ -1140,9 +1140,9 @@
       "date": "2024-05-10 16:00:00",
       "clicks": 206,
       "images": {
-        "card": "../src/assets/image/174.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/175.jpg",
-        "customSecondImage": "../src/assets/image/customImages/175.jpg"
+        "card": "./src/assets/image/174.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/175.jpg",
+        "customSecondImage": "./src/assets/image/customImages/175.jpg"
       },
       "categories": [
         "series"
@@ -1163,9 +1163,9 @@
       "date": "2024-05-10 17:00:00",
       "clicks": 212,
       "images": {
-        "card": "../src/assets/image/176.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/177.jpg",
-        "customSecondImage": "../src/assets/image/customImages/177.jpg"
+        "card": "./src/assets/image/176.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/177.jpg",
+        "customSecondImage": "./src/assets/image/customImages/177.jpg"
       },
       "categories": [
         "animes"
@@ -1186,9 +1186,9 @@
       "date": "2024-05-10 18:00:00",
       "clicks": 215,
       "images": {
-        "card": "../src/assets/image/178.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/179.jpg",
-        "customSecondImage": "../src/assets/image/customImages/179.jpg"
+        "card": "./src/assets/image/178.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/179.jpg",
+        "customSecondImage": "./src/assets/image/customImages/179.jpg"
       },
       "categories": [
         "games"
@@ -1209,9 +1209,9 @@
       "date": "2024-05-10 19:00:00",
       "clicks": 221,
       "images": {
-        "card": "../src/assets/image/180.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/181.jpg",
-        "customSecondImage": "../src/assets/image/customImages/181.jpg"
+        "card": "./src/assets/image/180.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/181.jpg",
+        "customSecondImage": "./src/assets/image/customImages/181.jpg"
       },
       "categories": [
         "games"
@@ -1233,9 +1233,9 @@
       "date": "2024-05-10 20:00:00",
       "clicks": 233,
       "images": {
-        "card": "../src/assets/image/182.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/183.jpg",
-        "customSecondImage": "../src/assets/image/customImages/183.jpg"
+        "card": "./src/assets/image/182.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/183.jpg",
+        "customSecondImage": "./src/assets/image/customImages/183.jpg"
       },
       "categories": [
         "series"
@@ -1256,9 +1256,9 @@
       "date": "2024-05-10 21:00:00",
       "clicks": 230,
       "images": {
-        "card": "../src/assets/image/184.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/185.jpg",
-        "customSecondImage": "../src/assets/image/customImages/185.jpg"
+        "card": "./src/assets/image/184.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/185.jpg",
+        "customSecondImage": "./src/assets/image/customImages/185.jpg"
       },
       "categories": [
         "series"
@@ -1279,9 +1279,9 @@
       "date": "2024-05-10 22:00:00",
       "clicks": 251,
       "images": {
-        "card": "../src/assets/image/186.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/187.jpg",
-        "customSecondImage": "../src/assets/image/customImages/187.jpg"
+        "card": "./src/assets/image/186.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/187.jpg",
+        "customSecondImage": "./src/assets/image/customImages/187.jpg"
       },
       "categories": [
         "series"
@@ -1302,9 +1302,9 @@
       "date": "2024-05-10 23:00:00",
       "clicks": 322,
       "images": {
-        "card": "../src/assets/image/188.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/189.jpg",
-        "customSecondImage": "../src/assets/image/customImages/189.jpg"
+        "card": "./src/assets/image/188.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/189.jpg",
+        "customSecondImage": "./src/assets/image/customImages/189.jpg"
       },
       "categories": [
         "movies"
@@ -1325,9 +1325,9 @@
       "date": "2024-05-11 00:00:00",
       "clicks": 63,
       "images": {
-        "card": "../src/assets/image/190.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/191.jpg",
-        "customSecondImage": "../src/assets/image/customImages/191.jpg"
+        "card": "./src/assets/image/190.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/191.jpg",
+        "customSecondImage": "./src/assets/image/customImages/191.jpg"
       },
       "categories": [
         "games"
@@ -1348,9 +1348,9 @@
       "date": "2024-05-11 01:20:12",
       "clicks": 251,
       "images": {
-        "card": "../src/assets/image/192.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/193.jpg",
-        "customSecondImage": "../src/assets/image/customImages/193.jpg"
+        "card": "./src/assets/image/192.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/193.jpg",
+        "customSecondImage": "./src/assets/image/customImages/193.jpg"
       },
       "categories": [
         "games"
@@ -1370,9 +1370,9 @@
       "date": "2024-05-11 02:00:00",
       "clicks": 385,
       "images": {
-        "card": "../src/assets/image/194.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/195.jpg",
-        "customSecondImage": "../src/assets/image/customImages/195.jpg"
+        "card": "./src/assets/image/194.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/195.jpg",
+        "customSecondImage": "./src/assets/image/customImages/195.jpg"
       },
       "categories": [
         "games"
@@ -1392,9 +1392,9 @@
       "date": "2024-05-11 03:00:00",
       "clicks": 270,
       "images": {
-        "card": "../src/assets/image/196.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/197.jpg",
-        "customSecondImage": "../src/assets/image/customImages/197.jpg"
+        "card": "./src/assets/image/196.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/197.jpg",
+        "customSecondImage": "./src/assets/image/customImages/197.jpg"
       },
       "categories": [
         "animes"
@@ -1415,9 +1415,9 @@
       "date": "2024-05-11 04:00:00",
       "clicks": 271,
       "images": {
-        "card": "../src/assets/image/198.jpg",
-        "largeSecondImage": "../src/assets/image/largeImages/199.jpg",
-        "customSecondImage": "../src/assets/image/customImages/199.jpg"
+        "card": "./src/assets/image/198.jpg",
+        "largeSecondImage": "./src/assets/image/largeImages/199.jpg",
+        "customSecondImage": "./src/assets/image/customImages/199.jpg"
       },
       "categories": [
         "animes"
