@@ -34,7 +34,7 @@
 }
 
 .configCard {
-  max-height: 100% !important;
+  height: 100% !important;
 }
 
 .configCard:first-child p {
