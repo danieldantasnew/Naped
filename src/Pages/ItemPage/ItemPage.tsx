@@ -20,6 +20,7 @@ const ItemPage = () => {
 
   React.useEffect(() => {
     if (data) {
+      scrollTo(0, 0);
       fetch(`https://apinaped.vercel.app/naped/${id}`, {
         method: "PATCH",
         headers: {
@@ -33,11 +34,6 @@ const ItemPage = () => {
       if(dateConverted) setNewDate(FormatDate(dateConverted, true));
     }
   }, [data, id]);
-
-  React.useEffect(() => {
-    scrollTo(0, 0);
-  }, []);
-
 
   if (loading) return <Loading />;
   if (error) return <ErrorComponent message={error} />;
