@@ -4,13 +4,15 @@ import Account from "./Account/Account";
 import styles from "./Header.module.css";
 import useMobile from "../../Hooks/useMobile";
 import MobileMenu from "./MobileMenu/MobileMenu";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
   const mobile = useMobile("max-width: 767px");
+  const navigate = useNavigate();
   
   return (
     <header className={styles.Header}>
-      <Logo />
+      <Logo onClick={()=> navigate('/')} />
       {mobile ? (
         <MobileMenu />
       ) : (
