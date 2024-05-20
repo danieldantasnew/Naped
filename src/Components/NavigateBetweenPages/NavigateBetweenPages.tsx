@@ -45,14 +45,14 @@ const NavigateBetweenPages = ({
           onClick={() => setPage(firstPage)}
           className={`${styles.toLeft} ${styles.noTransition}`}>
           <img
-            src="../../public/static/ArrowsNavigate/arrowactive.png"
+            src="/public/static/ArrowsNavigate/arrowactive.png"
             alt="Voltar uma página"
           />
         </li>
       ) : (
         <li style={noBackground} className={`${styles.noTransition}`}>
           <img
-            src="../../public/static/ArrowsNavigate/arrow.png"
+            src="/public/static/ArrowsNavigate/arrow.png"
             alt="Primeira página"
           />
         </li>
@@ -70,7 +70,7 @@ const NavigateBetweenPages = ({
       {lastPage !== page ? (
         <li onClick={() => setPage(lastPage)} className={`${styles.noTransition}`}>
           <img
-            src="../../public/static/ArrowsNavigate/arrowactive.png"
+            src="/public/static/ArrowsNavigate/arrowactive.png"
             alt="Voltar uma página"
           />
         </li>
@@ -79,7 +79,7 @@ const NavigateBetweenPages = ({
           style={noBackground}
           className={`${styles.toRight} ${styles.noTransition}`}>
           <img
-            src="../../public/static/ArrowsNavigate/arrow.png"
+            src="/public/static/ArrowsNavigate/arrow.png"
             alt="Voltar uma página"
           />
         </li>
