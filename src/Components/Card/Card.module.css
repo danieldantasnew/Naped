@@ -94,8 +94,9 @@
 
 .configModal {
   position: absolute;
+  left: -1px;
   height: 100%;
-  width: 100%;
+  width: calc(100% + 2px);
   z-index: 1;
   background-image: linear-gradient(to bottom,#2828303d, #282830e5);
 }

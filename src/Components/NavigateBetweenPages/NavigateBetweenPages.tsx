@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./NavigateBetweenPages.module.css";
+import ArrowActive from "../../assets/ArrowActive";
+import Arrow from "../../assets/Arrow";
 
 type TypeNavigate = {
   page: number;
@@ -44,17 +46,11 @@ const NavigateBetweenPages = ({
         <li
           onClick={() => setPage(firstPage)}
           className={`${styles.toLeft} ${styles.noTransition}`}>
-          <img
-            src="./src/assets/arrowactive.jpg"
-            alt="Voltar uma página"
-          />
+          <ArrowActive height={22} width={22}/>
         </li>
       ) : (
         <li style={noBackground} className={`${styles.noTransition}`}>
-          <img
-            src="./src/assets/arrow.jpg"
-            alt="Primeira página"
-          />
+          <Arrow height={22} width={22}/>
         </li>
       )}
       <ul className={styles.NavigateBetweenPages}>
@@ -69,19 +65,13 @@ const NavigateBetweenPages = ({
       </ul>
       {lastPage !== page ? (
         <li onClick={() => setPage(lastPage)} className={`${styles.noTransition}`}>
-          <img
-            src="./src/assets/arrowactive.jpg"
-            alt="Voltar uma página"
-          />
+          <ArrowActive height={22} width={22}/>
         </li>
       ) : (
         <li
           style={noBackground}
           className={`${styles.toRight} ${styles.noTransition}`}>
-          <img
-            src="./src/assets/arrow.jpg"
-            alt="Voltar uma página"
-          />
+          <Arrow height={22} width={22}/>
         </li>
       )}
     </ul>
