@@ -19,7 +19,9 @@ const MobileMenu = () => {
     <>
       <div
         className={styles.btnMenu}
-        onClick={() => setMenuMobile(!menuMobile)}>
+        onClick={() => setMenuMobile(!menuMobile)}
+        aria-label="Open-Menu-Mobile"
+      >
         <BtnMenu height="24" width="24" />
       </div>
       {menuMobile ? (
@@ -28,7 +30,9 @@ const MobileMenu = () => {
           <div className={styles.MobileMenu}>
             <div
               className={styles.btnCloseMenu}
-              onClick={() => setMenuMobile((menu) => !menu)}>
+              onClick={() => setMenuMobile((menu) => !menu)}
+              aria-label="Close-Menu-Mobile"
+            >
               <BtnClose height="24" width="24" />
             </div>
             <NavMenu />
