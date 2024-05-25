@@ -79,6 +79,7 @@ const Section_1 = ({ data }: { data: Naped[] }) => {
             classStyle={`${styles.configCard} ${animationDelay ? styles.animationDelay : ''}`}
             noLargeFirstCard={false}
             animationOn={false}
+            data-testid="card-div"
           />
         ))}
       </div>

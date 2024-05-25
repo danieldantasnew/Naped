@@ -25,6 +25,7 @@ const Section_2 = ({ data }: { data: Naped[] }) => {
             date={item.date}
             title={item.title}
             previous={item.previous}
+            data-testid="cardDetails-div"
           />
         ))}
       </div>
@@ -38,6 +39,7 @@ const Section_2 = ({ data }: { data: Naped[] }) => {
             name={item.name}
             title={item.title}
             classStyle={styles.configForCardComponent}
+            data-testid="card-div"
           />
         )}
       </div>

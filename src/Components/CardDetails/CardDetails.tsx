@@ -6,9 +6,9 @@ import StringToDate from "../../Functions/StringToDate/StringToDate";
 import FormatDate from "../../Functions/NormalizeDate/FormatDate";
 import { Naped } from "../../Types/types";
 
-type typeCardDetails = Omit<Naped, 'author' | 'paragraphs' | 'clicks' | 'categories'>
+type typeCardDetails = Omit<React.ComponentProps<'div'>, 'id'> & Omit<Naped, 'author' | 'paragraphs' | 'clicks' | 'categories'>
 
-const CardDetails = ({ id, images, name, title, previous, date }: typeCardDetails) => {
+const CardDetails = ({ id, images, name, title, previous, date,...props }: typeCardDetails) => {
   
   const navigate = useNavigate();
 
@@ -20,7 +20,7 @@ const CardDetails = ({ id, images, name, title, previous, date }: typeCardDetail
   const newDate = StringToDate(date);
 
   return (
-    <div className={styles.CardDetails}>
+    <div className={styles.CardDetails} {...props}>
       <Card
         id={id}
         images={images}

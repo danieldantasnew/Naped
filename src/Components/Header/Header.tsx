@@ -12,7 +12,7 @@ const Header = () => {
   
   return (
     <header className={styles.Header}>
-      <Logo onClick={()=> navigate('/')} />
+      <Logo onClick={()=> navigate('/')} aria-label="Logo"/>
       {mobile ? (
         <MobileMenu />
       ) : (

@@ -8,6 +8,8 @@ import Movies from "../../../Pages/Movies/Movies";
 import Animes from "../../../Pages/Animes/Animes";
 import Games from "../../../Pages/Games/Games";
 
+window.scrollTo = vi.fn().mockImplementation(() => { });
+
 describe("NavMenu Component", () => {
   beforeAll(() => {
     Object.defineProperty(window, "matchMedia", {
