@@ -1,7 +1,8 @@
 import { screen, render } from "@testing-library/react";
 import Section_1 from "./Section_1";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, MemoryRouter, Route, Routes } from "react-router-dom";
 import { mockData } from "../../../../Tests/Data/testsData";
+import checkRouteChanges from "../../../../Tests/Functions/checkRouteChanges";
 
 
 describe("Section_1 Component", () => {
@@ -43,4 +44,21 @@ describe("Section_1 Component", () => {
       expect(screen.getByText(item.title)).toBeInTheDocument();
     });
   });
+
+  it("Deve verificar se ao clicar no item é redirecionado para outra rota", () => {
+    render(
+      <MemoryRouter initialEntries={["/"]}>
+        <Routes>
+          <Route path="/" element={<Section_1 data={mockData} />} />
+          <Route path="/item/:id" element={<h2>A rota mudou</h2>} />
+        </Routes>
+      </MemoryRouter>
+    );
+
+    const cards = screen.getAllByTestId("card-div");
+
+    cards.forEach((card) => {
+      checkRouteChanges(card, 'A rota mudou');
+    });
+  })
 });
