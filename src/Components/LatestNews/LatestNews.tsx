@@ -42,6 +42,8 @@ const LatestNews = ({ data }: { data: Naped[] }) => {
             name={item.name}
             title={item.title}
             classStyle={styles.configCard}
+            data-testid="card-div"
+            data-testcard-id={item.id}
           />
         ))}
       </div>

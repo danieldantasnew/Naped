@@ -19,6 +19,17 @@ describe("Section_2 Component", () => {
     expect(cardsDetails).toHaveLength(mockData.length - 3);
   });
 
+  it("Deve verificar se os itens estão ordenados por mais clicks", () => {
+    render(
+      <BrowserRouter>
+        <Section_2 data={mockData} />
+      </BrowserRouter>
+    );
+
+    const cardsDetails = screen.getAllByTestId(/cardDetails-div/i);
+    const orderByClicks = mockData.sort((itemA, itemB) => itemA.clicks - itemB.clicks);
+  });
+
   it("Deve verificar se o conteúdo do cardDetails está aparecendo", () => {
     render(
       <BrowserRouter>
