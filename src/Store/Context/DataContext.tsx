@@ -8,7 +8,7 @@ interface InterfaceContext {
   error: string | null;
 }
 
-const Context = React.createContext<InterfaceContext | null>(null);
+export const Context = React.createContext<InterfaceContext | null>(null);
 
 export const useDataContext = () => {
   const contextData = React.useContext(Context);

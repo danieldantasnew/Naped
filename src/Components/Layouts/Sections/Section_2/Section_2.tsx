@@ -14,7 +14,7 @@ const Section_2 = ({ data }: { data: Naped[] }) => {
 
   if (!newData) return null;
   return (
-    <section className={styles.Section_2}>
+    <section className={styles.Section_2} data-testid="section_2">
       <div className={styles.container_1}>
         {newData.map((item) => (
           <CardDetails
@@ -26,6 +26,7 @@ const Section_2 = ({ data }: { data: Naped[] }) => {
             title={item.title}
             previous={item.previous}
             data-testid="cardDetails-div"
+            data-testcard-id={item.id}
           />
         ))}
       </div>
@@ -40,6 +41,7 @@ const Section_2 = ({ data }: { data: Naped[] }) => {
             title={item.title}
             classStyle={styles.configForCardComponent}
             data-testid="card-div"
+            data-testcard-id={item.id}
           />
         )}
       </div>

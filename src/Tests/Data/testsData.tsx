@@ -1,4 +1,6 @@
 import { Naped } from "../../Types/types";
+import React from "react";
+import { Context } from "../../Store/Context/DataContext";
 
 export const mockData: Naped[] = [
   {
@@ -162,3 +164,17 @@ export const mockData: Naped[] = [
     categories: ["games", "series"],
   },
 ];
+
+export const MockDataContextProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const mockValue = {
+    data: mockData,
+    loading: false,
+    error: null,
+  };
+
+  return (
+    <Context.Provider value={mockValue}>
+      {children}
+    </Context.Provider>
+  );
+};

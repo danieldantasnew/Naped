@@ -60,7 +60,7 @@ const Section_1 = ({ data }: { data: Naped[] }) => {
   if (!newData) return null;
 
   return (
-    <section className={styles.Section_1}>
+    <section className={styles.Section_1} data-testid="section_1">
       <div className={styles.content_1}>
         <h1>Mundo nerd? Naped!</h1>
         <p>
@@ -80,6 +80,7 @@ const Section_1 = ({ data }: { data: Naped[] }) => {
             noLargeFirstCard={false}
             animationOn={false}
             data-testid="card-div"
+            data-testcard-id={item.id}
           />
         ))}
       </div>
