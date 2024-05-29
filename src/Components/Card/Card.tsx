@@ -48,6 +48,7 @@ const Card = ({
         ${classStyle ? classStyle : ""} 
         `}
       onClick={activeFunction ? (event) => openPage(event, id) : () => ""}
+      data-testid="card-individual"
       {...props}
     >
       <Modal

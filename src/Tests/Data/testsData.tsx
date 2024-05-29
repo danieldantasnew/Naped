@@ -10,7 +10,7 @@ export const mockData: Naped[] = [
     title: "Title 1",
     paragraphs: ["Paragraph 1"],
     previous: "Previous 1",
-    date: "2024-05-09 14:00:00",
+    date: "2024-05-06 14:00:00",
     clicks: 100,
     images: {
       card: "pathimgcard.jpg",

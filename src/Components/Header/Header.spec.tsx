@@ -4,7 +4,6 @@ import { BrowserRouter, MemoryRouter, Route, Routes } from "react-router-dom";
 import Home from "../../Pages/Home/Home";
 import { DataContext } from "../../Store/Context/DataContext";
 
-
 describe("Header Component", () => {
   beforeEach(() => {
     vi.clearAllMocks();
