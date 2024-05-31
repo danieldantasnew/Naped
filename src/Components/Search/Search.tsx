@@ -7,6 +7,7 @@ const Search = ({...props}: React.ComponentProps<'input'>) => {
       <input
         placeholder='Quer ajuda na procura? Pesquise aqui'
         className={styles.Search}
+        data-testid="input"
         {...props}
       />
     </div>

@@ -9,6 +9,7 @@ type ModalType = {
 const Modal = ({func, stylesFrom}: ModalType) => {
   return (
     <div
+      data-testid="modal"
       className={`${styles.Modal} ${stylesFrom}`}
       onClick={func? ()=> func((state)=> !state) : undefined}
     > 
