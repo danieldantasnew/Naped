@@ -68,11 +68,11 @@ StringToDate é uma função que transformará uma string no formato "YYYY-MM-DD
 
 ### 🚀 useAutoSlideTransition
 
-O useAutoSlideTransition permite a transição automática de um slide. Basicamente ele recebe um valor de start (onde o slide irá iniciar), de end (onde o slide irá terminar) e também o de time (opcional) caso queira alterar o tempo, por padrão são 8s. Após passar os parâmetros necessários ele fará um looping que passa os slides de um por um de acordo com o tempo definido.
+O useAutoSlideTransition permite a transição automática de um slide. Basicamente ele recebe um valor de start (onde o slide irá iniciar), de slideLenght (quantidade de vezes que o slide irá percorrer) e também o de time (opcional) caso queira alterar o tempo, por padrão são 8s. Após passar os parâmetros necessários ele fará um looping que passa os slides de um por um de acordo com o tempo definido.
 
 #### Caso de uso:
 
-- useAutoSlideTransition(0, 10), seu retorno será o slide atual após ter passado o tempo definido. No primeiro momento ele retornará 1, em seguida 2 e assim por diante.
+- useAutoSlideTransition(0, 10), seu retorno será o slide atual após ter passado o tempo definido. No primeiro momento ele retornará 1 pois o (0) já está em tela e ao retornar 1 ele estará mostrando o próximo, em seguida 2 e assim por diante até o 9 pois a quantidade de vezes que percorreu foram 10 (do 0 ao 9).
 
 ### 🚀 useCategoryData
 

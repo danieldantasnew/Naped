@@ -34,7 +34,7 @@ const Series = () => {
         description="O Naped pode ser sua fonte de informações sobre Séries e outros assuntos relacionados."
         image={allItemsInCategory}
         slideStart={0}
-        slideEnd={allItemsInCategory.length}
+        slideLenght={allItemsInCategory.length}
       />
       <Search onChange={({ target }) => setSearch(target.value)} />
       {search ? (
@@ -42,7 +42,9 @@ const Series = () => {
       ) : (
         <Categories newData={cardsPagination.data} />
       )}
-      {search ? '' :
+      {search ? (
+        ""
+      ) : (
         <NavigateBetweenPages
           page={page}
           setPage={setPage}
@@ -50,7 +52,7 @@ const Series = () => {
           firstPage={cardsPagination.first}
           lastPage={cardsPagination.last}
         />
-      }
+      )}
     </Flex>
   );
 };

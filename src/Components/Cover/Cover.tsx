@@ -11,7 +11,7 @@ type CoverType = {
   description: string;
   image: Naped[];
   slideStart: number;
-  slideEnd: number;
+  slideLenght: number;
 };
 
 const Cover = ({
@@ -19,9 +19,9 @@ const Cover = ({
   description,
   image,
   slideStart,
-  slideEnd,
+  slideLenght,
 }: CoverType) => {
-  const slide = useAutoSlideTransition(slideStart, slideEnd);
+  const slide = useAutoSlideTransition(slideStart, slideLenght);
   const imageCaseError = "../src/assets/elric.jpg";
   const [animationDelay, setAnimationDelay] = React.useState(false);
   const mobile = useMobile("max-width: 640px");

@@ -26,7 +26,7 @@ describe("Cover Component", () => {
         description={desc}
         image={mockData}
         slideStart={0}
-        slideEnd={1}
+        slideLenght={1}
       />
     );
 
@@ -48,7 +48,7 @@ describe("Cover Component", () => {
         description={desc}
         image={mockData}
         slideStart={0}
-        slideEnd={1}
+        slideLenght={1}
       />
     );
     const divCover = screen.getByTestId("cover-div");
@@ -62,7 +62,7 @@ describe("Cover Component", () => {
         description={desc}
         image={mockData}
         slideStart={0}
-        slideEnd={1}
+        slideLenght={1}
       />
     );
     const divCover = screen.getByTestId("cover-div");
@@ -78,7 +78,7 @@ describe("Cover Component", () => {
         description={desc}
         image={mockData}
         slideStart={0}
-        slideEnd={2}
+        slideLenght={2}
       />
     );
     let img = screen.getByRole("img");
