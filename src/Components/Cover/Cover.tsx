@@ -47,6 +47,7 @@ const Cover = ({
   return (
     <div className={styles.Cover}>
       <div
+        data-testid="cover-div"
         className={`
           ${styles.imageContent} ${animationDelay ? styles.animationDelay : ""}
         `}>

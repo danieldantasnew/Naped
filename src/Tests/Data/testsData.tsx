@@ -13,9 +13,9 @@ export const mockData: Naped[] = [
     date: "2024-05-06 14:00:00",
     clicks: 100,
     images: {
-      card: "pathimgcard.jpg",
-      customSecondImage: "pathimgcustom.jpg",
-      largeSecondImage: "pathimglarge.jpg",
+      card: "pathimgcard1.jpg",
+      customSecondImage: "pathimgcustom1.jpg",
+      largeSecondImage: "pathimglarge1.jpg",
     },
     categories: ["games", "movies"],
   },
@@ -29,9 +29,9 @@ export const mockData: Naped[] = [
     date: "2024-05-09 14:00:01",
     clicks: 200,
     images: {
-      card: "pathimgcard.jpg",
-      customSecondImage: "pathimgcustom.jpg",
-      largeSecondImage: "pathimglarge.jpg",
+      card: "pathimgcard2.jpg",
+      customSecondImage: "pathimgcustom2.jpg",
+      largeSecondImage: "pathimglarge2.jpg",
     },
     categories: ["animes", "movies"],
   },
@@ -45,9 +45,9 @@ export const mockData: Naped[] = [
     date: "2024-05-09 14:00:02",
     clicks: 300,
     images: {
-      card: "pathimgcard.jpg",
-      customSecondImage: "pathimgcustom.jpg",
-      largeSecondImage: "pathimglarge.jpg",
+      card: "pathimgcard3.jpg",
+      customSecondImage: "pathimgcustom3.jpg",
+      largeSecondImage: "pathimglarge3.jpg",
     },
     categories: ["animes", "movies"],
   },
@@ -61,9 +61,9 @@ export const mockData: Naped[] = [
     date: "2024-05-09 14:00:03",
     clicks: 400,
     images: {
-      card: "pathimgcard.jpg",
-      customSecondImage: "pathimgcustom.jpg",
-      largeSecondImage: "pathimglarge.jpg",
+      card: "pathimgcard4.jpg",
+      customSecondImage: "pathimgcustom4.jpg",
+      largeSecondImage: "pathimglarge4.jpg",
     },
     categories: ["animes", "movies"],
   },
@@ -77,9 +77,9 @@ export const mockData: Naped[] = [
     date: "2024-05-09 14:00:00",
     clicks: 500,
     images: {
-      card: "pathimgcard.jpg",
-      customSecondImage: "pathimgcustom.jpg",
-      largeSecondImage: "pathimglarge.jpg",
+      card: "pathimgcard5.jpg",
+      customSecondImage: "pathimgcustom5.jpg",
+      largeSecondImage: "pathimglarge5.jpg",
     },
     categories: ["games", "movies"],
   },
@@ -93,9 +93,9 @@ export const mockData: Naped[] = [
     date: "2024-05-09 14:00:12",
     clicks: 600,
     images: {
-      card: "pathimgcard.jpg",
-      customSecondImage: "pathimgcustom.jpg",
-      largeSecondImage: "pathimglarge.jpg",
+      card: "pathimgcard6.jpg",
+      customSecondImage: "pathimgcustom6.jpg",
+      largeSecondImage: "pathimglarge6.jpg",
     },
     categories: ["games", "movies"],
   },
@@ -109,9 +109,9 @@ export const mockData: Naped[] = [
     date: "2024-05-09 14:00:00",
     clicks: 700,
     images: {
-      card: "pathimgcard.jpg",
-      customSecondImage: "pathimgcustom.jpg",
-      largeSecondImage: "pathimglarge.jpg",
+      card: "pathimgcard7.jpg",
+      customSecondImage: "pathimgcustom7.jpg",
+      largeSecondImage: "pathimglarge7.jpg",
     },
     categories: ["games", "movies"],
   },
@@ -125,9 +125,9 @@ export const mockData: Naped[] = [
     date: "2024-05-09 14:00:00",
     clicks: 800,
     images: {
-      card: "pathimgcard.jpg",
-      customSecondImage: "pathimgcustom.jpg",
-      largeSecondImage: "pathimglarge.jpg",
+      card: "pathimgcard8.jpg",
+      customSecondImage: "pathimgcustom8.jpg",
+      largeSecondImage: "pathimglarge8.jpg",
     },
     categories: ["games", "series"],
   },
@@ -141,9 +141,9 @@ export const mockData: Naped[] = [
     date: "2024-05-09 14:00:07",
     clicks: 900,
     images: {
-      card: "pathimgcard.jpg",
-      customSecondImage: "pathimgcustom.jpg",
-      largeSecondImage: "pathimglarge.jpg",
+      card: "pathimgcard9.jpg",
+      customSecondImage: "pathimgcustom9.jpg",
+      largeSecondImage: "pathimglarge9.jpg",
     },
     categories: ["games", "series"],
   },
@@ -157,24 +157,22 @@ export const mockData: Naped[] = [
     date: "2024-05-09 14:00:08",
     clicks: 1000,
     images: {
-      card: "pathimgcard.jpg",
-      customSecondImage: "pathimgcustom.jpg",
-      largeSecondImage: "pathimglarge.jpg",
+      card: "pathimgcard10.jpg",
+      customSecondImage: "pathimgcustom10.jpg",
+      largeSecondImage: "pathimglarge10.jpg",
     },
     categories: ["games", "series"],
   },
 ];
 
-export const MockDataContextProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+export const MockDataContextProvider: React.FC<{
+  children: React.ReactNode;
+}> = ({ children }) => {
   const mockValue = {
     data: mockData,
     loading: false,
     error: null,
   };
 
-  return (
-    <Context.Provider value={mockValue}>
-      {children}
-    </Context.Provider>
-  );
+  return <Context.Provider value={mockValue}>{children}</Context.Provider>;
 };

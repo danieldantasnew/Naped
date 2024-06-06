@@ -4,7 +4,7 @@ type Images = {
   card: string;
   largeSecondImage: string;
   customSecondImage: string;
-}
+};
 
 export interface Naped {
   id: number;
@@ -27,4 +27,4 @@ export type PaginatedItems = {
   pages: number;
   items: number;
   data: Naped[];
-}
+};
