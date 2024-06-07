@@ -1,5 +1,5 @@
-import React from 'react';
-import { Naped, PaginatedItems } from '../Types/types';
+import React from "react";
+import { Naped, PaginatedItems } from "../Types/types";
 
 interface TypePaginatedReceives {
   data: Naped[] | null;
@@ -7,15 +7,18 @@ interface TypePaginatedReceives {
   page: number;
 }
 
-const usePaginate = ({ data, limit, page }: TypePaginatedReceives): PaginatedItems | null => {
+const usePaginate = ({
+  data,
+  limit,
+  page,
+}: TypePaginatedReceives): PaginatedItems | null => {
   const [dataSliced, setDataSliced] = React.useState<Naped[] | null>();
   React.useEffect(() => {
     if (data) {
       if (page === 1) {
-        setDataSliced(data.slice(0 , limit));
-      }
-      else {
-        setDataSliced(data.slice((limit * page - limit), limit * page));   
+        setDataSliced(data.slice(0, limit));
+      } else {
+        setDataSliced(data.slice(limit * page - limit, limit * page));
       }
     }
   }, [data, page, limit]);
@@ -30,7 +33,7 @@ const usePaginate = ({ data, limit, page }: TypePaginatedReceives): PaginatedIte
     pages: Math.ceil(data.length / limit),
     items: data.length,
     data: dataSliced,
-  }
-}
+  };
+};
 
 export default usePaginate;

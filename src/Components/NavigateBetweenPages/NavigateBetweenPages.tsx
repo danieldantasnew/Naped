@@ -31,26 +31,25 @@ const NavigateBetweenPages = ({
   previous,
   next,
 }: TypeNavigate) => {
-
   React.useEffect(() => {
     scrollTo({
       top: 0,
       left: 0,
-      behavior: "smooth"
+      behavior: "smooth",
     });
   }, [page]);
 
   return (
     <ul className={styles.NavigateBetweenPages}>
-      {firstPage !== page? (
+      {firstPage !== page ? (
         <li
           onClick={() => setPage(firstPage)}
           className={`${styles.toLeft} ${styles.noTransition}`}>
-          <ArrowActive height={22} width={22}/>
+          <ArrowActive height={22} width={22} />
         </li>
       ) : (
         <li style={noBackground} className={`${styles.noTransition}`}>
-          <Arrow height={22} width={22}/>
+          <Arrow height={22} width={22} />
         </li>
       )}
       <ul className={styles.NavigateBetweenPages}>
@@ -58,20 +57,24 @@ const NavigateBetweenPages = ({
           <li
             onClick={() => setPage(index + 1)}
             key={index}
-            style={page === index + 1 ? activeItem : {}}>
+            style={page === index + 1 ? activeItem : {}}
+            {...(page === index + 1 ? { "data-testItemPage": "active" } : {})}
+            data-testid="itemPage">
             {index + 1}
           </li>
         ))}
       </ul>
       {lastPage !== page ? (
-        <li onClick={() => setPage(lastPage)} className={`${styles.noTransition}`}>
-          <ArrowActive height={22} width={22}/>
+        <li
+          onClick={() => setPage(lastPage)}
+          className={`${styles.noTransition}`}>
+          <ArrowActive height={22} width={22} />
         </li>
       ) : (
         <li
           style={noBackground}
           className={`${styles.toRight} ${styles.noTransition}`}>
-          <Arrow height={22} width={22}/>
+          <Arrow height={22} width={22} />
         </li>
       )}
     </ul>
