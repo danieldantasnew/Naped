@@ -33,8 +33,7 @@ describe("NavigateBetweenPages Component", () => {
     render(<Wrapper />);
     const buttonPage = screen.getByText("2");
     fireEvent.click(buttonPage);
-    screen.debug();
-    expect(buttonPage).toHaveAttribute("data-testItemPage", "active");
+    expect(buttonPage).toHaveAttribute("data-testitempage", "active");
   });
 
   it("Deve verificar se as setas estão sendo mostradas adequadamente (com indicação de que há uma próxima página ou não)", () => {

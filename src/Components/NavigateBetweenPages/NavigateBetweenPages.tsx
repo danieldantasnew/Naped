@@ -58,7 +58,7 @@ const NavigateBetweenPages = ({
             onClick={() => setPage(index + 1)}
             key={index}
             style={page === index + 1 ? activeItem : {}}
-            {...(page === index + 1 ? { "data-testItemPage": "active" } : {})}
+            {...(page === index + 1 ? { "data-testitempage": "active" } : {})}
             data-testid="itemPage">
             {index + 1}
           </li>
